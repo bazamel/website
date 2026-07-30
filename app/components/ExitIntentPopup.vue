@@ -70,12 +70,6 @@ function close() {
   visible.value = false;
 }
 
-function submit() {
-  console.log("Email:", email.value);
-
-  close();
-}
-
 function handleMouseLeave(e) {
   if (
     e.clientY <= 0 &&

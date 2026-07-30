@@ -95,9 +95,9 @@ onBeforeUnmount(() => window.removeEventListener('message', handleMessage))
 <style scoped>
 .video-wrapper {
   position: relative;
-  width: 720px;
-  height: 1280px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 720px; /* optional: caps how big it can grow, remove if you want truly full width */
+  aspect-ratio: 9 / 16;
   overflow: hidden;
   background: #000;
 }
