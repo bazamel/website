@@ -76,7 +76,7 @@
         <div class="chart-card grow">
           <MetricsChart
             type="area"
-            :labels="metrics.hostingMRR.labels"
+            :labels="monthLabels(metrics.hostingMRR.values.length)"
             :series="metrics.hostingMRR.values"
             unit="eur"
             :aria-label="m.chart.mrrAria"
@@ -160,7 +160,7 @@
           <MetricsChart
             v-if="!showBank"
             type="grouped"
-            :labels="metrics.cashFlow.labels"
+            :labels="monthLabels(metrics.cashFlow.incoming.length)"
             :series="cashFlowSeries"
             unit="eur"
             :aria-label="m.chart.cashflowAria"
@@ -168,7 +168,7 @@
           <MetricsChart
             v-else
             type="area"
-            :labels="metrics.moneyInBank.labels"
+            :labels="monthLabels(metrics.moneyInBank.values.length)"
             :series="metrics.moneyInBank.values"
             unit="eur"
             :aria-label="m.chart.bankAria"
@@ -354,6 +354,21 @@ const lastUpdate = computed(() =>
 const latestCustomers = metrics.customers.values.at(-1)
 const employeesCount = metrics.employees.values.at(-1)
 
+// Every time series starts at metrics.seriesStart: labels are derived from it
+// and the series length, so appending a value in the JSON needs no new label.
+const [startYear, startMonth] = metrics.seriesStart.split('-').map(Number)
+const monthLabels = n =>
+  Array.from({ length: n }, (_, i) => {
+    const k = startMonth - 1 + i
+    return `${startYear + Math.floor(k / 12)}-${String((k % 12) + 1).padStart(2, '0')}`
+  })
+const quarterLabels = n =>
+  Array.from({ length: n }, (_, i) => {
+    const q = Math.floor((startMonth - 1) / 3) + i
+    return `${startYear + Math.floor(q / 4)}-Q${(q % 4) + 1}`
+  })
+const yearLabels = n => Array.from({ length: n }, (_, i) => String(startYear + i))
+
 // Revenue period toggle
 const revenuePeriods = computed(() => [
   { key: 'monthly', label: m.value.period.monthly },
@@ -361,7 +376,11 @@ const revenuePeriods = computed(() => [
   { key: 'yearly', label: m.value.period.yearly }
 ])
 const revenuePeriod = ref('quarterly')
-const revenue = computed(() => metrics.revenue[revenuePeriod.value])
+const labelsFor = { monthly: monthLabels, quarterly: quarterLabels, yearly: yearLabels }
+const revenue = computed(() => {
+  const { values } = metrics.revenue[revenuePeriod.value]
+  return { labels: labelsFor[revenuePeriod.value](values.length), values }
+})
 
 // Cash flow toggle
 const showBank = ref(true)
