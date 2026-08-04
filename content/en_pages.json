@@ -1489,7 +1489,7 @@
         "tagline": "Tailor-Made Architecture",
         "subtitle": "Enterprise Infrastructure, Without the Compromise",
         "stats": [
-          { "value": "140 VMs · 30 TB", "label": "operated" },
+          { "value": "200 VMs · 70 TB", "label": "operated" },
           { "value": "500 users", "label": "on the largest instances" },
           { "value": "99.99%", "label": "uptime goal" }
         ],

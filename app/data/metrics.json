@@ -936,8 +936,8 @@
   "servers": {
     "provider": "OVH public cloud",
     "lastMonthCost": 6970,
-    "vms": 140,
-    "storage": "30 TB"
+    "vms": 200,
+    "storage": "70 TB"
   },
   "tools": {
     "Accounting": [

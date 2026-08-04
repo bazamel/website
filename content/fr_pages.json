@@ -1489,7 +1489,7 @@
         "tagline": "Architecture sur mesure",
         "subtitle": "Infrastructure d'entreprise, sans compromis",
         "stats": [
-          { "value": "140 VMs · 30 TB", "label": "en production" },
+          { "value": "200 VMs · 70 TB", "label": "en production" },
           { "value": "500 utilisateurs", "label": "sur les plus grosses instances" },
           { "value": "99,99 %", "label": "objectif de disponibilité" }
         ],
