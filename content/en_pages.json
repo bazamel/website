@@ -2371,13 +2371,13 @@
     "vfx": {
       "slug": "vfx",
       "i18n": {
-        "title": "VFX Studios",
-        "metaTitle": "Kitsu for VFX Studios",
+        "title": "VFX",
+        "metaTitle": "Kitsu for VFX",
         "metaDescription": "Kitsu helps VFX studios track shots, versions, and reviews across film, episodic, and advertising projects."
       },
       "hero": {
         "subtitle": "Film, episodic and advertising",
-        "title": "Kitsu for VFX Studios"
+        "title": "Kitsu for VFX"
       },
       "quote": {
         "text": "A production tracker only works if everyone uses it, and that means it has to be approachable for artists, not just supervisors. Kitsu passed that test from day one.",

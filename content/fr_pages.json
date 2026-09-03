@@ -2337,13 +2337,13 @@
     "vfx": {
       "slug": "vfx",
       "i18n": {
-        "title": "Studios VFX",
-        "metaTitle": "Kitsu pour les studios VFX",
+        "title": "VFX",
+        "metaTitle": "Kitsu pour les VFX",
         "metaDescription": "Kitsu aide les studios VFX à suivre plans, versions et validations sur leurs projets de cinéma, de séries et de publicité."
       },
       "hero": {
         "subtitle": "Cinéma, séries et publicité",
-        "title": "Kitsu pour les studios VFX"
+        "title": "Kitsu pour les VFX"
       },
       "quote": {
         "text": "Un outil de suivi de production ne fonctionne que si tout le monde l'utilise. Il doit donc être accessible aux graphistes, pas seulement aux superviseurs. Kitsu a passé ce test dès le premier jour.",

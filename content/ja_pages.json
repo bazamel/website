@@ -2313,13 +2313,13 @@
     "vfx": {
       "slug": "vfx",
       "i18n": {
-        "title": "VFXスタジオ",
-        "metaTitle": "VFXスタジオ向けのKitsu",
+        "title": "VFX",
+        "metaTitle": "VFX向けのKitsu",
         "metaDescription": "Kitsuは、映画、シリーズ、広告のプロジェクトにおけるショット、バージョン、レビューの追跡をVFXスタジオに提供します。"
       },
       "hero": {
         "subtitle": "映画、シリーズ、広告",
-        "title": "VFXスタジオ向けのKitsu"
+        "title": "VFX向けのKitsu"
       },
       "quote": {
         "text": "プロダクショントラッカーは全員が使ってこそ機能します。つまり、スーパーバイザーだけでなくアーティストにとっても使いやすくなければなりません。Kitsuは初日からそのテストに合格しました。",
