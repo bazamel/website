@@ -28,6 +28,11 @@
       <StudiosShorts />
 
       <h2 class="section-subtitle has-text-centered user-title">
+        {{ $t('header.title.vfx') }}
+      </h2>
+      <StudiosVFX />
+
+      <h2 class="section-subtitle has-text-centered user-title">
         {{ $t('header.title.video-games') }}
       </h2>
       <StudiosVideoGames />
