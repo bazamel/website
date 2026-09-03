@@ -32,8 +32,8 @@
         loading="lazy"
       />
       <NuxtImg
-        src="/images/kitsu/substance.png"
-        alt="Substance"
+        src="/images/kitsu/evil-dead-burn.png"
+        alt="Evil Dead Burn"
         format="webp"
         loading="lazy"
       />

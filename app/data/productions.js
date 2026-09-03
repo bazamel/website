@@ -40,9 +40,9 @@ export const productions = [
     url: 'https://www.imdb.com/fr/title/tt26923383/'
   },
   {
-    picture: 'substance',
-    title: 'The Substance',
-    url: 'https://www.imdb.com/fr/title/tt17526714/'
+    picture: 'evil-dead-burn',
+    title: 'Evil Dead Burn',
+    url: 'https://www.imdb.com/fr/title/tt31170389/'
   },
   {
     picture: 'the-zone-of-interest',
