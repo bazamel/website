@@ -86,7 +86,7 @@
     <section class="section">
       <ul class="customers">
         <CustomerLogoBlock
-          v-for="studio in studios"
+          v-for="studio in orderedStudios"
           :key="studio.meta.elementKey"
           :name="studio.meta.name"
           :element-key="studio.meta.elementKey"
@@ -180,6 +180,17 @@ const { data: studios } = await useAsyncData(
   buildStudiosQuery,
   { watch: [locale, type] }
 )
+
+// The audience's optional `studios` array is a curated ranking: studios
+// listed there come first, in that order. The rest keep their natural order.
+const orderedStudios = computed(() => {
+  const order = audiencePage.studios || []
+  const rank = studio => {
+    const index = order.indexOf(studio.meta.elementKey)
+    return index === -1 ? order.length : index
+  }
+  return [...(studios.value || [])].sort((a, b) => rank(a) - rank(b))
+})
 
 useSEO({
   title: `CGWire | Kitsu / ${audiencePage.i18n.title}`,

@@ -2395,9 +2395,23 @@
         "ctaUrl": "https://account.cg-wire.com/signup"
       },
       "studios": [
-        "monkeys",
         "dusk",
         "makuta",
+        "ltt",
+        "digikore",
+        "stim",
+        "hogarth",
+        "prpvfx",
+        "cousin-bizarre",
+        "the-marmalade",
+        "chocolate-tribe",
+        "monkeys",
+        "trend-vfx",
+        "riodepost",
+        "boson-post",
+        "miracle-vfx",
+        "imfx",
+        "vfx-panda-lab",
         "atelier-vfx",
         "imagovfx",
         "outlookvfx",
@@ -2607,7 +2621,7 @@
       "link": "https://cousinbizarre.com/",
       "elementKey": "cousin-bizarre",
       "name": "Cousin Bizarre",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "creative-seeds": {
       "link": "https://creativeseeds.fr/",
@@ -2723,6 +2737,78 @@
       "elementKey": "iim",
       "name": "IIM",
       "type": "schools"
+    },
+    "trend-vfx": {
+      "link": "https://www.trendvfx.com/",
+      "elementKey": "trend-vfx",
+      "name": "Trend VFX",
+      "type": "vfx"
+    },
+    "prpvfx": {
+      "link": "https://www.prpvfx.com/",
+      "elementKey": "prpvfx",
+      "name": "PRPVFX",
+      "type": "vfx"
+    },
+    "imfx": {
+      "link": "https://www.im-fx.com/",
+      "elementKey": "imfx",
+      "name": "IMFX",
+      "type": "vfx"
+    },
+    "vfx-panda-lab": {
+      "link": "http://vfxpandalab.com/",
+      "elementKey": "vfx-panda-lab",
+      "name": "VFX Panda Lab",
+      "type": "vfx"
+    },
+    "miracle-vfx": {
+      "link": "https://miraclevfx.com/",
+      "elementKey": "miracle-vfx",
+      "name": "Miracle Visual Effects",
+      "type": "vfx"
+    },
+    "ltt": {
+      "link": "https://www.ltt-vfx.com/",
+      "elementKey": "ltt",
+      "name": "Les Tontons Truqueurs",
+      "type": "vfx"
+    },
+    "digikore": {
+      "link": "https://digikore.com/",
+      "elementKey": "digikore",
+      "name": "Digikore Studios",
+      "type": "vfx"
+    },
+    "chocolate-tribe": {
+      "link": "https://www.chocolatetribe.co.za/",
+      "elementKey": "chocolate-tribe",
+      "name": "ChocolateTribe",
+      "type": "vfx"
+    },
+    "the-marmalade": {
+      "link": "https://www.themarmalade.com/",
+      "elementKey": "the-marmalade",
+      "name": "The Marmalade",
+      "type": "vfx"
+    },
+    "boson-post": {
+      "link": "https://www.bosonpost.com.br/",
+      "elementKey": "boson-post",
+      "name": "Bóson Post",
+      "type": "vfx"
+    },
+    "riodepost": {
+      "link": "https://www.riodepost.com/",
+      "elementKey": "riodepost",
+      "name": "RIOdePost",
+      "type": "vfx"
+    },
+    "hogarth": {
+      "link": "https://www.hogarth.com/",
+      "elementKey": "hogarth",
+      "name": "Hogarth",
+      "type": "vfx"
     },
     "dusk": {
       "link": "https://www.duskvfx.fr/",
@@ -3030,7 +3116,7 @@
       "link": "https://www.stimstudio.com/en/",
       "elementKey": "stim",
       "name": "Stim Studio",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "sun-and-moon": {
       "link": "https://sunandmoonstudios.co.uk/",
