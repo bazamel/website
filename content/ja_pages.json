@@ -2009,7 +2009,7 @@
         "traumhaus",
         "makuta",
         "alba-sotorra",
-        "iiw"
+        "dusk"
       ]
     },
     "schools": {
@@ -2395,6 +2395,8 @@
         "ctaUrl": "https://account.cg-wire.com/signup"
       },
       "studios": [
+        "monkeys",
+        "dusk",
         "makuta",
         "atelier-vfx",
         "imagovfx",
@@ -2722,11 +2724,11 @@
       "name": "IIM",
       "type": "schools"
     },
-    "iiw": {
-      "link": "https://www.iiwstudio.fr/",
-      "elementKey": "iiw",
-      "name": "IIW",
-      "type": "feature-films"
+    "dusk": {
+      "link": "https://www.duskvfx.fr/",
+      "elementKey": "dusk",
+      "name": "Dusk",
+      "type": ["feature-films", "vfx"]
     },
     "imagovfx": {
       "link": "https://www.imagovfx.com/",
@@ -2872,7 +2874,7 @@
       "link": "https://www.monkeys.tv/",
       "elementKey": "monkeys",
       "name": "Monkeys",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "naive": {
       "link": "https://naive.se/",
