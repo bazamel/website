@@ -169,6 +169,7 @@
             <SubNavElement path-object="for-slug" element-key="tvshows" />
             <SubNavElement path-object="for-slug" element-key="feature-films" />
             <SubNavElement path-object="for-slug" element-key="shorts" />
+            <SubNavElement path-object="for-slug" element-key="vfx" />
             <SubNavElement path-object="for-slug" element-key="schools" />
             <SubNavElement path-object="for-slug" element-key="video-games" />
           </div>

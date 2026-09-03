@@ -2334,6 +2334,101 @@
         "eone"
       ]
     },
+    "vfx": {
+      "slug": "vfx",
+      "i18n": {
+        "title": "Studios VFX",
+        "metaTitle": "Kitsu pour les studios VFX",
+        "metaDescription": "Kitsu aide les studios VFX à suivre plans, versions et validations sur leurs projets de cinéma, de séries et de publicité."
+      },
+      "hero": {
+        "subtitle": "Cinéma, séries et publicité",
+        "title": "Kitsu pour les studios VFX"
+      },
+      "quote": {
+        "text": "Un outil de suivi de production ne fonctionne que si tout le monde l'utilise. Il doit donc être accessible aux graphistes, pas seulement aux superviseurs. Kitsu a passé ce test dès le premier jour.",
+        "author": "Pete Draper, Superviseur VFX chez Ryff",
+        "avatar": "petedraper.png"
+      },
+      "video": {
+        "youtubeId": "TnHby2cxJzs",
+        "partnerName": "Dusk",
+        "partnerUrl": "https://www.duskvfx.fr"
+      },
+      "panels": [
+        {
+          "id": "producer",
+          "avatar": "avatar-5.svg",
+          "title": "Pour les Producteurs VFX",
+          "descriptions": [
+            "Les producteurs VFX gèrent les devis, les livraisons clients et plusieurs projets en même temps. Kitsu leur donne une vue d'ensemble de chaque production, au même endroit.",
+            "Kitsu fournit des informations financières sur la production. Les rapports de temps et les estimations montrent où passe l'effort, et quels plans ou assets coûtent plus que prévu.",
+            "Avec les pages de statistiques, le producteur peut répondre à une question client sur l'avancement sans interrompre l'équipe. Les chiffres sont toujours à jour."
+          ]
+        },
+        {
+          "id": "productionmanager",
+          "avatar": "avatar-1.svg",
+          "title": "Pour les Chargés de Production",
+          "descriptions": [
+            "Les chargés de production doivent connaître à tout moment le statut de chaque plan, de chaque validation et de chaque retake.",
+            "Kitsu fournit des feuilles de temps efficaces : vous voyez les heures passées par chaque graphiste, par jour, par semaine ou par mois, sur toutes les productions.",
+            "Pour chaque plan ou asset, vous comparez le temps passé aux estimations et identifiez ce qui dépasse le budget.",
+            "Avec la page playlist, les dailies et les revues clients sont prêtes en quelques clics. Plus besoin de rassembler les fichiers à la main avant chaque session."
+          ]
+        },
+        {
+          "id": "supervisor",
+          "avatar": "avatar-2.svg",
+          "title": "Pour les Superviseurs VFX",
+          "descriptions": [
+            "Les superviseurs ont besoin d'accéder immédiatement à la dernière version de chaque plan, avec tout son historique.",
+            "Avec Kitsu, chaque version, commentaire et annotation est rattaché à la tâche. Les superviseurs savent toujours quoi valider et quels retakes sont en attente.",
+            "Les outils de revue incluent la lecture image par image, les annotations et la comparaison de versions. Les retours sont précis et arrivent à la bonne personne grâce aux assignations et aux mentions."
+          ]
+        },
+        {
+          "id": "pipeline",
+          "avatar": "avatar-4.svg",
+          "title": "Pour les Pipeline TDs",
+          "descriptions": [
+            "Les pipelines VFX reposent sur l'automatisation. Kitsu s'accompagne d'une API complète (Zou) et d'un client Python (Gazu) pour le connecter à vos outils.",
+            "Les Pipeline TDs peuvent créer des tâches, publier des versions et mettre à jour les statuts directement depuis Maya, Houdini, Nuke ou Blender. Les graphistes ne quittent jamais leur logiciel pour rendre compte de leur avancement.",
+            "Tout ce qui est visible dans l'interface est accessible via l'API, ce qui fait de Kitsu une base fiable pour l'automatisation du studio."
+          ]
+        },
+        {
+          "id": "artist",
+          "avatar": "avatar-3.svg",
+          "title": "Pour les Graphistes",
+          "descriptions": [
+            "Les graphistes ont besoin d'un accès rapide à leurs tâches et d'un moyen simple de publier de nouvelles versions de leur travail.",
+            "Quand un graphiste se connecte, il accède à sa liste de tâches. En un coup d'œil, il voit les échéances, les priorités, les statuts et l'historique complet des commentaires.",
+            "Publier une nouvelle version ou répondre à un retour ne prend qu'un clic depuis la liste de tâches. Grâce aux notifications (dans l'application, par email ou Slack), il sait quand quelque chose se passe."
+          ]
+        }
+      ],
+      "reasons": {
+        "title": "Pourquoi utiliser Kitsu pour vos productions VFX ?",
+        "items": [
+          "Suivez des milliers de plans et de versions sur plusieurs projets à la fois",
+          "Menez vos dailies et vos revues clients depuis une seule playlist, image par image",
+          "Automatisez votre pipeline avec l'API Zou et le client Python Gazu"
+        ],
+        "cta": "Essayez gratuitement",
+        "ctaUrl": "https://account.cg-wire.com/signup"
+      },
+      "studios": [
+        "makuta",
+        "atelier-vfx",
+        "imagovfx",
+        "outlookvfx",
+        "rockinvfx",
+        "viridian",
+        "warriorsvfx",
+        "vfxtechnologies"
+      ]
+    },
     "video-games": {
       "slug": "video-games",
       "i18n": {
@@ -2473,7 +2568,7 @@
       "link": "http://www.ateliervfx.com/",
       "elementKey": "atelier-vfx",
       "name": "Atelier VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "autour-de-minuit": {
       "link": "https://www.autourdeminuit.com/",
@@ -2661,7 +2756,7 @@
       "link": "https://www.imagovfx.com/",
       "elementKey": "imagovfx",
       "name": "Imago VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "impossible-objects": {
       "link": "https://www.impossible-objects.co/",
@@ -2733,7 +2828,7 @@
       "link": "https://makutavfx.com/",
       "elementKey": "makuta",
       "name": "Makuta",
-      "type": "feature-films",
+      "type": ["feature-films", "vfx"],
       "case_study": "https://blog.cg-wire.com/customer-story-makuta-vfx-studio/"
     },
     "malilart": {
@@ -2867,7 +2962,7 @@
       "link": "https://www.ovfx.com/",
       "elementKey": "outlookvfx",
       "name": "Outlook VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "parallel14": {
       "link": "https://parallel14.com/",
@@ -2921,7 +3016,7 @@
       "link": "https://rockinvfx.com/",
       "elementKey": "rockinvfx",
       "name": "Rockin VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "rubika": {
       "link": "https://www.rubika-edu.com/",
@@ -3017,13 +3112,13 @@
       "link": "https://www.viridianfx.co.uk/",
       "elementKey": "viridian",
       "name": "ViridianVFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "warriorsvfx": {
       "link": "https://www.warriorsvfx.com.br/",
       "elementKey": "warriorsvfx",
       "name": "Warriors VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "welab": {
       "link": "https://weloveabattle.com/",
@@ -3406,7 +3501,7 @@
     "elementKey": "vfxtechnologies",
     "name": "VFX Technologies",
     "type": [
-      "feature-films", "shorts", "tvshows"
+      "feature-films", "shorts", "tvshows", "vfx"
     ]
   },
   "eraseuneavez": {

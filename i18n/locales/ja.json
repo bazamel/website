@@ -40,6 +40,7 @@
       "tutorials": "Kitsuを使いこなすための短いビデオ",
       "tvshows": "TVシリーズプロダクションにおける要求の管理",
       "video-games": "世界中のアーティストとアセット制作を効率化",
+      "vfx": "すべてのプロジェクトのショット、バージョン、レビューを追跡",
       "productions": "Kitsuで管理された映画やシリーズ"
     },
     "title": {
@@ -74,7 +75,8 @@
       "tutorials": "チュートリアル",
       "tvshows": "TV番組",
       "usecase": "ユースケース",
-      "video-games": "ビデオゲーム"
+      "video-games": "ビデオゲーム",
+      "vfx": "VFXスタジオ"
     }
   },
   "productions": {
@@ -229,6 +231,7 @@
     "shorts": "短編映像",
     "tvshows": "テレビ番組",
     "video-games": "ゲーム制作",
+    "vfx": "vfx",
     "feature-films": "長編映像",
     "専用構成": "tailor-made-architecture",
     "配役管理": "casting-management",

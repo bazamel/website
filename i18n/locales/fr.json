@@ -40,6 +40,7 @@
       "tutorials": "Vidéos courtes pour vous aider avec Kitsu",
       "tvshows": "Supporter la charge d'une série télé",
       "video-games": "Fluidifiez la création d'assets avec des artistes partout autour du globe",
+      "vfx": "Suivez plans, versions et validations sur toutes vos productions",
       "productions": "Films et séries suivis avec Kitsu"
     },
     "title": {
@@ -74,7 +75,8 @@
       "tutorials": "Tutoriels",
       "tvshows": "Séries Télé",
       "usecase": "Études de cas",
-      "video-games": "Jeux vidéos"
+      "video-games": "Jeux vidéos",
+      "vfx": "Studios VFX"
     }
   },
   "productions": {
@@ -229,6 +231,7 @@
     "shorts": "courts-metrages",
     "tvshows": "emissions-tv",
     "video-games": "jeux-video",
+    "vfx": "vfx",
     "feature-films": "longs-metrages",
     "architecture-sur-mesure": "tailor-made-architecture",
     "gestion-des-castings": "casting-management",

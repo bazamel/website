@@ -2310,6 +2310,101 @@
         "ctaUrl": "https://account.cg-wire.com/signup"
       }
     },
+    "vfx": {
+      "slug": "vfx",
+      "i18n": {
+        "title": "VFXスタジオ",
+        "metaTitle": "VFXスタジオ向けのKitsu",
+        "metaDescription": "Kitsuは、映画、シリーズ、広告のプロジェクトにおけるショット、バージョン、レビューの追跡をVFXスタジオに提供します。"
+      },
+      "hero": {
+        "subtitle": "映画、シリーズ、広告",
+        "title": "VFXスタジオ向けのKitsu"
+      },
+      "quote": {
+        "text": "プロダクショントラッカーは全員が使ってこそ機能します。つまり、スーパーバイザーだけでなくアーティストにとっても使いやすくなければなりません。Kitsuは初日からそのテストに合格しました。",
+        "author": "Pete Draper（ピート・ドライパー）、RyffのVFXスーパーバイザー",
+        "avatar": "petedraper.png"
+      },
+      "video": {
+        "youtubeId": "TnHby2cxJzs",
+        "partnerName": "Dusk",
+        "partnerUrl": "https://www.duskvfx.fr"
+      },
+      "panels": [
+        {
+          "id": "producer",
+          "avatar": "avatar-5.svg",
+          "title": "VFXプロデューサー向け",
+          "descriptions": [
+            "VFXプロデューサーは、見積もり、クライアントへの納品、複数のプロジェクトを同時に管理しています。Kitsuを使えば、すべてのプロダクションの全体像を1か所でリアルタイムに把握できます。",
+            "Kitsuはプロダクションに関する財務的なインサイトを提供します。タイムレポートと見積もりにより、どこに工数がかかっているのか、どのショットやアセットが予定よりコストがかかっているのかがわかります。",
+            "統計ページを使えば、チームの作業を中断させることなく、進捗に関するクライアントからの質問に答えられます。数値は常に最新です。"
+          ]
+        },
+        {
+          "id": "productionmanager",
+          "avatar": "avatar-1.svg",
+          "title": "プロダクションマネージャー向け",
+          "descriptions": [
+            "プロダクションマネージャーは、すべてのショット、レビュー、リテイクの状況を常に把握する必要があります。",
+            "Kitsuは効率的なタイムシートを提供します。各アーティストが費やした時間を、日ごと、週ごと、月ごとに、すべてのプロダクションにわたって確認できます。",
+            "各ショットやアセットについて、費やした時間と見積もりを比較し、予算を超えているものを特定できます。",
+            "プレイリストページを使えば、デイリーやクライアントレビューを数クリックで準備できます。セッションの前に手作業でファイルを集める必要はもうありません。"
+          ]
+        },
+        {
+          "id": "supervisor",
+          "avatar": "avatar-2.svg",
+          "title": "VFXスーパーバイザー向け",
+          "descriptions": [
+            "スーパーバイザーは、各ショットの最新バージョンとその履歴全体に、すぐにアクセスする必要があります。",
+            "Kitsuでは、すべてのバージョン、コメント、注釈がタスクに紐づいています。スーパーバイザーは、何をレビューすべきか、どのリテイクが保留中かを常に把握できます。",
+            "レビューツールには、コマ送り再生、注釈、バージョン比較が含まれます。フィードバックは正確で、アサインとメンションによって適切な担当者に届きます。"
+          ]
+        },
+        {
+          "id": "pipeline",
+          "avatar": "avatar-4.svg",
+          "title": "パイプラインTD向け",
+          "descriptions": [
+            "VFXパイプラインは自動化の上に成り立っています。Kitsuには、ツールと連携するための完全なAPI（Zou）とPythonクライアント（Gazu）が付属しています。",
+            "パイプラインTDは、Maya、Houdini、Nuke、Blenderから直接、タスクの作成、バージョンの公開、ステータスの更新ができます。アーティストは進捗を報告するためにソフトウェアを離れる必要がありません。",
+            "インターフェースに表示されるものはすべてAPI経由で利用できるため、Kitsuはスタジオの自動化の信頼できる基盤になります。"
+          ]
+        },
+        {
+          "id": "artist",
+          "avatar": "avatar-3.svg",
+          "title": "アーティスト向け",
+          "descriptions": [
+            "アーティストには、自分のタスクへの素早いアクセスと、作業の新しいバージョンを簡単に公開できる方法が必要です。",
+            "アーティストがログインすると、自分のToDoリストにアクセスできます。締め切り、優先度、ステータス、コメント履歴のすべてが一目でわかります。",
+            "新しいバージョンの投稿やフィードバックへの返信は、ToDoリストからワンクリックで完了します。通知システム（アプリ内、メール、Slack）を通じて、何かが起きたときにすぐわかります。"
+          ]
+        }
+      ],
+      "reasons": {
+        "title": "VFXプロダクションにKitsuを使うべき理由",
+        "items": [
+          "複数のプロジェクトにわたる数千のショットとバージョンを一度に追跡できる",
+          "1つのプレイリストから、コマ単位でデイリーやクライアントレビューを実行できる",
+          "Zou APIとPythonクライアントGazuでパイプラインを自動化"
+        ],
+        "cta": "無料で試す",
+        "ctaUrl": "https://account.cg-wire.com/signup"
+      },
+      "studios": [
+        "makuta",
+        "atelier-vfx",
+        "imagovfx",
+        "outlookvfx",
+        "rockinvfx",
+        "viridian",
+        "warriorsvfx",
+        "vfxtechnologies"
+      ]
+    },
     "video-games": {
       "slug": "video-games",
       "i18n": {
@@ -2449,7 +2544,7 @@
       "link": "http://www.ateliervfx.com/",
       "elementKey": "atelier-vfx",
       "name": "Atelier VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "autour-de-minuit": {
       "link": "https://www.autourdeminuit.com/",
@@ -2637,7 +2732,7 @@
       "link": "https://www.imagovfx.com/",
       "elementKey": "imagovfx",
       "name": "Imago VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "impossible-objects": {
       "link": "https://www.impossible-objects.co/",
@@ -2709,7 +2804,7 @@
       "link": "https://makutavfx.com/",
       "elementKey": "makuta",
       "name": "Makuta",
-      "type": "feature-films",
+      "type": ["feature-films", "vfx"],
       "case_study": "https://blog.cg-wire.com/customer-story-makuta-vfx-studio/"
     },
     "malilart": {
@@ -2843,7 +2938,7 @@
       "link": "https://www.ovfx.com/",
       "elementKey": "outlookvfx",
       "name": "Outlook VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "parallel14": {
       "link": "https://parallel14.com/",
@@ -2897,7 +2992,7 @@
       "link": "https://rockinvfx.com/",
       "elementKey": "rockinvfx",
       "name": "Rockin VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "rubika": {
       "link": "https://www.rubika-edu.com/",
@@ -2993,13 +3088,13 @@
       "link": "https://www.viridianfx.co.uk/",
       "elementKey": "viridian",
       "name": "ViridianVFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "warriorsvfx": {
       "link": "https://www.warriorsvfx.com.br/",
       "elementKey": "warriorsvfx",
       "name": "Warriors VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "welab": {
       "link": "https://weloveabattle.com/",
@@ -3382,7 +3477,7 @@
     "elementKey": "vfxtechnologies",
     "name": "VFX Technologies",
     "type": [
-      "feature-films", "shorts", "tvshows"
+      "feature-films", "shorts", "tvshows", "vfx"
     ]
   },
   "eraseuneavez": {
