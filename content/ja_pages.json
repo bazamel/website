@@ -1999,7 +1999,6 @@
         "ankama",
         "autour-de-minuit",
         "les-fees-speciales",
-        "supamonks",
         "onyx",
         "miyu",
         "uniko",
@@ -2172,7 +2171,6 @@
       "studios": [
         "blender",
         "lofi-studio",
-        "supamonks",
         "miyu",
         "polycat",
         "mikrofilm",
@@ -2810,6 +2808,102 @@
       "name": "Hogarth",
       "type": "vfx"
     },
+    "jam-media": {
+      "link": "https://www.jammedia.com/",
+      "elementKey": "jam-media",
+      "name": "JAM Media",
+      "type": "tvshows"
+    },
+    "xilam": {
+      "link": "https://xilam.com/",
+      "elementKey": "xilam",
+      "name": "Xilam Animation",
+      "type": "tvshows"
+    },
+    "monsta": {
+      "link": "https://monsta.com/",
+      "elementKey": "monsta",
+      "name": "Monsta",
+      "type": "tvshows"
+    },
+    "studio-gale": {
+      "link": "https://www.studiogale.com/",
+      "elementKey": "studio-gale",
+      "name": "Studio Gale",
+      "type": "tvshows"
+    },
+    "flux-animation": {
+      "link": "https://fluxmedia.co.nz/",
+      "elementKey": "flux-animation",
+      "name": "Flux Animation Studio",
+      "type": "tvshows"
+    },
+    "studio-liddell": {
+      "link": "https://www.studioliddell.com/",
+      "elementKey": "studio-liddell",
+      "name": "Studio Liddell",
+      "type": "tvshows"
+    },
+    "caribara": {
+      "link": "https://www.caribara-animation.com/",
+      "elementKey": "caribara",
+      "name": "Caribara Animation",
+      "type": "tvshows"
+    },
+    "b-water": {
+      "link": "https://b-waterstudios.com/",
+      "elementKey": "b-water",
+      "name": "B-Water Animation Studios",
+      "type": "tvshows"
+    },
+    "dream-farm": {
+      "link": "https://dreamfarmstudios.com/",
+      "elementKey": "dream-farm",
+      "name": "Dream Farm Studios",
+      "type": "tvshows"
+    },
+    "xanthus": {
+      "link": "https://www.xanthus.com.tw/",
+      "elementKey": "xanthus",
+      "name": "Xanthus Animation Studio",
+      "type": "tvshows"
+    },
+    "visinema": {
+      "link": "https://visinema.co/",
+      "elementKey": "visinema",
+      "name": "Visinema Studios",
+      "type": "feature-films"
+    },
+    "golden-wolf": {
+      "link": "https://www.goldenwolf.tv/",
+      "elementKey": "golden-wolf",
+      "name": "Golden Wolf",
+      "type": "shorts"
+    },
+    "zographic": {
+      "link": "https://zographic.com/",
+      "elementKey": "zographic",
+      "name": "Zographic Films",
+      "type": "shorts"
+    },
+    "coala-filmes": {
+      "link": "https://coalafilmes.com.br/",
+      "elementKey": "coala-filmes",
+      "name": "Coala Filmes",
+      "type": "shorts"
+    },
+    "punkrobot": {
+      "link": "https://punkrobot.cl/",
+      "elementKey": "punkrobot",
+      "name": "Punkrobot",
+      "type": "shorts"
+    },
+    "bloober": {
+      "link": "https://blooberteam.com/",
+      "elementKey": "bloober",
+      "name": "Bloober Team",
+      "type": "video-games"
+    },
     "dusk": {
       "link": "https://www.duskvfx.fr/",
       "elementKey": "dusk",
@@ -3123,12 +3217,6 @@
       "elementKey": "sun-and-moon",
       "name": "Sun & Moon Animation Studio",
       "type": "tvshows"
-    },
-    "supamonks": {
-      "link": "https://www.supamonks.com/",
-      "elementKey": "supamonks",
-      "name": "Supamonks",
-      "type": ["shorts", "feature-films"]
     },
     "tant-mieux-prod": {
       "link": "https://www.tantmieuxprod.net/",
