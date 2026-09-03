@@ -2333,10 +2333,10 @@
       "i18n": {
         "title": "VFX",
         "metaTitle": "Kitsu pour les VFX",
-        "metaDescription": "Kitsu aide les studios VFX à suivre plans, versions et validations sur leurs projets de cinéma, de séries et de publicité."
+        "metaDescription": "Kitsu aide les studios VFX à suivre devis, temps passé, plans et validations sur leurs projets de cinéma, de séries et de publicité."
       },
       "hero": {
-        "subtitle": "Cinéma, séries et publicité",
+        "subtitle": "Suivez vos devis et le temps passé, plan par plan",
         "title": "Kitsu pour les VFX"
       },
       "quote": {
@@ -2356,7 +2356,7 @@
           "title": "Pour les Producteurs VFX",
           "descriptions": [
             "Les producteurs VFX gèrent les devis, les livraisons clients et plusieurs projets en même temps. Kitsu leur donne une vue d'ensemble de chaque production, au même endroit.",
-            "Kitsu fournit des informations financières sur la production. Les rapports de temps et les estimations montrent où passe l'effort, et quels plans ou assets coûtent plus que prévu.",
+            "Kitsu suit le temps passé sur chaque tâche et le compare à vos devis. À tout moment, vous voyez quels plans ou assets coûtent plus que prévu, et vous pouvez réagir avant que la marge ne fonde.",
             "Avec les pages de statistiques, le producteur peut répondre à une question client sur l'avancement sans interrompre l'équipe. Les chiffres sont toujours à jour."
           ]
         },
@@ -2367,7 +2367,7 @@
           "descriptions": [
             "Les chargés de production doivent connaître à tout moment le statut de chaque plan, de chaque validation et de chaque retake.",
             "Kitsu fournit des feuilles de temps efficaces : vous voyez les heures passées par chaque graphiste, par jour, par semaine ou par mois, sur toutes les productions.",
-            "Pour chaque plan ou asset, vous comparez le temps passé aux estimations et identifiez ce qui dépasse le budget.",
+            "Pour chaque plan ou asset, vous comparez le temps passé au devis et identifiez ce qui dépasse le budget.",
             "Avec la page playlist, les dailies et les revues clients sont prêtes en quelques clics. Plus besoin de rassembler les fichiers à la main avant chaque session."
           ]
         },
@@ -2405,7 +2405,7 @@
       "reasons": {
         "title": "Pourquoi utiliser Kitsu pour vos productions VFX ?",
         "items": [
-          "Suivez des milliers de plans et de versions sur plusieurs projets à la fois",
+          "Comparez le temps passé sur chaque plan à vos devis",
           "Menez vos dailies et vos revues clients depuis une seule playlist, image par image",
           "Automatisez votre pipeline avec l'API Zou et le client Python Gazu"
         ],
