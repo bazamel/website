@@ -3,141 +3,40 @@
     <SolutionHeaderBlock :page-key="page.slug" :header="page.meta.header" />
 
     <section class="section mt8 pt0">
-      <div class="section-subtitle has-text-centered">
-        {{ page.meta.integrations.subtitleDcc }}
-      </div>
-      <h2 class="section-title has-text-centered">
-        {{ page.meta.integrations.titleDcc }}
-      </h2>
+      <template
+        v-for="(group, gIndex) in page.meta.integrations.groups"
+        :key="group.title"
+      >
+        <div
+          class="section-subtitle has-text-centered"
+          :class="{ mt4: gIndex > 0 }"
+        >
+          {{ group.subtitle }}
+        </div>
+        <h2 class="section-title has-text-centered">
+          {{ group.title }}
+        </h2>
 
-      <div class="flexrow mt2">
-        <a
-          href="https://github.com/cgwire/kitsu-publisher-next#readme"
-          class="software flexrow-item"
+        <div
+          v-for="(row, rIndex) in group.rows"
+          :key="rIndex"
+          class="flexrow mt2"
+          :class="{ mb4: rIndex === group.rows.length - 1 }"
         >
-          <img
-            class="w75pe"
-            src="~/assets/images/integrations/logo-blender.png"
-            alt="Blender Logo"
-          />
-        </a>
-        <a
-          href="https://github.com/cgwire/kitsu-publisher-next#readme"
-          class="software flexrow-item"
-        >
-          <img
-            class="w50pe"
-            src="~/assets/images/integrations/logo-harmony.png"
-            alt="Harmony Logo"
-          />
-        </a>
-        <a
-          href="https://github.com/cgwire/kitsu-publisher-next#readme"
-          class="software flexrow-item"
-        >
-          <img
-            class="w50pe"
-            src="~/assets/images/integrations/logo-unreal-engine.png"
-            alt="Unreal Engine"
-          />
-        </a>
-      </div>
-
-      <div class="flexrow mt2 mb4 has-text-centered">
-        <a
-          href="https://github.com/EmberLightVFX/Kitsu-for-Prism"
-          class="software flexrow-item"
-        >
-          <img
-            class="w50pe"
-            src="~/assets/images/integrations/logo-prism.png"
-            alt="Prism Logo"
-          />
-          <span class="made-by-community">
-            {{ page.meta.communityContribution }}
-          </span>
-        </a>
-        <a
-          href="https://github.com/ynput/ayon-kitsu"
-          class="software flexrow-item openpype"
-        >
-          <img
-            class="w50pe openpype"
-            src="~/assets/images/integrations/logo-ayon.png"
-            alt="Ayon Logo"
-          />
-          <span class="made-by-community">
-            {{ page.meta.communityContribution }}
-          </span>
-        </a>
-      </div>
-
-      <div class="section-subtitle has-text-centered mt4">
-        {{ page.meta.integrations.subtitleChats }}
-      </div>
-      <h2 class="section-title has-text-centered">
-        {{ page.meta.integrations.titleChats }}
-      </h2>
-
-      <div class="flexrow mt2 mb4">
-        <a
-          href="https://kitsu.cg-wire.com/slack/"
-          class="software flexrow-item"
-        >
-          <img
-            class="w75pe"
-            src="~/assets/images/integrations/logo-slack.png"
-            alt="Slack Logo"
-          />
-        </a>
-        <a
-          href="https://kitsu.cg-wire.com/mattermost/"
-          class="software flexrow-item"
-        >
-          <img
-            class="w75pe"
-            src="~/assets/images/integrations/logo-mattermost.png"
-            alt="Mattermost Logo"
-          />
-        </a>
-        <a
-          href="https://kitsu.cg-wire.com/discord/"
-          class="software flexrow-item"
-        >
-          <NuxtImg
-            src="/images/integrations/logo-discord.png"
-            class="w75pe"
-            alt="Discord Logo"
-          />
-        </a>
-      </div>
-
-      <div class="section-subtitle has-text-centered mt4">
-        {{ page.meta.integrations.subtitleSoftware }}
-      </div>
-      <h2 class="section-title has-text-centered">
-        {{ page.meta.integrations.titleSoftware }}
-      </h2>
-
-      <div class="flexrow mt2">
-        <a href="https://gazu.cg-wire.com" class="software flexrow-item">
-          <img
-            class="w50pe"
-            src="~/assets/images/integrations/logo-python.png"
-            alt="Python Logo"
-          />
-        </a>
-        <a
-          href="https://github.com/cgwire/kitsu-client-js"
-          class="software flexrow-item"
-        >
-          <img
-            class="w25pe"
-            src="~/assets/images/integrations/logo-javascript.png"
-            alt="Javascript Logo"
-          />
-        </a>
-      </div>
+          <a
+            v-for="item in row"
+            :key="item.alt"
+            :href="item.href"
+            class="software flexrow-item"
+            :class="item.linkClass"
+          >
+            <NuxtImg :src="item.image" :class="item.imageClass" :alt="item.alt" />
+            <span v-if="item.community" class="made-by-community">
+              {{ page.meta.communityContribution }}
+            </span>
+          </a>
+        </div>
+      </template>
     </section>
 
     <Trial />
