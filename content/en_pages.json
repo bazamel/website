@@ -1133,13 +1133,13 @@
                   "alt": "Harmony Logo",
                   "href": "https://github.com/cgwire/kitsu-publisher-next#readme",
                   "image": "/images/integrations/logo-harmony.png",
-                  "imageClass": "w50pe"
+                  "imageClass": "w75pe"
                 },
                 {
                   "alt": "Unreal Engine",
                   "href": "https://github.com/cgwire/kitsu-publisher-next#readme",
                   "image": "/images/integrations/logo-unreal-engine.png",
-                  "imageClass": "w50pe"
+                  "imageClass": "w75pe"
                 }
               ],
               [
@@ -1147,45 +1147,33 @@
                   "alt": "Houdini Logo",
                   "href": "https://github.com/Chantology/kitsu-houdini-plugin",
                   "image": "/images/integrations/houdini.png",
-                  "imageClass": "w50pe",
-                  "community": true
+                  "imageClass": "w75pe",
+                  "community": true,
+                  "authors": [{ "username": "Chantology" }]
                 },
                 {
                   "alt": "OpenRV Logo",
                   "href": "https://github.com/cgwire/openrv",
                   "image": "/images/integrations/openrv.png",
-                  "imageClass": "w50pe"
+                  "imageClass": "w75pe"
                 },
                 {
                   "alt": "Blender Logo",
                   "href": "https://github.com/Chantology/kitsu-blender-plugin",
                   "image": "/images/integrations/logo-blender.png",
-                  "imageClass": "w50pe",
-                  "community": true
+                  "imageClass": "w75pe",
+                  "community": true,
+                  "authors": [{ "username": "Chantology" }]
                 }
               ],
               [
                 {
-                  "alt": "After Effects Logo",
-                  "href": "https://discord.com/channels/331817093244780555/719530620853682207/1538607853160366231",
-                  "image": "/images/integrations/ae.png",
-                  "imageClass": "w50pe",
-                  "community": true
-                },
-                {
                   "alt": "Prism Logo",
                   "href": "https://github.com/EmberLightVFX/Kitsu-for-Prism",
                   "image": "/images/integrations/logo-prism.png",
-                  "imageClass": "w50pe",
-                  "community": true
-                },
-                {
-                  "alt": "Ayon Logo",
-                  "href": "https://github.com/ynput/ayon-kitsu",
-                  "image": "/images/integrations/logo-ayon.png",
-                  "imageClass": "w50pe openpype",
-                  "linkClass": "openpype",
-                  "community": true
+                  "imageClass": "w75pe",
+                  "community": true,
+                  "authors": [{ "username": "EmberLightVFX" }]
                 }
               ],
               [
@@ -1193,14 +1181,9 @@
                   "alt": "Maya Logo",
                   "href": "https://github.com/Chantology/kitsu-maya-plugin",
                   "image": "/images/integrations/maya.png",
-                  "imageClass": "w50pe",
-                  "community": true
-                },
-                {
-                  
-                },
-                {
-                  
+                  "imageClass": "w75pe",
+                  "community": true,
+                  "authors": [{ "username": "Chantology" }]
                 }
               ]
             ]
