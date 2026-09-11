@@ -3,16 +3,16 @@
     <section class="hero-section">
       <div class="container">
         <div class="carbon-title">
-          <h1 class="main-title">{{ page.meta.carbonReport.title }}</h1>
+          <h1 class="main-title">{{ page.title }}</h1>
           <div class="year-selector">2024</div>
         </div>
 
         <h2 class="section-title">
-          {{ page.meta.carbonReport.subtitle }}
+          {{ page.meta.subtitle }}
         </h2>
 
         <p class="hero-description">
-          {{ page.meta.carbonReport.explanationOne }}
+          {{ page.meta.explanationOne }}
         </p>
 
         <div class="hero-illustration">
@@ -29,11 +29,11 @@
     <section class="section">
       <div class="container">
         <h2 class="content-title">
-          {{ page.meta.carbonReport.consumption.title }}
+          {{ page.meta.consumption.title }}
         </h2>
 
         <p class="content-description">
-          {{ page.meta.carbonReport.consumption.explanation }}
+          {{ page.meta.consumption.explanation }}
         </p>
 
         <div class="toggle-buttons" @click="toggleData">
@@ -44,7 +44,7 @@
               'btn-secondary': !dataWithFlights
             }"
           >
-            {{ page.meta.carbonReport.consumption.withFlights }}
+            {{ page.meta.consumption.withFlights }}
           </button>
           <button
             class="btn"
@@ -53,7 +53,7 @@
               'btn-secondary': dataWithFlights
             }"
           >
-            {{ page.meta.carbonReport.consumption.withoutFlights }}
+            {{ page.meta.consumption.withoutFlights }}
           </button>
         </div>
 
@@ -66,7 +66,7 @@
                 alt="Globe icon"
               />
               <span class="card-label">{{
-                page.meta.carbonReport.consumption.total
+                page.meta.consumption.total
               }}</span>
             </div>
             <div class="card-value">
@@ -83,7 +83,7 @@
                 alt="Users icon"
               />
               <span class="card-label">{{
-                page.meta.carbonReport.consumption.perEmployee
+                page.meta.consumption.perEmployee
               }}</span>
             </div>
             <div class="card-value">
@@ -91,7 +91,7 @@
               <span class="card-unit">tCO₂e</span>
             </div>
             <div class="card-info">
-              {{ page.meta.carbonReport.consumption.perEmployeeInfo }} 1,4 - 3,9
+              {{ page.meta.consumption.perEmployeeInfo }} 1,4 - 3,9
               TCO₂e
             </div>
           </div>
@@ -104,7 +104,7 @@
                 alt="Dollar icon"
               />
               <span class="card-label">{{
-                page.meta.carbonReport.consumption.per1000e
+                page.meta.consumption.per1000e
               }}</span>
             </div>
             <div class="card-value">
@@ -112,7 +112,7 @@
               <span class="card-unit">kCO₂e</span>
             </div>
             <div class="card-info">
-              {{ page.meta.carbonReport.consumption.per1000eInfo }} 75 Kg / K€
+              {{ page.meta.consumption.per1000eInfo }} 75 Kg / K€
             </div>
           </div>
         </div>
@@ -123,11 +123,11 @@
       <section class="section">
         <div class="container">
           <h2 class="content-title">
-            {{ page.meta.carbonReport.categories.title }}
+            {{ page.meta.categories.title }}
           </h2>
 
           <p class="content-description">
-            {{ page.meta.carbonReport.categories.explanation }}
+            {{ page.meta.categories.explanation }}
           </p>
 
           <div class="toggle-buttons" @click="toggleData">
@@ -138,7 +138,7 @@
                 'btn-secondary': !dataWithFlights
               }"
             >
-              {{ page.meta.carbonReport.consumption.withFlights }}
+              {{ page.meta.consumption.withFlights }}
             </button>
             <button
               class="btn"
@@ -147,7 +147,7 @@
                 'btn-secondary': dataWithFlights
               }"
             >
-              {{ page.meta.carbonReport.consumption.withoutFlights }}
+              {{ page.meta.consumption.withoutFlights }}
             </button>
           </div>
 
@@ -182,25 +182,25 @@
               <img
                 class="big-graph"
                 src="~/assets/images/carbon-report/graph-without-plane-travels.png"
-                alt="Graph showing carbon emissions by category with flights"
+                alt="Graph showing carbon emissions by category without flights"
                 v-show="locale === 'fr'"
               />
               <img
                 class="big-graph"
                 src="~/assets/images/carbon-report/graph-without-plane-travels-en.png"
-                alt="Graph showing carbon emissions by category with flights"
+                alt="Graph showing carbon emissions by category without flights"
                 v-show="locale === 'en'"
               />
               <img
                 class="small-graph"
                 src="~/assets/images/carbon-report/small-graph-without-plane-travels.png"
-                alt="Graph showing carbon emissions by category with flights"
+                alt="Graph showing carbon emissions by category without flights"
                 v-show="locale === 'fr'"
               />
               <img
                 class="small-graph"
                 src="~/assets/images/carbon-report/small-graph-without-plane-travels-en.png"
-                alt="Graph showing carbon emissions by category with flights"
+                alt="Graph showing carbon emissions by category without flights"
                 v-show="locale === 'en'"
               />
             </template>
@@ -246,10 +246,10 @@
             <div class="category-card-data">
               <div class="card-value">46%</div>
               <div class="card-description">
-                {{ page.meta.carbonReport.categories.japan }}
+                {{ page.meta.categories.japan }}
               </div>
               <div class="card-info">
-                11,9 {{ page.meta.carbonReport.categories.co2 }}
+                11,9 {{ page.meta.categories.co2 }}
               </div>
             </div>
           </div>
@@ -262,10 +262,10 @@
             <div class="category-card-data">
               <div class="card-value">30%</div>
               <div class="card-description">
-                {{ page.meta.carbonReport.categories.infrastructure }}
+                {{ page.meta.categories.infrastructure }}
               </div>
               <div class="card-info">
-                7,7 {{ page.meta.carbonReport.categories.co2 }}
+                7,7 {{ page.meta.categories.co2 }}
               </div>
             </div>
           </div>
@@ -276,15 +276,15 @@
             <img
               class="card-big-icon"
               src="~/assets/images/carbon-report/cloud-small.png"
-              alt="Japan icon"
+              alt="Cloud icon"
             />
             <div class="category-card-data">
               <div class="card-value">60%</div>
               <div class="card-description">
-                {{ page.meta.carbonReport.categories.infrastructure }}
+                {{ page.meta.categories.infrastructure }}
               </div>
               <div class="card-info">
-                8.98 {{ page.meta.carbonReport.categories.co2 }}
+                8.98 {{ page.meta.categories.co2 }}
               </div>
             </div>
           </div>
@@ -292,15 +292,15 @@
             <img
               class="card-big-icon"
               src="~/assets/images/carbon-report/food-small.png"
-              alt="Cloud icon"
+              alt="Food icon"
             />
             <div class="category-card-data">
               <div class="card-value">16%</div>
               <div class="card-description">
-                {{ page.meta.carbonReport.categories.food }}
+                {{ page.meta.categories.food }}
               </div>
               <div class="card-info">
-                1,9 {{ page.meta.carbonReport.categories.co2 }}
+                1,9 {{ page.meta.categories.co2 }}
               </div>
             </div>
           </div>
@@ -310,35 +310,41 @@
 
     <div class="section evolution">
       <h2 class="content-title">
-        {{ page.meta.carbonReport.evolution.title }}
+        {{ page.meta.evolution.title }}
       </h2>
-      <div class="flexrow evolution-card">
-        <div class="evolution-text">
-          <h2>{{ page.meta.carbonReport.evolution.cloud }}</h2>
-          <ul>
-            <li>{{ page.meta.carbonReport.evolution.cloudOne }}</li>
-            <li>{{ page.meta.carbonReport.evolution.cloudTwo }}</li>
-            <li>{{ page.meta.carbonReport.evolution.cloudThree }}</li>
-          </ul>
+      <div class="evolution-cards">
+        <div class="evolution-card">
+          <div class="evolution-illustration">
+            <img
+              src="~/assets/images/carbon-report/optimisation-cloud.png"
+              alt="Cloud optimisation illustration"
+            />
+          </div>
+          <div class="evolution-content">
+            <h3>{{ page.meta.evolution.cloud }}</h3>
+            <ul>
+              <li>{{ page.meta.evolution.cloudOne }}</li>
+              <li>{{ page.meta.evolution.cloudTwo }}</li>
+              <li>{{ page.meta.evolution.cloudThree }}</li>
+            </ul>
+          </div>
         </div>
-        <img
-          src="~/assets/images/carbon-report/optimisation-cloud.png"
-          alt="Cloud optimisation illustration"
-        />
-      </div>
 
-      <div class="flexrow evolution-card">
-        <img
-          src="~/assets/images/carbon-report/optimisation-food.png"
-          alt="Cloud optimisation illustration"
-        />
-        <div class="evolution-text food">
-          <h2>{{ page.meta.carbonReport.evolution.food }}</h2>
-          <ul>
-            <li>{{ page.meta.carbonReport.evolution.foodOne }}</li>
-            <li>{{ page.meta.carbonReport.evolution.foodTwo }}</li>
-            <li>{{ page.meta.carbonReport.evolution.foodThree }}</li>
-          </ul>
+        <div class="evolution-card">
+          <div class="evolution-illustration is-green">
+            <img
+              src="~/assets/images/carbon-report/optimisation-food.png"
+              alt="Food optimisation illustration"
+            />
+          </div>
+          <div class="evolution-content">
+            <h3>{{ page.meta.evolution.food }}</h3>
+            <ul>
+              <li>{{ page.meta.evolution.foodOne }}</li>
+              <li>{{ page.meta.evolution.foodTwo }}</li>
+              <li>{{ page.meta.evolution.foodThree }}</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -346,7 +352,7 @@
     <div class="anticipation">
       <div class="section">
         <h2 class="content-title">
-          {{ page.meta.carbonReport.anticipation.title }}
+          {{ page.meta.anticipation.title }}
         </h2>
 
         <div class="event-cards">
@@ -359,10 +365,10 @@
             </div>
             <div class="card-content">
               <h3 class="event-title">
-                {{ page.meta.carbonReport.anticipation.meetup }}
+                {{ page.meta.anticipation.meetup }}
               </h3>
               <p class="event-details">
-                {{ page.meta.carbonReport.anticipation.meetupDetails }}
+                {{ page.meta.anticipation.meetupDetails }}
               </p>
               <div class="carbon-footprint">
                 14,5 <span class="unit">tCO₂e</span>
@@ -379,10 +385,10 @@
             </div>
             <div class="card-content">
               <h3 class="event-title">
-                {{ page.meta.carbonReport.anticipation.travel }}
+                {{ page.meta.anticipation.travel }}
               </h3>
               <p class="event-details">
-                {{ page.meta.carbonReport.anticipation.travelDetails }}
+                {{ page.meta.anticipation.travelDetails }}
               </p>
               <div class="carbon-footprint">
                 8,5 <span class="unit">tCO₂e</span>
@@ -399,10 +405,10 @@
             </div>
             <div class="card-content">
               <h3 class="event-title">
-                {{ page.meta.carbonReport.anticipation.travelus }}
+                {{ page.meta.anticipation.travelus }}
               </h3>
               <p class="event-details">
-                {{ page.meta.carbonReport.anticipation.travelDetails }}
+                {{ page.meta.anticipation.travelDetails }}
               </p>
               <div class="carbon-footprint">
                 5,6 <span class="unit">tCO₂e</span>
@@ -412,21 +418,21 @@
         </div>
 
         <p class="emission-warning">
-          {{ page.meta.carbonReport.anticipation.warning }}
+          {{ page.meta.anticipation.warning }}
         </p>
       </div>
     </div>
 
     <div class="section conclusion">
       <h2 class="content-title">
-        {{ page.meta.carbonReport.conclusion.title }}
+        {{ page.meta.conclusion.title }}
       </h2>
       <p class="content-description">
-        {{ page.meta.carbonReport.conclusion.explanation }}
+        {{ page.meta.conclusion.explanation }}
       </p>
 
       <NuxtLink class="btn btn-primary" :to="$localePath('about')">
-        {{ page.meta.carbonReport.conclusion.button }}
+        {{ page.meta.conclusion.button }}
       </NuxtLink>
     </div>
 
@@ -447,8 +453,8 @@ const { data: page } = await useAsyncData(
 )
 
 useSEO({
-  title: 'CGWire | ' + page.value.meta.carbonReport.title,
-  description: page.value.meta.carbonReport.explanationOne,
+  title: 'CGWire | ' + page.value.title,
+  description: page.value.meta.explanationOne,
   imagePath: 'carbon.png'
 })
 
@@ -498,6 +504,7 @@ light-green = #ECFFD9
 light-blue = #D4E5F7
 light-purple = #F9F6FD
 border-purple = #C5A9E8
+border-blue = #79ADE5
 text-color = #363636
 text-light = #868686
 
@@ -517,17 +524,16 @@ text-light = #868686
 // HERO SECTION
 // ========================================
 .hero-background
-  height: 100px
-  background: linear-gradient(180deg, light-green 0%, white 100%)
+  height: 1px
 
 .hero-section
   color: text-color
-  background-color: light-green
   background-image: url('/assets/images/carbon-report/carbon-header-left.png'),
-    url('/assets/images/carbon-report/carbon-header-right.png')
-  background-size: 16%, 16%
-  background-position: top left, top right
-  background-repeat: no-repeat, no-repeat
+    url('/assets/images/carbon-report/carbon-header-right.png'),
+    linear-gradient(180deg, light-green 0%, white 100%)
+  background-size: 16%, 16%, cover
+  background-position: top left, top right, center
+  background-repeat: no-repeat, no-repeat, no-repeat
   min-height: 700px
   padding: 4rem 0
   text-align: center
@@ -541,17 +547,15 @@ text-light = #868686
     display: flex
     font-size: 18px
     gap: 1rem
-    margin: auto
-    margin-bottom: 2rem
-    margin-top: 100px
+    margin: 100px auto 2rem
     justify-content: center
-    letter-spacing: 12%
+    letter-spacing: 0.12em
     text-transform: uppercase
 
   .section-title
     font-weight: 700
     font-size: 58px
-    line-height: 75px
+    line-height: 1.25
     max-width: 80%
     margin: auto
 
@@ -582,16 +586,14 @@ text-light = #868686
 // ========================================
 .toggle-buttons
   display: flex
-  justify-content: stretch
   gap: 1rem
-  margin: auto
-  margin-bottom: 4rem
+  margin: 0 auto 4rem
   border-radius: 50px
   border: 2px solid light-grey
   padding: 4px
   background: white
-  font-weight: 300
-  width: 552px
+  width: 100%
+  max-width: 552px
 
 .btn
   padding: 1rem 2rem
@@ -606,9 +608,6 @@ text-light = #868686
     background: cgwiregreen
     color: white
     border-radius: 50px
-
-    &.active
-      background: cgwiregreen
 
   &.btn-secondary
     background: white
@@ -633,15 +632,15 @@ text-light = #868686
   padding: 30px
   text-align: left
   background: white
-  transition: transform 0.3s ease
+  transition: transform 0.2s ease
 
   &:hover
-    transform: translateY(-5px)
+    transform: translateY(-4px)
 
   &.category-card
     display: flex
     align-items: center
-    border-color: #79ADE5
+    border-color: border-blue
 
 .data-card-header
   display: flex
@@ -690,15 +689,19 @@ text-light = #868686
 
 .card-info
   font-size: 0.9rem
-  color: text-medium
+  color: text-light
   font-style: italic
 
 // ========================================
 // CARBON CATEGORIES SECTION
 // ========================================
+// Same max width as the bands on the metrics and about pages, centered.
 .carbon-categories
   background-color: light-blue
-  padding: 4rem 0
+  border-radius: 32px
+  margin: 0 auto
+  width: calc(100% - 3rem)
+  max-width: 1400px
 
 .big-graph
   display: inline-block
@@ -708,7 +711,7 @@ text-light = #868686
 
 .chart-legend
   display: flex
-  justify-content: space-between
+  justify-content: center
   align-items: center
   margin-top: 2rem
 
@@ -751,48 +754,81 @@ text-light = #868686
 // EVOLUTION SECTION
 // ========================================
 .evolution
-  .flexrow
+  // Same width as the anticipation event cards below.
+  .evolution-cards
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: 1.5rem
+    max-width: 1200px
+    margin: 3rem auto 0
+
+  .evolution-card
+    background: white
+    border: 1px solid light-grey
+    border-radius: 20px
+    padding: 12px
+    text-align: left
+    box-shadow: 0 4px 18px rgba(20, 30, 50, 0.05)
+    transition: transform 0.2s ease
+
+    &:hover
+      transform: translateY(-4px)
+
+  // Each panel matches the flat background baked into its artwork
+  // (cloud: light-blue, food: light-green) so the plate blends in.
+  .evolution-illustration
     display: flex
     align-items: center
-    justify-content: space-between
-    max-width: 960px
-    margin: auto
-    margin-top: 4rem
+    justify-content: center
+    background: light-blue
+    border-radius: 20px
+    min-height: 220px
+    padding: 1.5rem
 
-    h2
-      font-size: 26px
-      font-weight: 700
-      color: text-color
-      margin-bottom: 1rem
-
-    .evolution-text
-      width: 50%
-      text-align: left
-      padding-right: 2rem
-
-      &.food
-        padding-left: 2rem
+    &.is-green
+      background: light-green
 
     img
-      width: 50%
+      width: 100%
+      max-width: 280px
+      height: auto
 
-    p
-      margin-bottom: 1rem
+  .evolution-content
+    padding: 1.5rem
+
+    h3
+      font-size: 1.35rem
+      font-weight: 700
+      color: text-color
+      margin-bottom: 0.9rem
 
     ul
-      list-style-type: disc
-      padding-left: 1rem
-      text-align: left
+      list-style: none
+      padding: 0
+      margin: 0
+
+    li
+      position: relative
+      padding-left: 1.6rem
+      margin-bottom: 0.6rem
+      line-height: 1.5
+
+      &:before
+        content: '✓'
+        position: absolute
+        left: 0
+        color: cgwiregreen
+        font-weight: 700
 
 // ========================================
 // ANTICIPATION SECTION
 // ========================================
 .anticipation
   background: light-purple
-  padding: 2rem 0
-
-  .content-title
-    font-size: 40px
+  border-radius: 32px
+  margin: 0 auto
+  width: calc(100% - 3rem)
+  max-width: 1400px
 
   .event-cards
     display: flex
@@ -807,11 +843,11 @@ text-light = #868686
     border: 1px solid border-purple
     border-radius: 20px
     overflow: hidden
-    transition: transform 0.3s ease
+    transition: transform 0.2s ease
     padding: 12px
 
     &:hover
-      transform: translateY(-5px)
+      transform: translateY(-4px)
 
   .card-illustration
     background: light-blue
@@ -862,8 +898,7 @@ text-light = #868686
 // CONCLUSION SECTION
 // ========================================
 .conclusion
-  padding: 2em
-  padding-top: 4em
+  padding: 4rem 2rem 2rem
 
   .content-title
     font-size: 28px
@@ -873,7 +908,22 @@ text-light = #868686
 // ========================================
 @media (max-width: 960px)
   .hero-section
-    background-image: none
+    // Single background layer: reset the multi-layer size/position too,
+    // otherwise the gradient inherits the 16% width of the corner art.
+    background-image: linear-gradient(180deg, light-green 0%, white 100%)
+    background-size: cover
+    background-position: center
+    min-height: auto
+    padding: 6rem 0 2rem
+
+    .carbon-title
+      margin-top: 2rem
+
+    .section-title
+      font-size: 2.4rem
+      line-height: 1.3
+      max-width: 100%
+      padding: 0 1.5rem
 
     .hero-illustration
       display: block
@@ -927,30 +977,13 @@ text-light = #868686
       max-width: 400px
       margin: 0 auto
 
+  .carbon-categories,
+  .anticipation
+    width: calc(100% - 1.5rem)
+    border-radius: 20px
+
   .evolution
-    .flexrow
-      flex-direction: column
-      text-align: center
-
-      &.evolution-card:nth-child(2)
-        flex-direction: column-reverse
-
-        img
-          margin-bottom: 2rem
-
-      .evolution-text
-        width: 100%
-        padding: 0 0 2rem 0
-        text-align: center
-
-        &.food
-          padding: 2rem 0 0 0
-
-        ul
-          margin: auto
-
-      img
-        width: 100%
-        max-width: 400px
-        margin: 0 auto
+    .evolution-cards
+      grid-template-columns: 1fr
+      max-width: 400px
 </style>

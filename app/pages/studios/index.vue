@@ -13,50 +13,34 @@
 
     <section class="section mt0">
       <h2 class="section-subtitle has-text-centered user-title">
-        {{ $t('header title tvshows') }}
+        {{ $t('header.title.tvshows') }}
       </h2>
       <StudiosTVShows />
 
       <h2 class="section-subtitle has-text-centered user-title">
-        {{ $t('header title feature-films') }}
+        {{ $t('header.title.feature-films') }}
       </h2>
       <StudiosFeature />
 
       <h2 class="section-subtitle has-text-centered user-title">
-        {{ $t('header title shorts') }}
+        {{ $t('header.title.shorts') }}
       </h2>
       <StudiosShorts />
 
       <h2 class="section-subtitle has-text-centered user-title">
-        {{ $t('header title video-games') }}
+        {{ $t('header.title.vfx') }}
+      </h2>
+      <StudiosVFX />
+
+      <h2 class="section-subtitle has-text-centered user-title">
+        {{ $t('header.title.video-games') }}
       </h2>
       <StudiosVideoGames />
 
       <h2 class="section-subtitle has-text-centered user-title">
-        {{ $t('header title schools') }}
+        {{ $t('header.title.schools') }}
       </h2>
       <StudiosSchools />
-    </section>
-
-    <section class="section productions">
-      <h2>
-        <span class="section-subtitle">
-          {{ page.meta.productions.subtitle }}
-        </span>
-        <span class="section-title">
-          {{ page.meta.productions.title }}
-        </span>
-      </h2>
-
-      <ul>
-        <production
-          v-for="(production, index) in productions"
-          :key="index"
-          :picture="production.picture"
-          :title="production.title"
-          :url="production.url"
-        />
-      </ul>
     </section>
   </div>
 
@@ -64,8 +48,6 @@
 </template>
 
 <script setup>
-import { productions } from '~/data/productions'
-
 const { locale } = useI18n()
 const slug = ref('studios')
 const { pageQuery } = usePage(locale, slug)

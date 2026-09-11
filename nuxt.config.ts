@@ -22,6 +22,9 @@ function readMdSlugs(relDir) {
   }
 }
 
+// Build the explicit list of routes to prerender. The native crawler misses
+// dynamic pages not linked from already-rendered pages (studios, partners…),
+// so we enumerate them from the content JSON + i18n slug maps.
 function buildPrerenderRoutes() {
   const enPages = readJson('content/en_pages.json')
   const locales = Object.fromEntries(
@@ -93,6 +96,16 @@ function buildPrerenderRoutes() {
     }
   }
 
+  // Localized standalone pages declared in i18n/routes.js (linked from the nav).
+  for (const key of ['productions', 'metrics']) {
+    const patterns = i18nRoutes[key]
+    if (!patterns) continue
+    for (const lang of PRERENDER_LANGS) {
+      const pattern = patterns[lang]
+      if (pattern) routes.add(withPrefix(lang, pattern))
+    }
+  }
+
   return Array.from(routes)
 }
 
@@ -108,7 +121,7 @@ export default defineNuxtConfig({
         {
           name: 'keywords',
           content:
-            'production management pipeline cg cg blender nuke 3dsmax maya animation movie vfx tracking shotgun alternative 2D 3D'
+            'production management pipeline cg cg blender nuke 3dsmax maya animation movie vfx tracking shotgun alternative ftrack alternative 2D 3D'
         },
         {
           name: 'og:title',
@@ -200,6 +213,12 @@ export default defineNuxtConfig({
     useClassNames: false
   },
   image: {
+    // Force ipx so the provider is not auto-switched to `netlify` on Netlify
+    // builds. The Netlify provider emits /.netlify/images URLs that the static
+    // prerender crawler cannot fetch (404 -> failOnError aborts the build), and
+    // those runtime URLs would also 404 on the Cloudflare deploy. ipx keeps
+    // fully static /_ipx/ output on every target.
+    provider: 'ipx',
     dir: 'assets/',
     format: ['webp'],
     screens: {
@@ -228,7 +247,12 @@ export default defineNuxtConfig({
     prerender: {
       failOnError: true,
       crawlLinks: true,
-      routes: prerenderRoutes
+      routes: [...prerenderRoutes, '/search-index.json'],
+      // Since Nuxt 4.4 the crawler discovers locale-prefixed sitemap aliases
+      // (/fr/sitemap.xml, /ja/sitemap.xml) that @nuxtjs/sitemap does not serve
+      // (they 500). The real localized sitemaps are /__sitemap__/<locale>.xml,
+      // referenced from /sitemap_index.xml, so these aliases are safe to skip.
+      ignore: [/^\/(fr|ja)\/sitemap\.xml$/]
     }
   },
   experimental: {

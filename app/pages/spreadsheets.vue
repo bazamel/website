@@ -1,10 +1,10 @@
 <template>
   <section class="section content">
     <h2 class="subtitle">
-      {{ page.meta.spreadsheets.tagline }}
+      {{ page.meta.tagline }}
     </h2>
     <p>
-      {{ page.meta.spreadsheets.explanationOne }}
+      {{ page.meta.explanationOne }}
     </p>
   </section>
 
@@ -15,7 +15,7 @@
 
   <section class="section content">
     <h2 class="subtitle">
-      {{ page.meta.spreadsheets.shortPlanningTitle }}
+      {{ page.meta.shortPlanningTitle }}
     </h2>
     <p class="has-text-centered">
       <a
@@ -41,7 +41,10 @@
         href="https://docs.google.com/spreadsheets/d/1z9QR-0NMdcb7jt-EthYHX4DnF3v3KunZBrAvIGvC1Fw/edit?usp=sharing"
         target="_blank"
       >
-        <NuxtImg src="/images/spreadsheet-planning-short.png" />
+        <NuxtImg
+          src="/images/spreadsheet-planning-short.png"
+          alt="Short film planning spreadsheet"
+        />
         <br />
         Open in Google Spreadsheets
       </a>
@@ -49,7 +52,7 @@
     <p class="mt2">&nbsp;</p>
 
     <h2 class="subtitle">
-      {{ page.meta.spreadsheets.tvshowPlanningTitle }}
+      {{ page.meta.tvshowPlanningTitle }}
     </h2>
     <p class="has-text-centered">
       <a
@@ -75,7 +78,10 @@
         href="https://docs.google.com/spreadsheets/d/1E-8HA48VVgEUSoAho30SJ1Q1oMgvpdrT35lE4-dajkc/edit?usp=sharing"
         target="_blank"
       >
-        <NuxtImg src="/images/spreadsheet-planning-tvshow.png" />
+        <NuxtImg
+          src="/images/spreadsheet-planning-tvshow.png"
+          alt="TV show planning spreadsheet"
+        />
         <br />
         Open in Google Spreadsheets
       </a>
@@ -83,7 +89,7 @@
     <p class="mt2">&nbsp;</p>
 
     <h2 class="subtitle">
-      {{ page.meta.spreadsheets.breakdownTitle }}
+      {{ page.meta.breakdownTitle }}
     </h2>
     <p class="has-text-centered">
       <a
@@ -109,14 +115,18 @@
         href="https://docs.google.com/spreadsheets/d/1iHiaHAdYP7kvTs3o3Zx1B_VD3_3RAElPYFg5Zpkhkg8/edit?usp=sharing"
         target="_blank"
       >
-        <NuxtImg src="/images/spreadsheet-breakdown.png" /> <br />
+        <NuxtImg
+          src="/images/spreadsheet-breakdown.png"
+          alt="Breakdown spreadsheet"
+        />
+        <br />
         Open in Google Spreadsheets
       </a>
     </p>
     <p class="mt2">&nbsp;</p>
 
     <h2 class="subtitle">
-      {{ page.meta.spreadsheets.retakeTitle }}
+      {{ page.meta.retakeTitle }}
     </h2>
     <p class="has-text-centered">
       <a
@@ -142,7 +152,11 @@
         href="https://docs.google.com/spreadsheets/d/1xUNVYie84E2Wr6vohXR3vDW8A1JPmoQTD3-orS-yWBY/edit?usp=sharing"
         target="_blank"
       >
-        <NuxtImg src="/images/spreadsheet-retake-list.png" /> <br />
+        <NuxtImg
+          src="/images/spreadsheet-retake-list.png"
+          alt="Retake list spreadsheet"
+        />
+        <br />
         Open in Google Spreadsheets
       </a>
     </p>
@@ -163,7 +177,7 @@ const { data: page } = await useAsyncData(
 
 useSEO({
   title: 'CGWire | Kitsu / ' + page.value.title,
-  description: page.value.meta.spreadsheets.explanationOne,
+  description: page.value.meta.explanationOne,
   imagePath: 'spreadsheet-planning-short.png'
 })
 </script>

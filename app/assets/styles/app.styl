@@ -907,6 +907,9 @@ div.body
         z-index 2
         background transparent url('~/assets/images/footer.png') bottom center / contain no-repeat
         background-size auto 165px
+        // The bottom-anchored illustration is 165px tall: anything shorter
+        // clips its top with a hard white edge (visible on mobile).
+        min-height 175px
 
     // ========================================================================
     // PAGE: KITSU
@@ -1080,9 +1083,11 @@ div.body
                 display flex
                 align-items flex-start
                 flex-wrap wrap
+                justify-content center
 
                 .production
                     border-radius 1em
+                    margin-left 1em
                     margin-right 1em
                     position relative
                     flex-direction column
@@ -1138,13 +1143,6 @@ div.body
 
     .ppl-description
         flex 1
-
-    .advisors
-        .ppl-id
-            .ppl-id-name
-                font-size 1em
-            .ppl-id-role
-                font-size 1em
 
     section.partners
         padding 0
@@ -1321,43 +1319,6 @@ div.body
                 top 16px
                 width 25px
 
-    // --- Cookie consent ---
-
-    .cookie-consent
-        background cgwiregreen
-        color white
-        bottom 0
-        left 0
-        width 100%
-        padding 1em
-        position fixed
-        max-height 70px
-        align-items center
-        z-index 200
-
-        .flexrow-item
-            flex auto
-
-        p.text
-            flex 1
-
-        p.cookie-choice
-            max-width 150px
-            padding 0
-            margin-right 80px
-            flex none
-
-        button,
-        button:focus,
-        button:active
-            max-width 100px
-            border-radius 0
-            padding 0.3em
-            margin-left 1em
-
-        .default
-            border 2px solid white
-
     // ========================================================================
     // RESPONSIVE: MOBILE (max-width: 800px)
     // ========================================================================
@@ -1381,18 +1342,6 @@ div.body
                 h2.subtitle
                 p
                     max-width 100%
-
-        .cookie-consent
-            max-height 100%
-            overflow-y auto
-            flex-direction column
-
-            button
-                padding 0.5em
-
-            p.choice
-                margin-top 0.5em
-                margin-right 0
 
         h1.title
             font-size 1.6em
@@ -1688,7 +1637,3 @@ div.body
         .navbar-item.kitsu
             padding-bottom 0
             margin-left 3px
-
-        .about .advisors
-            .tile
-                width 100%

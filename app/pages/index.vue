@@ -21,7 +21,7 @@
             loop
             muted
             playsinline
-            preload="none"
+            preload="metadata"
             width="800"
             height="800"
             autoplay
@@ -309,9 +309,9 @@
 
       <div class="flexrow number-blocks">
         <div class="flexcolumn flexrow-item number-block">
-          <p class="number-block-number">9,600+</p>
+          <p class="number-block-number">25,000+</p>
           <p class="number-block-title">
-            {{ page.meta.kitsu.stats.hoursSaved }}
+            {{ page.meta.kitsu.stats.activeUsers }}
           </p>
         </div>
         <div class="flexcolumn flexrow-item number-block">
@@ -338,7 +338,7 @@
       </h2>
       <div class="testimonials-grid">
         <div
-          v-for="testimonial in testimonials.slice(0, 5)"
+          v-for="testimonial in homeTestimonials.slice(0, 5)"
           :key="testimonial.stem"
           class="testimonial-item"
         >
@@ -348,6 +348,7 @@
               <NuxtImg
                 class="lean-quote-avatar"
                 :src="testimonial.meta.image"
+                :alt="testimonial.meta.interviewee"
                 format="webp"
               />
               {{ testimonial.meta.interviewee }}, {{ testimonial.meta.role }} at
@@ -499,7 +500,7 @@ const { data: page } = await useAsyncData(
 )
 
 useSEO({
-  title: 'CGWire | ' + page.value.meta.main.title,
+  title: 'CGWire | ' + page.value.title,
   description: page.value.meta.main.subtitle,
   imagePath: 'teaser.png'
 })
@@ -534,6 +535,18 @@ const videoPoster = computed(() => {
   return img('/teaser.png', { format: 'webp', width: 376, height: 376 })
 })
 
+// Preload the hero poster (the LCP element) with high priority.
+useHead({
+  link: [
+    {
+      rel: 'preload',
+      as: 'image',
+      href: videoPoster.value,
+      fetchpriority: 'high'
+    }
+  ]
+})
+
 const featureTab = ref('todos')
 
 const { queryCustomerStories } = useCustomerStories(locale)
@@ -547,12 +560,7 @@ const { data: customerStories } = await useAsyncData(
 const pairedStudies = computed(() =>
   customerStories.value
     .filter(story => {
-      return [
-        'Fost',
-        'Miyu',
-        'Ryff',
-        'Remembers',
-      ].includes(story.title)
+      return ['Fost', 'Miyu', 'Ryff', 'Remembers'].includes(story.title)
     })
     .reduce(
       (rows, study, i) =>
@@ -570,6 +578,18 @@ const { data: testimonials } = await useAsyncData(
   queryTestimonials,
   { watch: [locale] }
 )
+
+// One quote per studio so the homepage stays varied: the collection is ordered
+// by stem, so without this a studio with many quotes (cube-1..5) would fill the
+// whole row.
+const homeTestimonials = computed(() => {
+  const seen = new Set()
+  return (testimonials.value || []).filter(t => {
+    if (seen.has(t.meta.studio)) return false
+    seen.add(t.meta.studio)
+    return true
+  })
+})
 </script>
 
 <style lang="stylus" scoped>

@@ -1,237 +1,327 @@
 {
   "pages": {
+    "metrics": {
+      "title": "Métriques ouvertes",
+      "slug": "metrics",
+      "seo": {
+        "title": "CGWire | Métriques ouvertes",
+        "description": "Les métriques principales de CGWire : revenus, clients, financement et plus."
+      },
+      "hero": {
+        "eyebrow": "Métriques et données",
+        "title": "Nos chiffres, en toute transparence",
+        "lead": "Nous faisons partie du mouvement Open Company car nous considélons que la transparence renforce la confiance avec nos clients, notre équipe et notre communauté. Cette page partage donc les principales métriques de notre entreprise, principalement sur le plan comptable.",
+        "cta": "En savoir plus sur nous",
+        "lastUpdate": "Dernière mise à jour : {date}"
+      },
+      "updates": {
+        "title": "Nos dernières actualités",
+        "badge": "Rapport trimestriel",
+        "link": "Lire l'article →",
+        "item1": {
+          "title": "Build in public : juin 2026",
+          "url": "https://blog.cg-wire.com/build-in-public-june-2026-update/"
+        },
+        "item2": {
+          "title": "Build in public : mars 2026",
+          "url": "https://blog.cg-wire.com/build-in-public-march-2026"
+        }
+      },
+      "revenue": {
+        "title": "Nos revenus, ce que nous facturons",
+        "text": "L'argent que nous avons facturé, hors taxes."
+      },
+      "period": {
+        "monthly": "Mensuel",
+        "quarterly": "Trimestriel",
+        "yearly": "Annuel"
+      },
+      "mrr": {
+        "title": "Nos revenus mensuels récurrents",
+        "text": "Nous vendons principalement des abonnements annuels. Ce graphique les répartit sur 12 mois pour montrer les revenus récurrents sur lesquels nous pouvons compter chaque mois, quel que soit le moment où un abonnement commence."
+      },
+      "customers": {
+        "title": "Combien utilisent Kitsu",
+        "activeTitle": "Clients actifs",
+        "activeText": "Les studios avec un abonnement en cours. Les utilisateurs open source ne sont pas comptés ici.",
+        "selfhostedTitle": "Installations auto-hébergées actives",
+        "selfhostedText": "Les équipes qui font tourner Kitsu sur leurs propres serveurs, indépendamment de notre offre cloud."
+      },
+      "team": {
+        "eyebrow": "L'équipe",
+        "title": "Nos salaires",
+        "text": "Nous versons des salaires au niveau du marché, exprimés en « net » français avant impôts. Le temps partiel est le bienvenu : la fraction à côté d'un poste indique la part d'une semaine complète qu'il couvre.",
+        "count": "personnes dans l'équipe",
+        "salaryHead": "Salaire net mensuel",
+        "partTime": "{fraction} temps"
+      },
+      "captable": {
+        "title": "La répartition du capital entre les actionnaires"
+      },
+      "cashflow": {
+        "title": "Notre trésorerie",
+        "toggleFlow": "Flux de trésorerie",
+        "toggleBank": "Argent en banque",
+        "incoming": "Entrées",
+        "outgoing": "Sorties"
+      },
+      "tools": {
+        "title": "Nos outils",
+        "text": "Les produits et services que nous utilisons."
+      },
+      "servers": {
+        "eyebrow": "Infrastructure",
+        "title": "Nos serveurs",
+        "text": "Tout tourne sur le cloud public OVH, facturé mensuellement et dimensionné selon notre usage. Les équipes qui s'auto-hébergent utilisent leurs propres serveurs, hors de cette facture.",
+        "cta": "Découvrir notre infrastructure",
+        "billLabel": "Le mois dernier · infrastructure",
+        "perMonth": "/mois",
+        "provider": "Fournisseur",
+        "scale": "Échelle"
+      },
+      "funding": {
+        "title": "Notre structure de financement",
+        "seeAll": "Voir tout",
+        "showLess": "Voir moins"
+      },
+      "why": {
+        "title": "Pourquoi nous partageons nos chiffres",
+        "item1": {
+          "title": "Pour rester fidèles à notre mission",
+          "text": "Partager nos chiffres nous oblige à rester honnêtes sur les décisions que nous prenons et l'entreprise que nous voulons construire."
+        },
+        "item2": {
+          "title": "Pour nous challenger",
+          "text": "Des métriques publiques sont une forte incitation à progresser et à nous responsabiliser."
+        },
+        "item3": {
+          "title": "Pour montrer que c'est possible",
+          "text": "Une petite entreprise de logiciels autofinancée peut être pérenne et transparente sur son fonctionnement."
+        }
+      },
+      "carbon": {
+        "title": "Découvrez notre bilan carbone 2024",
+        "text": "La transparence ne concerne pas que l'argent. Nous mesurons et partageons aussi l'empreinte environnementale de notre activité. Le rapport 2024 détaille nos principaux postes d'émission, nos marges de progrès et les actions concrètes que nous engageons pour réduire notre empreinte.",
+        "cta": "Lire le rapport"
+      },
+      "chart": {
+        "revenueAria": "Revenus facturés au fil du temps",
+        "mrrAria": "Revenus mensuels récurrents",
+        "cashflowAria": "Flux de trésorerie entrants et sortants",
+        "bankAria": "Argent en banque"
+      }
+    },
     "about": {
       "title": "Notre mission",
       "slug": "about",
-      "about": {
-        "subtitle": "Ce qui nous porte",
-        "tagline": "Notre mission",
-        "explanation": {
-          "one": "Avec des productions plus complexes et des deadlines toujours plus serrées, le besoin d'un travail d'équipe efficace est allé en grandissant. La quantité de données à gérer a rendu les livraisons plus difficiles et a donné à tout le monde des horaires dingues. C'est pourquoi nous avons décidé de mettre un terme à cela. Chaque matin nous nous levons avec un but : vous permettre de produire des images haut de gamme tout en gardant de bonnes conditions de travail.",
-          "two": "Pour y arriver nous avons repensé la communication à l'intérieur et à l'extérieur du studio. Pour l'interne, nous avons transformé le production tracker en une plateforme collaborative. À travers elle, toutes les parties prenantes partagent les informations en temps réel. Tout le monde est plus autonome. Pour l'extérieur nous permettons à des talents de differents studios de se rencontrer et d'apprendre ensemble.",
-          "three": "A travers nos solutions, les artistes interagissent mieux avec les autres équipes. Ils apprennent aussi tout au long de leur carrière et passent un cap régulièrement. Les studios, de leur côté, passent à l'échelle sans remous. Ils libèrent leur potentiel et satisfont leurs ambitions.",
-          "four": "Ensemble, nous sommes tous gagnants."
+      "subtitle": "Ce qui nous porte",
+      "tagline": "Notre mission",
+      "explanation": {
+        "one": "Avec des productions plus complexes et des deadlines toujours plus serrées, le besoin d'un travail d'équipe efficace est allé en grandissant. La quantité de données à gérer a rendu les livraisons plus difficiles et a donné à tout le monde des horaires dingues. C'est pourquoi nous avons décidé de mettre un terme à cela. Chaque matin nous nous levons avec un but : vous permettre de produire des images haut de gamme tout en gardant de bonnes conditions de travail.",
+        "two": "Pour y arriver nous avons repensé la communication à l'intérieur et à l'extérieur du studio. Pour l'interne, nous avons transformé le production tracker en une plateforme collaborative. À travers elle, toutes les parties prenantes partagent les informations en temps réel. Tout le monde est plus autonome. Pour l'extérieur nous permettons à des talents de differents studios de se rencontrer et d'apprendre ensemble.",
+        "three": "A travers nos solutions, les artistes interagissent mieux avec les autres équipes. Ils apprennent aussi tout au long de leur carrière et passent un cap régulièrement. Les studios, de leur côté, passent à l'échelle sans remous. Ils libèrent leur potentiel et satisfont leurs ambitions.",
+        "four": "Ensemble, nous sommes tous gagnants."
+      },
+      "values": {
+        "title": "Nos valeurs",
+        "one": {
+          "title": "Simplicité",
+          "text": "Plus nos outils sont légers, plus nous sommes agiles. Notre esprit est libéré et les choses se font plus rapidement."
         },
-        "values": {
-          "title": "Nos valeurs",
-          "one": {
-            "title": "Simplicité",
-            "text": "Plus nos outils sont légers, plus nous sommes agiles. Notre esprit est libéré et les choses se font plus rapidement."
-          },
-          "two": {
-            "title": "Collaboration",
-            "text": "Quand les idées et le travail sont partagés, nous apprenons plus vite et nous réalisons plus."
-          },
-          "three": {
-            "title": "Artisanat",
-            "text": "Les choses bien faites durent plus longtemps. Nous sommes heureux de travailler dessus et nous obtenons de meilleurs logiciels."
-          }
+        "two": {
+          "title": "Collaboration",
+          "text": "Quand les idées et le travail sont partagés, nous apprenons plus vite et nous réalisons plus."
         },
-        "work": {
-          "title": "Comment nous travaillons",
-          "one": {
-            "title": "Société Ouverte",
-            "text": "Nous partageons la plupart des choses que nous faisons et apprenons. Nos KPIs sont en ligne aussi."
-          },
-          "two": {
-            "title": "Télétravail",
-            "text": "Nous travaillons de là où nous voulons, quand nous voulons. Seule la productivité compte."
-          },
-          "three": {
-            "title": "Auto-formation",
-            "text": "Nous avons toujours besoin de progresser. C'est pourquoi nous dédions une journée par semaine à l'auto-formation."
-          }
+        "three": {
+          "title": "Artisanat",
+          "text": "Les choses bien faites durent plus longtemps. Nous sommes heureux de travailler dessus et nous obtenons de meilleurs logiciels."
+        }
+      },
+      "work": {
+        "title": "Comment nous travaillons",
+        "one": {
+          "title": "Société Ouverte",
+          "text": "Nous partageons la plupart des choses que nous faisons et apprenons. Nos KPIs sont en ligne aussi."
         },
+        "two": {
+          "title": "Télétravail",
+          "text": "Nous travaillons de là où nous voulons, quand nous voulons. Seule la productivité compte."
+        },
+        "three": {
+          "title": "Auto-formation",
+          "text": "Nous avons toujours besoin de progresser. C'est pourquoi nous dédions une journée par semaine à l'auto-formation."
+        }
+      },
+      "team": {
+        "title": "Notre équipe",
+        "intro": "Nous sommes une équipe de gens passionnés basés à Paris. Nous avons une bonne expérience pour développer des logiciels, pour gérer des productions et pour faire des produits.",
         "team": {
-          "title": "Notre équipe",
-          "intro": "Nous sommes une équipe de gens passionnés basés à Paris. Nous avons une bonne expérience pour développer des logiciels, pour gérer des productions et pour faire des produits.",
-          "team": {
-            "frank": {
-              "name": "Frank Rousseau",
-              "key": "frank",
-              "role": "Responsable Marketing et Communication",
-              "description": "Avant CGWire, Frank a travaillé pour des studios d'animation et a co-fondé une entreprise. Aujourd'hui il entretient les marques CGWire et Kitsu et réunit les bonnes personnes pour les construire."
-            },
-            "gwen": {
-              "name": "Gwenaëlle Dupré",
-              "key": "gwen",
-              "role": "Responsable Produit et Ventes",
-              "description": "Gwenaëlle Dupré a travaillé plus de 10 ans en tant que directrice de production. Chez CGWire, elle s'occupe de tous les aspects du produit et ventes. Elle s'assure que l'implémentation de Kitsu dans votre studio soit toujours un succès."
-            },
-            "nicolas": {
-              "name": "Nicolas Ledez",
-              "key": "nicolas",
-              "role": "Responsable Infrastructure",
-              "description": "Nicolas est un administrateur système reconnu dans le milieu du cloud. Il gère nos infrastructures cloud et on-premise. Grâce à lui votre instance Kitsu est toujours en état de fonctionnement."
-            },
-            "nicolaspennec": {
-              "name": "Nicolas Pennec",
-              "key": "nicolaspennec",
-              "role": "Responsable Développement Frontend",
-              "description": "Nicolas a 15 ans d'expérience en déveoppement Javascript. Il a travaillé pour des entreprises telles que OVH ou Orange. Il donne de nombreuses conférences sur les technologies frontend. Il est en charge de toutes les interfaces de Kitsu."
-            },
-            "evan": {
-              "name": "Evan Blaudy",
-              "key": "evan",
-              "role": "Responsable Développement Backend",
-              "description": "Evan est un développeur Python et Javascript expérimenté qui intervient uniquement sur des projets open source. Avec nous, Il travaille sur la maintenance de Kitsu et sur les intégrations dans les logiciels de création."
-            },
-            "elsa": {
-              "name": "Elsa Chevallier",
-              "key": "elsa",
-              "role": "Responsable Finances",
-              "description": "Elsa a 15 ans d'expérience en tant que DAF dans des studios ou des organisations de promotion du cinéma français. À CGWire, elle gère l'ensemble des aspects comptables."
-            }
+          "frank": {
+            "name": "Frank Rousseau",
+            "key": "frank",
+            "role": "Responsable Communication, Stratégie et Backend",
+            "description": "Avant CGWire, Frank a travaillé pour des studios d'animation et a co-fondé une entreprise. Aujourd'hui il maintient et fait évoluer l'API de Kitsu et réunit les bonnes personnes pour construire CGWire et Kitsu."
           },
-          "advisors": "Nos conseillers",
-          "ev": {
-            "id": "Ev Henke",
-            "role": "Senior UX Designer"
+          "gwen": {
+            "name": "Gwenaëlle Dupré",
+            "key": "gwen",
+            "role": "Responsable Produit et Ventes",
+            "description": "Gwenaëlle Dupré a travaillé plus de 10 ans en tant que directrice de production. Chez CGWire, elle s'occupe de tous les aspects du produit et ventes. Elle s'assure que l'implémentation de Kitsu dans votre studio soit toujours un succès."
           },
-          "jc": {
-            "id": "Jean-Christophe Deperraz",
-            "role": "Sales Manager chez Datavenir"
+          "nicolas": {
+            "name": "Nicolas Ledez",
+            "key": "nicolas",
+            "role": "Responsable Infrastructure",
+            "description": "Nicolas est un administrateur système reconnu dans le milieu du cloud. Il gère nos infrastructures cloud et on-premise. Grâce à lui votre instance Kitsu est toujours en état de fonctionnement."
           },
-          "frank2": {
-            "id": "Frank Karlitscheck",
-            "role": "CEO chez Nextcloud"
+          "nicolaspennec": {
+            "name": "Nicolas Pennec",
+            "key": "nicolaspennec",
+            "role": "Responsable Développement Frontend",
+            "description": "Nicolas a 15 ans d'expérience en déveoppement Javascript. Il a travaillé pour des entreprises telles que OVH ou Orange. Il donne de nombreuses conférences sur les technologies frontend. Il est en charge de toutes les interfaces de Kitsu."
           },
-          "matthieu": {
-            "id": "Matthieu Aubry",
-            "role": "CEO chez Matomo"
+          "basile": {
+            "name": "Basile Salmel",
+            "key": "basile",
+            "role": "Ingénieur Marketing",
+            "description": "Basile combine développement logiciel et marketing. Il construit les sites et les outils marketing de CGWire, et transforme sa connaissance du produit en contenus qui aident les studios à découvrir Kitsu."
+          },
+          "elsa": {
+            "name": "Elsa Chevallier",
+            "key": "elsa",
+            "role": "Responsable Finances",
+            "description": "Elsa a 15 ans d'expérience en tant que DAF dans des studios ou des organisations de promotion du cinéma français. À CGWire, elle gère l'ensemble des aspects comptables."
           }
+        }
+      },
+      "design": {
+        "title": "Illustrations du site",
+        "information": "Tous les dessins présents sur ce site sont réalisés par Ev Style et le studio Naolito. Ces illustrations sont toutes sous license Creative Commons by-nc-sa."
+      },
+      "blender": {
+        "information": "Toutes les images affichées dans les copies d'écran ont été créées par le Blender Studio durant la production Sprite Fright. Ces images sont sous licence Creative Commons."
+      },
+      "transparency": {
+        "title": "Transparence",
+        "metrics": {
+          "title": "Nos métriques",
+          "text": "Revenus, salaires, financement : en tant qu'open company, nous publions nos chiffres.",
+          "link": "Voir les métriques"
         },
-        "design": {
-          "title": "Illustrations du site",
-          "information": "Tous les dessins présents sur ce site sont réalisés par Ev Style et le studio Naolito. Ces illustrations sont toutes sous license Creative Commons by-nc-sa."
-        },
-        "blender": {
-          "information": "Toutes les images affichées dans les copies d'écran ont été créées par le Blender Studio durant la production Sprite Fright. Ces images sont sous licence Creative Commons."
+        "carbon": {
+          "title": "Notre bilan carbone",
+          "text": "Nous mesurons l'empreinte environnementale de notre activité et publions les résultats.",
+          "link": "Lire le rapport"
         }
       }
     },
     "carbon-report": {
       "title": "Carbone",
       "slug": "carbon-report",
-      "carbonReport": {
-        "title": "Carbone",
-        "subtitle": "Mesure de notre empreinte environnementale",
-        "explanationOne": "Chez CG Wire, nous avons mesuré l'impact de notre activité sur l'environnement. Ce rapport 2024 met en lumière nos principaux postes d'émission, nos marges de progrès, et les actions concrètes que nous engageons pour réduire notre empreinte.",
-        "consumption": {
-          "title": "Notre consommation carbone",
-          "explanation": "Nos voyages d'affaires en avion représente 50% de l'émission totale, pour mieux observer la répartition des autres catégories, vous pouvez les retirer des calculs.",
-          "withFlights": "Avec les voyages en avion",
-          "withoutFlights": "Sans les voyages en avion",
-          "total": "Au total",
-          "perEmployee": "Par employé",
-          "perEmployeeInfo": "Moyenne nationale:",
-          "per1000e": "Par 1000€ de CA",
-          "per1000eInfo": "Moyenne du secteur:"
-        },
-        "categories": {
-          "title": "Notre bilan par catégories",
-          "explanation": "Les résultats montrent la répartition de nos émissions, le transport avec le voyage au Japon représente plus de 50% de nos émissions totales.",
-          "japan": "Voyage au Japon",
-          "infrastructure": "Infrastructure Cloud",
-          "food": "Alimentation",
-          "co2": "tonnes d'équivalent CO2"
-        },
-        "evolution": {
-          "title": "Nos pistes d'évolution pour réduire notre impact",
-          "cloud": "Optimisation des hébergements",
-          "cloudOne": "Optimiser les process de calcul vidéos",
-          "cloudTwo": "Réduire le poids des médias (images, vidéos, etc.)",
-          "cloudThree": "Privilégier des serveurs français alimentés par des énergies bas-carbone",
-          "food": "Initiatives internes",
-          "foodOne": "Réduire les déplacements en avion au strict minimum",
-          "foodTwo": "Restauration éco-responsable : inciter les employés à manger végétarien plus souvent",
-          "foodThree": "Privilégier du matériel de qualité pour une conservation plus longue"
-        },
-        "anticipation": {
-          "title": "Nos projets pour 2026 : Anticiper pour mieux réduire notre impact",
-          "meetup": "Meet up à Paris",
-          "meetupDetails": "100 invités, 5 speakers US",
-          "travel": "Voyage au Japon",
-          "travelus": "Voyage aux USA",
-          "travelDetails": "2 personnes sur 7 jours",
-          "warning": "+57% d'émissions potentielles en 2026 si aucune action n'est menée"
-        },
-        "conclusion": {
-          "title": "Nous sommes une entreprise du secteur des industries culturelles et créatives",
-          "explanation": "Nous permettons aux studios créatifs de mieux collaborer pour faire de meilleures réalisations. Pour que cet apport soit durable, nous nous efforçons d'appliquer au mieux les bonnes pratiques de vie en communauté sur tous les plans: logiciel open-source, transparence comptable et analyse de notre impact environnemental. Note but est d'inclure au mieux notre entreprise dans notre société et notre environnement.",
-          "button": "En savoir plus sur nous"
-        }
+      "subtitle": "Mesure de notre empreinte environnementale",
+      "explanationOne": "Chez CG Wire, nous avons mesuré l'impact de notre activité sur l'environnement. Ce rapport 2024 met en lumière nos principaux postes d'émission, nos marges de progrès, et les actions concrètes que nous engageons pour réduire notre empreinte.",
+      "consumption": {
+        "title": "Notre consommation carbone",
+        "explanation": "Nos voyages d'affaires en avion représente 50% de l'émission totale, pour mieux observer la répartition des autres catégories, vous pouvez les retirer des calculs.",
+        "withFlights": "Avec les voyages en avion",
+        "withoutFlights": "Sans les voyages en avion",
+        "total": "Au total",
+        "perEmployee": "Par employé",
+        "perEmployeeInfo": "Moyenne nationale:",
+        "per1000e": "Par 1000€ de CA",
+        "per1000eInfo": "Moyenne du secteur:"
+      },
+      "categories": {
+        "title": "Notre bilan par catégories",
+        "explanation": "Les résultats montrent la répartition de nos émissions, le transport avec le voyage au Japon représente plus de 50% de nos émissions totales.",
+        "japan": "Voyage au Japon",
+        "infrastructure": "Infrastructure Cloud",
+        "food": "Alimentation",
+        "co2": "tonnes d'équivalent CO2"
+      },
+      "evolution": {
+        "title": "Nos pistes d'évolution pour réduire notre impact",
+        "cloud": "Optimisation des hébergements",
+        "cloudOne": "Optimiser les process de calcul vidéos",
+        "cloudTwo": "Réduire le poids des médias (images, vidéos, etc.)",
+        "cloudThree": "Privilégier des serveurs français alimentés par des énergies bas-carbone",
+        "food": "Initiatives internes",
+        "foodOne": "Réduire les déplacements en avion au strict minimum",
+        "foodTwo": "Restauration éco-responsable : inciter les employés à manger végétarien plus souvent",
+        "foodThree": "Privilégier du matériel de qualité pour une conservation plus longue"
+      },
+      "anticipation": {
+        "title": "Nos projets pour 2026 : Anticiper pour mieux réduire notre impact",
+        "meetup": "Meet up à Paris",
+        "meetupDetails": "100 invités, 5 speakers US",
+        "travel": "Voyage au Japon",
+        "travelus": "Voyage aux USA",
+        "travelDetails": "2 personnes sur 7 jours",
+        "warning": "+57% d'émissions potentielles en 2026 si aucune action n'est menée"
+      },
+      "conclusion": {
+        "title": "Nous sommes une entreprise du secteur des industries culturelles et créatives",
+        "explanation": "Nous permettons aux studios créatifs de mieux collaborer pour faire de meilleures réalisations. Pour que cet apport soit durable, nous nous efforçons d'appliquer au mieux les bonnes pratiques de vie en communauté sur tous les plans: logiciel open-source, transparence comptable et analyse de notre impact environnemental. Note but est d'inclure au mieux notre entreprise dans notre société et notre environnement.",
+        "button": "En savoir plus sur nous"
       }
     },
     "community": {
       "title": "Communauté",
       "slug": "community",
-      "community": {
-        "subtitle": "Rejoignez vos pairs",
-        "tagline": "Rencontrez notre communauté",
-        "explanationOne": "Plus nous progressons sur CGWire, plus nous observons le besoin d'avoir plus de collaborations entre les studios. C'est pourquoi nous alimentons des communautés de professionnels de l'animation en ligne et hors ligne. Les sujets vont au delà de Kitsu. Les TDs et chargés de production se rencontrent et partagent des bonnes pratiques pour résoudre leurs défis du quotidien. Dans la suite, vous trouverez toutes les plateformes que nous utilisons pour cela.",
-        "chat": {
-          "subtitle": "Discord",
-          "title": "Discutez avec nous",
-          "explanation": "Rejoignez notre channel Discord. Des professionnels de l'industrie partagent et échangent à propos de Kitsu et des pipelines de VFX et animation !",
-          "cta": "Partagez avec plus de 1000 experts"
-        },
-        "github": {
-          "subtitle": "Github",
-          "title": "Contribuez à Kitsu",
-          "explanation": "Publiez vos rapports de bugs ou vos demandes de fonctionnalité sur notre dépôt Github. Regardez comment nous procédons et participez à la discussion. Ou encore mieux participez au code !",
-          "cta": "Contribuez à notre code source"
-        },
-        "feedback": {
-          "subtitle": "Canny",
-          "title": "Faites vos retours",
-          "explanation": "Envoyez vos demandes de fonctionnalités ou votez pour celles déjà existantes. Suivez les développements en cours et participez au futur de Kitsu !",
-          "cta": "Votez pour des fonctionnalités"
-        },
-        "translate": {
-          "subtitle": "POEditor",
-          "title": "Traduisez Kitsu",
-          "explanation": "Kitsu est déjà disponible en six langues. Avec votre aide, nous pouvons aller plus loin. Traduisez Kitsu dans votre langue et permettez à plus de monde d'accéder à nos technologies open source !",
-          "cta": "Devenez un traducteur de Kitsu"
-        }
+      "subtitle": "Rejoignez vos pairs",
+      "tagline": "Rencontrez notre communauté",
+      "explanationOne": "Plus nous progressons sur CGWire, plus nous observons le besoin d'avoir plus de collaborations entre les studios. C'est pourquoi nous alimentons des communautés de professionnels de l'animation en ligne et hors ligne. Les sujets vont au delà de Kitsu. Les TDs et chargés de production se rencontrent et partagent des bonnes pratiques pour résoudre leurs défis du quotidien. Dans la suite, vous trouverez toutes les plateformes que nous utilisons pour cela.",
+      "chat": {
+        "subtitle": "Discord",
+        "title": "Discutez avec nous",
+        "explanation": "Rejoignez notre channel Discord. Des professionnels de l'industrie partagent et échangent à propos de Kitsu et des pipelines de VFX et animation !",
+        "cta": "Partagez avec plus de 1000 experts"
+      },
+      "github": {
+        "subtitle": "Github",
+        "title": "Contribuez à Kitsu",
+        "explanation": "Publiez vos rapports de bugs ou vos demandes de fonctionnalité sur notre dépôt Github. Regardez comment nous procédons et participez à la discussion. Ou encore mieux participez au code !",
+        "cta": "Contribuez à notre code source"
+      },
+      "feedback": {
+        "subtitle": "Canny",
+        "title": "Faites vos retours",
+        "explanation": "Envoyez vos demandes de fonctionnalités ou votez pour celles déjà existantes. Suivez les développements en cours et participez au futur de Kitsu !",
+        "cta": "Votez pour des fonctionnalités"
       }
     },
     "contact": {
       "title": "Contacts",
       "slug": "contact",
-      "contact": {
-        "tagline": "Nos informations de contact",
-        "emails": "Nos emails",
-        "sales": "Ventes",
-        "support": "Support",
-        "address": "Adresse",
-        "companyIdentifier": "Identifiant de société"
-      }
+      "tagline": "Nos informations de contact",
+      "emails": "Nos emails",
+      "sales": "Ventes",
+      "support": "Support",
+      "address": "Adresse",
+      "companyIdentifier": "Identifiant de société"
     },
     "customer-stories": {
       "title": "Nos clients racontent",
       "slug": "customer-stories",
-      "customerStories": {
-        "header": {
-          "title": "Nos clients racontent"
-        },
-        "quotes": {
-          "tant-mieux": "La communication avec les studios distants a été simplifiée. Nous pouvons discuter d'un asset ou d'une tâche spécifique sans avoir à échanger dix courriels. Si nous avions des doutes, nous pouvions nous fier à ce qui est indiqué sur la plateforme. ",
-          "miyu": "La prise en main pour gérer une production se fait en quelques jours. Tous les départements ont démarré rapidement, les artistes ont vraiment apprécié. Nous n'avions pas vu cet enthousiasme avec les outils que nous utilisions auparavant.",
-          "fost": "On pense souvent au temps gagné avec Kitsu mais ce qui compte le plus pour moi c'est la sérénité qu'il fournit en ayant tout au clair. Cela soulage le cerveau et permet de se concentrer sur les autres éléments de la production.",
-          "adm": "Nous voulions un outil pour lier les tâches et les livrables visuels. Nous voulions quelque chose de simple et plaisant pour les équipes. Notamment pour les réalisateurs, qui devaient accéder aux bout-à-bout des plans tout le temps. Et bien sûr, tout en permettant aux chargés de production de faire leur suivi aisément.",
-          "makuta": "Kitsu a unifié nos communications et a permis de les rendre plus claires, que ce soit pour les artistes, pour la production, pour les superviseurs ou les clients.",
-          "ryff": "Kitsu was straightforward. It was simple. You didn't need a degree in computer science like you do with alternatives.",
-          "remembers": "I knew that if I brought in a new tool, I needed to address a need that hadn't been identified by the core team already in place. The main challenge right away was not to constrain them."
-        }
+      "header": {
+        "title": "Nos clients racontent"
+      },
+      "quotes": {
+        "tant-mieux": "La communication avec les studios distants a été simplifiée. Nous pouvons discuter d'un asset ou d'une tâche spécifique sans avoir à échanger dix courriels. Si nous avions des doutes, nous pouvions nous fier à ce qui est indiqué sur la plateforme. ",
+        "miyu": "La prise en main pour gérer une production se fait en quelques jours. Tous les départements ont démarré rapidement, les artistes ont vraiment apprécié. Nous n'avions pas vu cet enthousiasme avec les outils que nous utilisions auparavant.",
+        "fost": "On pense souvent au temps gagné avec Kitsu mais ce qui compte le plus pour moi c'est la sérénité qu'il fournit en ayant tout au clair. Cela soulage le cerveau et permet de se concentrer sur les autres éléments de la production.",
+        "adm": "Nous voulions un outil pour lier les tâches et les livrables visuels. Nous voulions quelque chose de simple et plaisant pour les équipes. Notamment pour les réalisateurs, qui devaient accéder aux bout-à-bout des plans tout le temps. Et bien sûr, tout en permettant aux chargés de production de faire leur suivi aisément.",
+        "makuta": "Kitsu a unifié nos communications et a permis de les rendre plus claires, que ce soit pour les artistes, pour la production, pour les superviseurs ou les clients.",
+        "ryff": "Kitsu was straightforward. It was simple. You didn't need a degree in computer science like you do with alternatives.",
+        "remembers": "I knew that if I brought in a new tool, I needed to address a need that hadn't been identified by the core team already in place. The main challenge right away was not to constrain them."
       }
     },
     "index": {
-      "title": "Nous connectons les esprits créatifs",
+      "title": "Kitsu, le suivi de production open source",
       "slug": "index",
       "main": {
         "title": "Nous connectons les esprits créatifs",
-        "subtitle": "CGWire développe une plateforme réunissant équipes et outils de production en un seul endroit. Collaborez, gérez vos livrables et faites vos revues depuis partout.",
+        "subtitle": "CGWire développe Kitsu, le suivi de production open source pour les studios d'animation, de VFX et de jeux vidéo, qui réunit équipes et outils en un seul endroit. Collaborez, gérez vos livrables et faites vos revues depuis partout.",
         "tagline": "Amenez Vos Productions à La Prochaine Étape",
         "explanation": {
           "one": "Avec nos solutions logicielles, vous obtiendrez une collaboration efficace entre vos différents sites et avec vos télétravailleurs. Vous prendrez les bonnes décisions et rapporterez rapidement à votre producteur.",
@@ -274,9 +364,9 @@
           "storiesReadMore": "Découvrir d'autres témoignages clients"
         },
         "stats": {
-          "title": "Plus de 300 studios nous font confiance",
+          "title": "Plus de 500 studios nous font confiance",
           "text": "Les créatifs du monde entiers utilisent Kitsu pour leurs productions",
-          "hoursSaved": "Heures économisées / jour",
+          "activeUsers": "Utilisateurs actifs",
           "videoReviews": "Vidéos validées / jour",
           "countries": "Pays"
         },
@@ -293,106 +383,103 @@
     "kitsu": {
       "title": "Donnez des Super-pouvoirs à Vos Équipes",
       "slug": "kitsu",
-      "kitsu": {
-        "title": "Donnez des Super-pouvoirs à Vos Équipes",
-        "description": "Kitsu est une plateforme de collaboration pour les studios d'animation, d'effets visuels et de jeux vidéo. Elle permet à vos équipes de livrer des contenus de meilleure qualité.",
-        "modules": {
-          "subtitle": "Conçu en tenant compte des cas d'usage en production"
+      "description": "Kitsu est une plateforme de collaboration pour les studios d'animation, d'effets visuels et de jeux vidéo. Elle permet à vos équipes de livrer des contenus de meilleure qualité.",
+      "modules": {
+        "subtitle": "Conçu en tenant compte des cas d'usage en production"
+      },
+      "2d": {
+        "title": "Kitsu pour l'animation 2D",
+        "content": "Les productions d'animation 2D nécessitent de livrer un grand nombre de plans en peu de temps, tout en garantissant une qualité optimale. Avec Kitsu, vous pouvez planifier, répartir et revoir vos plans facilement. Vous pouvez ainsi livrer votre meilleur travail dans les délais impartis."
+      },
+      "3d": {
+        "title": "Kitsu pour l'animation 3D",
+        "content": "Les productions d'animation 3D nécessitent des plans complexes impliquant de nombreux assets et itérations. Avec Kitsu, vous pouvez clarifier ce chaos. Vos équipes peuvent se concentrer sur la réalisation du meilleur travail possible."
+      },
+      "vfx": {
+        "title": "Kitsu pour les effets visuels",
+        "content": "Les productions d'effets visuels impliquent de nombreux plans modifiés avec des équipes distribuées. Avec Kitsu, vous pouvez organiser votre production de manière à éviter toute confusion et perte de temps. Vos équipes peuvent ainsi être pleinement productives."
+      },
+      "games": {
+        "title": "Kitsu pour les jeux vidéo",
+        "content": "Les productions de jeux vidéo nécessitent de gérer de nombreux assets lors de la création de cinématiques. Les artistes sont recrutés partout dans le monde et doivent pouvoir collaborer facilement. Avec Kitsu, il est facile de suivre tous les assets et itérations et de s'assurer que tout le monde est sur la même longueur d'onde."
+      },
+      "schools": {
+        "title": "Kitsu pour les écoles",
+        "content": "Les écoles doivent créer un lien entre l'école et les studios. Avec Kitsu, les étudiants peuvent travailler sur leurs projets dans un cadre similaire à celui de l'industrie. Ils peuvent exprimer leur vision artistique tout en travaillant en équipe. Les enseignants peuvent suivre leurs progrès et leur fournir un feedback efficace."
+      },
+      "services": {
+        "subtitle": "Une expérience utilisateur hors du commun",
+        "title": "De puissants services au service de votre production",
+        "description": "Une application web est utilisée à son plein potentiel seulement utilisé avec une vraie assistance. À travers nos offers, notre équipe est toujours là pour vous. Nous pouvons votre expérience plus sûr et plus fluide."
+      },
+      "stories": {
+        "subtitle": "Témoignages",
+        "title": "Nos clients racontent",
+        "description": "Découvrez comment nos clients implémentent Kitsu dans leur studio pour n'importe quel type de production: courts, séries télé, longs métrages, 2D, 3D ou VFX."
+      },
+      "features": {
+        "api": {
+          "content": "Utilisez notre API Python pour intégrer Kitsu à vos outils. Extrayez les données de Kitsu et mettez-les à jour depuis vos outils.",
+          "title": "API Python"
         },
-        "2d": {
-          "title": "Kitsu pour l'animation 2D",
-          "content": "Les productions d'animation 2D nécessitent de livrer un grand nombre de plans en peu de temps, tout en garantissant une qualité optimale. Avec Kitsu, vous pouvez planifier, répartir et revoir vos plans facilement. Vous pouvez ainsi livrer votre meilleur travail dans les délais impartis."
+        "assets": {
+          "content": "Organisez vos assets et suivez leurs versions. Attribuez des tâches à votre équipe et suivez leur progression.",
+          "title": "Gestion d'assets"
         },
-        "3d": {
-          "title": "Kitsu pour l'animation 3D",
-          "content": "Les productions d'animation 3D nécessitent des plans complexes impliquant de nombreux assets et itérations. Avec Kitsu, vous pouvez clarifier ce chaos. Vos équipes peuvent se concentrer sur la réalisation du meilleur travail possible."
+        "breakdown": {
+          "content": "Kitsu vous permet de lister les assets associées à chaque plan. Il vous fournit des statistiques supplémentaires sur l'état de préparation de chaque plan.",
+          "title": "Liste de répartition"
         },
-        "vfx": {
-          "title": "Kitsu pour les effets visuels",
-          "content": "Les productions d'effets visuels impliquent de nombreux plans modifiés avec des équipes distribuées. Avec Kitsu, vous pouvez organiser votre production de manière à éviter toute confusion et perte de temps. Vos équipes peuvent ainsi être pleinement productives."
+        "forecast": {
+          "content": "Testez des scénarios et comparez les coûts actuels à vos prévisions budgétaires. Anticipez les éventuels problèmes et assurez-vous de maintenir le cap.",
+          "title": "Prévisions budgétaires"
         },
-        "games": {
-          "title": "Kitsu pour les jeux vidéo",
-          "content": "Les productions de jeux vidéo nécessitent de gérer de nombreux assets lors de la création de cinématiques. Les artistes sont recrutés partout dans le monde et doivent pouvoir collaborer facilement. Avec Kitsu, il est facile de suivre tous les assets et itérations et de s'assurer que tout le monde est sur la même longueur d'onde."
+        "timesheets": {
+          "content": "Permettez aux artistes de suivre leur temps de travail et obtenez un aperçu détaillé du temps de travail de chacun. Regroupez les données sur les assets et les plans.",
+          "title": "Suivi du temps"
         },
-        "schools": {
-          "title": "Kitsu pour les écoles",
-          "content": "Les écoles doivent créer un lien entre l'école et les studios. Avec Kitsu, les étudiants peuvent travailler sur leurs projets dans un cadre similaire à celui de l'industrie. Ils peuvent exprimer leur vision artistique tout en travaillant en équipe. Les enseignants peuvent suivre leurs progrès et leur fournir un feedback efficace."
+        "news": {
+          "content": "Suivez l'activité de votre production en temps réel. Abonnez-vous aux tâches clés et soyez averti de leur évolution.",
+          "title": "Flux d'activité"
         },
-        "services": {
-          "subtitle": "Une expérience utilisateur hors du commun",
-          "title": "De puissants services au service de votre production",
-          "description": "Une application web est utilisée à son plein potentiel seulement utilisé avec une vraie assistance. À travers nos offers, notre équipe est toujours là pour vous. Nous pouvons votre expérience plus sûr et plus fluide."
+        "report": {
+          "content": "Grâce aux tableaux de bord, vous pouvez créer des rapports sur l'avancement de votre production. Vos partenaires sauront exactement où vous en êtes et ce qu'ils doivent faire.",
+          "title": "Rapports de production"
         },
-        "stories": {
-          "subtitle": "Témoignages",
-          "title": "Nos clients racontent",
-          "description": "Découvrez comment nos clients implémentent Kitsu dans leur studio pour n'importe quel type de production: courts, séries télé, longs métrages, 2D, 3D ou VFX."
+        "review": {
+          "content": "Créez des playlists pour visionner vos plans et vos assets en bout à bout. Fournissez des retours efficacement et conservez l'accès à toutes les versions de previews pour les comparer entre elles.",
+          "title": "Moteur de révision"
         },
-        "features": {
-          "api": {
-            "content": "Utilisez notre API Python pour intégrer Kitsu à vos outils. Extrayez les données de Kitsu et mettez-les à jour depuis vos outils.",
-            "title": "API Python"
-          },
-          "assets": {
-            "content": "Organisez vos assets et suivez leurs versions. Attribuez des tâches à votre équipe et suivez leur progression.",
-            "title": "Gestion d'assets"
-          },
-          "breakdown": {
-            "content": "Kitsu vous permet de lister les assets associées à chaque plan. Il vous fournit des statistiques supplémentaires sur l'état de préparation de chaque plan.",
-            "title": "Liste de répartition"
-          },
-          "forecast": {
-            "content": "Testez des scénarios et comparez les coûts actuels à vos prévisions budgétaires. Anticipez les éventuels problèmes et assurez-vous de maintenir le cap.",
-            "title": "Prévisions budgétaires"
-          },
-          "timesheets": {
-            "content": "Permettez aux artistes de suivre leur temps de travail et obtenez un aperçu détaillé du temps de travail de chacun. Regroupez les données sur les assets et les plans.",
-            "title": "Suivi du temps"
-          },
-          "news": {
-            "content": "Suivez l'activité de votre production en temps réel. Abonnez-vous aux tâches clés et soyez averti de leur évolution.",
-            "title": "Flux d'activité"
-          },
-          "report": {
-            "content": "Grâce aux tableaux de bord, vous pouvez créer des rapports sur l'avancement de votre production. Vos partenaires sauront exactement où vous en êtes et ce qu'ils doivent faire.",
-            "title": "Rapports de production"
-          },
-          "review": {
-            "content": "Créez des playlists pour visionner vos plans et vos assets en bout à bout. Fournissez des retours efficacement et conservez l'accès à toutes les versions de previews pour les comparer entre elles.",
-            "title": "Moteur de révision"
-          },
-          "review-assets": {
-            "content": "Créez des playlists pour valider vos assets consécutivement. Partagez efficacement vos commentaires et conservez l'accès à toutes les versions pour les comparer entre elles.",
-            "title": "Moteur de révision"
-          },
-          "schedule": {
-            "content": "Kitsu vous aide à gérer votre charge de travail. Vous pouvez planifier vos tâches, les assigner à des artistes et les équilibrer facilement.",
-            "title": "Plannings et scénarios"
-          },
-          "search": {
-            "content": "Trouvez rapidement des ressources en recherchant des mots-clés. Utilisez des balises et des métadonnées pour des recherches plus avancées.",
-            "title": "Moteur de recherche"
-          },
-          "track": {
-            "content": "Répertoriez et répartissez les tâches pour chaque étape. Définissez des statuts et discutez directement avec votre équipe.",
-            "title": "Suivi des tâches"
-          },
-          "library": {
-            "content": "Créez votre propre bibliothèque de ressources et réutilisez-les dans vos plans et vos ressources. Évitez la duplication et assurez la cohérence de votre équipe.",
-            "title": "Bibliothèque d'actifs"
-          }
+        "review-assets": {
+          "content": "Créez des playlists pour valider vos assets consécutivement. Partagez efficacement vos commentaires et conservez l'accès à toutes les versions pour les comparer entre elles.",
+          "title": "Moteur de révision"
         },
-        "supporters": {
-          "content": "Les productions suivies avec Kitsu ont remporté toutes les récompenses majeures : Oscars, Emmys, Palme d'Or de Cannes, Cristal d'Annecy, César, et bien d'autres.",
-          "games": "Les productions de jeux vidéo suivies avec Kitsu sont parmi les plus jouées au monde.",
-          "schools": "Les meilleures écoles d'animation françaises utilisent déjà Kitsu pour former leurs étudiants.",
-          "subtitle": "Réalisez vos ambitions",
-          "title": "Kitsu est le plus grand soutien de votre réussite",
-          "vfx": "Les productions d'effets visuels réalisées avec Kitsu ont rencontré un franc succès au cinéma. Nous vous accompagnerons pour atteindre le même objectif."
+        "schedule": {
+          "content": "Kitsu vous aide à gérer votre charge de travail. Vous pouvez planifier vos tâches, les assigner à des artistes et les équilibrer facilement.",
+          "title": "Plannings et scénarios"
         },
-        "cta": "Interested in using Kitsu?"
-      }
+        "search": {
+          "content": "Trouvez rapidement des ressources en recherchant des mots-clés. Utilisez des balises et des métadonnées pour des recherches plus avancées.",
+          "title": "Moteur de recherche"
+        },
+        "track": {
+          "content": "Répertoriez et répartissez les tâches pour chaque étape. Définissez des statuts et discutez directement avec votre équipe.",
+          "title": "Suivi des tâches"
+        },
+        "library": {
+          "content": "Créez votre propre bibliothèque de ressources et réutilisez-les dans vos plans et vos ressources. Évitez la duplication et assurez la cohérence de votre équipe.",
+          "title": "Bibliothèque d'actifs"
+        }
+      },
+      "supporters": {
+        "content": "Les productions suivies avec Kitsu ont remporté toutes les récompenses majeures : Oscars, Emmys, Palme d'Or de Cannes, Cristal d'Annecy, César, et bien d'autres.",
+        "games": "Les productions de jeux vidéo suivies avec Kitsu sont parmi les plus jouées au monde.",
+        "schools": "Les meilleures écoles d'animation françaises utilisent déjà Kitsu pour former leurs étudiants.",
+        "subtitle": "Réalisez vos ambitions",
+        "title": "Kitsu est le plus grand soutien de votre réussite",
+        "vfx": "Les productions d'effets visuels réalisées avec Kitsu ont rencontré un franc succès au cinéma. Nous vous accompagnerons pour atteindre le même objectif."
+      },
+      "cta": "Interested in using Kitsu?"
     },
     "kitsu-submit": {
       "title": "Découvrez l'avenir de la collaboration créative",
@@ -788,240 +875,238 @@
     "pricing": {
       "title": "Offres Kitsu Cloud pour tous les types de studios",
       "slug": "pricing",
-      "pricing": {
-        "billed": {
-          "annualy": "facturés annuellement"
+      "billed": {
+        "annualy": "facturés annuellement"
+      },
+      "kitsu": {
+        "subtitle": "Connectez vos équipes",
+        "title": "Offres Kitsu Cloud pour tous les types de studios"
+      },
+      "cloud": {
+        "explanation": "Nous fournsissons une installation cloud adaptée avec le support utilisateur et des fonctionnalités supplémentaires."
+      },
+      "features": {
+        "common": {
+          "searchengine": "Moteur de recherche",
+          "playlistbuilder": "Builder de playlists",
+          "four": "Sécurité forte",
+          "one": "Suivi des tâches",
+          "three": "Haute disponibilité",
+          "two": "Support premium"
         },
-        "kitsu": {
-          "subtitle": "Connectez vos équipes",
-          "title": "Offres Kitsu Cloud pour tous les types de studios"
+        "enterprise": {
+          "seven": "pricing features enterprise seven",
+          "six": "pricing features enterprise six"
         },
-        "cloud": {
-          "explanation": "Nous fournsissons une installation cloud adaptée avec le support utilisateur et des fonctionnalités supplémentaires."
+        "large": {
+          "five": "Intégrations logiciels",
+          "four": "Réponse < 12h",
+          "one": "1 - 300 utilisateurs",
+          "six": "Charge intense supportée",
+          "three": "Jusqu'à 10To",
+          "two": "Support diamant"
         },
-        "features": {
-          "common": {
-            "searchengine": "Moteur de recherche",
-            "playlistbuilder": "Builder de playlists",
-            "four": "Sécurité forte",
-            "one": "Suivi des tâches",
-            "three": "Haute disponibilité",
-            "two": "Support premium"
+        "singlecore": "VM single-core",
+        "mutualize": "Matériel mutualisé",
+        "community": "Support communautaire",
+        "users": "utilisateurs",
+        "user": "utilisateur",
+        "gbstorage": "Go de stockage",
+        "tbstorage": "To de stockage",
+        "medium": {
+          "five": "Charge haute supportée",
+          "four": "Réponse < 24h",
+          "one": "1 - 100 utilisateurs",
+          "three": "Jusqu'à 3To",
+          "two": "Résolution de bugs prioritaire"
+        },
+        "partner": {
+          "onpremise": "On-premise installation",
+          "eight": "Cluster de calcul vidéos local",
+          "five": "Intégration AD/LDAP",
+          "four": "Instances multiples",
+          "one": "Tout du plan Studio",
+          "unlimited": "Utilisateurs illimités",
+          "seven": "Object Storage local",
+          "six": "Environnement de staging",
+          "three": "Multi-régions",
+          "two": "Utilisateurs illimités",
+          "encryption": "Chiffrement des médias",
+          "gpu": "Traitement vidéo via GPU",
+          "contract": "Contrat sur mesure"
+        },
+        "small": {
+          "five": "1 x Dual Core",
+          "four": "Réponse < 48h",
+          "three": "Jusqu'à 1To",
+          "two": "Réponse < 48h"
+        },
+        "agency": {
+          "one": "1 - 30 utilisateurs"
+        },
+        "successpack": {
+          "five": "Développements",
+          "four": "Aide à l'import de données",
+          "one": "Support chat et Skype",
+          "six": "Gestion de projet",
+          "three": "Configuration",
+          "two": "Formation & Coaching"
+        },
+        "team": {
+          "storage": "Jusqu'à 500Go",
+          "support": "Support léger",
+          "supporttime": "Réponse < 72h",
+          "users": "1 - 10 utilisateurs"
+        },
+        "tiny": {
+          "five": "1 x Single Core",
+          "support": "Support basique"
+        },
+        "tinyplus": {
+          "one": "1 - 20 utilisateurs",
+          "three": "Jusqu'à 1To",
+          "two": "Projets Illimités"
+        },
+        "training": "Session de formation"
+      },
+      "usecase": {
+        "agency": "Pour les courts-métrages, publicités et productions légères",
+        "production": "Pour les séries TV, longs-métrages et jeux vidéo",
+        "studio": "Pour les studios gérant plusieurs productions",
+        "partner": "Pour les grands studios ou la conformité TPN"
+      },
+      "button": {
+        "contactcta": "Contactez nous",
+        "cta": "Démarrez"
+      },
+      "calculator": {
+        "subtitle": "Calculez le coût de votre abonnement",
+        "title": "Calculateur de prix",
+        "discount": "Remise",
+        "peruser": "Prix par utilisateur",
+        "permonth": "Prix par mois",
+        "total": "Coût total",
+        "users": "utilisateur | utilisateurs",
+        "months": "mois | mois"
+      },
+      "discount": {
+        "details": "Offre d'essai de deux semaines et réduction de 20% pour un abonnement annuel"
+      },
+      "school": {
+        "title": "Prix pour les Écoles d'Animation",
+        "details": "Nous proposons un prix unique de 3999€ par an pour les écoles d'animation 2D et 3D (jusqu'à 100 étudiants)."
+      },
+      "faq": {
+        "subtitle": "Informations supplémentaires",
+        "title": "Questions Fréquentes",
+        "answer1": "Pour les abonnements mensuels, nous acceptons les cartes et les prélèvements. Pour les abonnements annuels nous acceptons les paiements pas carte, par virement et par prélèvement.",
+        "answer10": "Les abonnement mensuels peuvent être annulés via l'interface. Pour les abonnements annuels, contactez nous, nous ferons l'ajustement dans le système de facturation.",
+        "answer11": "Oui, nous pouvons proposer des plans sur-mesure qui correspondent à votre production.",
+        "answer2": "Toutes les fonctionnalités de l'API sont inclues dans l'aboonnement: routes REST, flux d'événements et recherche full-text.",
+        "answer3": "Toutes les fonctionnalités sont inclues dans la période d'essai. Par contre Kitsu tourne sur un matériel d'entrée de gamme. Si vous avez besoin de faire des essais sur un matériel plus performant, veuillez nous contacter.",
+        "answer4": "Cela correspond à votre installation de Kitsu. Elle vit sur son propre domaine (votrestudio.cg-wire.com). Vous aurez différents comptes dessus et votre équipe interagira directement avec cette installation.",
+        "answer5": "Oui, c'est ce que nous appelons l'hébergement On-premise. Nous gérons votre installation pour que vous ayiez la même expérience que s'il était dans le cloud.",
+        "answer6": "Nos limites sont pensés de façon à ce que vous ne ressentiez pas de contraintes avec elles. Si vous pensez avoir une charge très importante de previews, contactez nous pour en discuter. Pour donner un ordre d'idée une série de 50 épisode de 11 minutes requiert 200Go de stockage.",
+        "answer7": "Vous pouvez le changer quand vous voulez. Pour les augmentations, le prix restant sera appliqué au pro-rata. Pour les diminutions, un avoir sera émis. Pour les abonnements annuels, la diminution doit être justifiée.",
+        "answer8": "Si vous avez un abonnement mensuel, vous pouvez vous connecter directement à votre compte pour le faire. Pour les abonnements annuels, vous pouvez contacter directement notre équipe de ventes. Nous ferons le changement pour vous dans notre système de facturation.",
+        "answer9": "Un abonnement annuel signifie que vous allez payer 12 mois directement. À travers cet engagement vous bénéficierez d'une réduction de 20% par rapport au prix mensuel.",
+        "question1": "Quelle types de paiement acceptez vous?",
+        "question10": "Comment est-ce que j'annule mon abonnement ?",
+        "question11": "Ma production va durer X mois, est-ce que vous pouvez me proposer quelque chose ?",
+        "question2": "Est-ce que l'accès à l'API est inclus dans l'abonnement ?",
+        "question3": "Qu'est-ce qui est inclus dans la période d'essai ?",
+        "question4": "Qu'est-ce qu'une instance Kitsu ?",
+        "question5": "Est-ce que je peux avoir mon instance de Kitsu sur mes propres serveurs ?",
+        "question6": "Est-ce que l'espace disque fourni est suffisant pour mes besoins ?",
+        "question7": "Est-ce que je peux changer mon abonnement une fois que j'ai démarré ?",
+        "question8": "Comment est-ce que je change mon abonnement ?",
+        "question9": "Que signifie un abonnement annuel ?"
+      },
+      "contact": {
+        "explanation": "Nous pouvons vous proposer une formule adaptée à vos besoins",
+        "introduction": "Vous souhaitez un devis ?"
+      },
+      "explanation": {
+        "one": "Voici les abonnements pour Kitsu. Ce qui inclut le suivi des tâches, les feuilles de temps, les playlists et l'API pour studios."
+      },
+      "firsteps": {
+        "cta1": "Réservez une démo",
+        "cta2": "Rejoignez notre communauté Discord",
+        "cta3": "Essayez gratuitement",
+        "question1": "Plannifiez un rendez-vous avec notre équipe. Nous vous montrerons comment Kitsu peut se caler dans votre workflow et ce que vous pouvez réaliser avec.",
+        "question2": "Rejoignez notre communauté pour rencontrer les autres utilisateurs et discuter de pipelines et workflows.",
+        "question3": "Enregistrez-vous et accédez à votre installation de Kitsu pendant deux semaines gratuitement. Toutes les fonctionnalités sont incluses, vous pourrez tout tester.",
+        "subttile": "Démarrer avec Kitsu",
+        "ttile": "Premiers pas"
+      },
+      "install": {
+        "cta": "Installation"
+      },
+      "metadata": "Regardez comment nous pouvons vous aider à migrer sous Kitsu et découvrez nos abonnements d'hébergement (cloud ou on-premise).",
+      "monthly": "mensuel",
+      "opensource": {
+        "details": "Kitsu est libre et open source, ce qui signifie qu'il peut être utilisé et modifié par vos équipes librement.",
+        "install": "Instructions d'installation",
+        "title": "Libre et Open Source"
+      },
+      "price": {
+        "free": "Gratuit"
+      },
+      "ranch": {
+        "title": "Render Farm",
+        "explanation": "Nos abonnements viennent avec des crédits gratuits de la part de notre partenaire Ranch Computing! Contactez nous pour plus de détails."
+      },
+      "tagline": "Tarifs Cloud",
+      "sucesspack": {
+        "explanation": "Notre équipe vous aidera à definir et démarrer une implémentation sur-mesure de Kitsu dans votre studio.",
+        "subtitle": "Réussissez votre mise en place avec notre aide",
+        "title": "Packs Succès"
+      },
+      "support": {
+        "license": {
+          "ad": "Compatibilité Active Directory",
+          "details": "Nous pouvons déployer Kitsu sur vos serveurs. Nous gérons l'installation, les mises à jour, les sauvegardes et le monitoring. Nous offrons le même niveau de support que la version cloud.",
+          "directory": "User Directory",
+          "domain": "Requis: nom de domaine",
+          "ldap": "Synchronisez utilisateurs et mots de passe depuis votre annuaire LDAP",
+          "migation": {
+            "onpremise": "Récupérez vos productions depuis une instance Kitsu locale"
           },
-          "enterprise": {
-            "seven": "pricing features enterprise seven",
-            "six": "pricing features enterprise six"
+          "migration": {
+            "cloud": "Récupérez vos productions depuis une instance cloud Kitsu"
           },
-          "large": {
-            "five": "Intégrations logiciels",
-            "four": "Réponse < 12h",
-            "one": "1 - 300 utilisateurs",
-            "six": "Charge intense supportée",
-            "three": "Jusqu'à 10To",
-            "two": "Support diamant"
-          },
-          "singlecore": "VM single-core",
-          "mutualize": "Matériel mutualisé",
-          "community": "Support communautaire",
-          "users": "utilisateurs",
-          "user": "utilisateur",
-          "gbstorage": "Go de stockage",
-          "tbstorage": "To de stockage",
-          "medium": {
-            "five": "Charge haute supportée",
-            "four": "Réponse < 24h",
-            "one": "1 - 100 utilisateurs",
-            "three": "Jusqu'à 3To",
-            "two": "Résolution de bugs prioritaire"
-          },
-          "partner": {
-            "onpremise": "On-premise installation",
-            "eight": "Cluster de calcul vidéos local",
-            "five": "Intégration AD/LDAP",
-            "four": "Instances multiples",
-            "one": "Tout du plan Studio",
-            "unlimited": "Utilisateurs illimités",
-            "seven": "Object Storage local",
-            "six": "Environnement de staging",
-            "three": "Multi-régions",
-            "two": "Utilisateurs illimités",
-            "encryption": "Chiffrement des médias",
-            "gpu": "Traitement vidéo via GPU",
-            "contract": "Contrat sur mesure"
-          },
-          "small": {
-            "five": "1 x Dual Core",
-            "four": "Réponse < 48h",
-            "three": "Jusqu'à 1To",
-            "two": "Réponse < 48h"
-          },
-          "agency": {
-            "one": "1 - 30 utilisateurs"
-          },
-          "successpack": {
-            "five": "Développements",
-            "four": "Aide à l'import de données",
-            "one": "Support chat et Skype",
-            "six": "Gestion de projet",
-            "three": "Configuration",
-            "two": "Formation & Coaching"
-          },
-          "team": {
-            "storage": "Jusqu'à 500Go",
-            "support": "Support léger",
-            "supporttime": "Réponse < 72h",
-            "users": "1 - 10 utilisateurs"
-          },
-          "tiny": {
-            "five": "1 x Single Core",
-            "support": "Support basique"
-          },
-          "tinyplus": {
-            "one": "1 - 20 utilisateurs",
-            "three": "Jusqu'à 1To",
-            "two": "Projets Illimités"
-          },
-          "training": "Session de formation"
+          "ports": "Requis: ports standards ouverts (80/443)",
+          "setup": "Installation",
+          "ssh": "Requis: accès SSH",
+          "subtitle": "Une offre complète sur vos serveurs",
+          "title": "Extras On-Premise",
+          "ubuntu": "Requis: Ubuntu 20.04"
         },
-        "usecase": {
-          "agency": "Pour les courts-métrages, publicités et productions légères",
-          "production": "Pour les séries TV, longs-métrages et jeux vidéo",
-          "studio": "Pour les studios gérant plusieurs productions",
-          "partner": "Pour les grands studios ou la conformité TPN"
-        },
-        "title": "Tarifs",
-        "button": {
-          "contactcta": "Contactez nous",
-          "cta": "Démarrez"
-        },
-        "calculator": {
-          "subtitle": "Calculez le coût de votre abonnement",
-          "title": "Calculateur de prix",
-          "discount": "Remise",
-          "peruser": "Prix par utilisateur",
-          "permonth": "Prix par mois",
-          "total": "Coût total",
-          "users": "utilisateur | utilisateurs",
-          "months": "mois | mois"
-        },
-        "discount": {
-          "details": "Offre d'essai de deux semaines et réduction de 20% pour un abonnement annuel"
-        },
-        "school": {
-          "title": "Prix pour les Écoles d'Animation",
-          "details": "Nous proposons un prix unique de 3999€ par an pour les écoles d'animation 2D et 3D (jusqu'à 100 étudiants)."
-        },
-        "faq": {
-          "subtitle": "Informations supplémentaires",
-          "title": "Questions Fréquentes",
-          "answer1": "Pour les abonnements mensuels, nous acceptons les cartes et les prélèvements. Pour les abonnements annuels nous acceptons les paiements pas carte, par virement et par prélèvement.",
-          "answer10": "Les abonnement mensuels peuvent être annulés via l'interface. Pour les abonnements annuels, contactez nous, nous ferons l'ajustement dans le système de facturation.",
-          "answer11": "Oui, nous pouvons proposer des plans sur-mesure qui correspondent à votre production.",
-          "answer2": "Toutes les fonctionnalités de l'API sont inclues dans l'aboonnement: routes REST, flux d'événements et recherche full-text.",
-          "answer3": "Toutes les fonctionnalités sont inclues dans la période d'essai. Par contre Kitsu tourne sur un matériel d'entrée de gamme. Si vous avez besoin de faire des essais sur un matériel plus performant, veuillez nous contacter.",
-          "answer4": "Cela correspond à votre installation de Kitsu. Elle vit sur son propre domaine (votrestudio.cg-wire.com). Vous aurez différents comptes dessus et votre équipe interagira directement avec cette installation.",
-          "answer5": "Oui, c'est ce que nous appelons l'hébergement On-premise. Nous gérons votre installation pour que vous ayiez la même expérience que s'il était dans le cloud.",
-          "answer6": "Nos limites sont pensés de façon à ce que vous ne ressentiez pas de contraintes avec elles. Si vous pensez avoir une charge très importante de previews, contactez nous pour en discuter. Pour donner un ordre d'idée une série de 50 épisode de 11 minutes requiert 200Go de stockage.",
-          "answer7": "Vous pouvez le changer quand vous voulez. Pour les augmentations, le prix restant sera appliqué au pro-rata. Pour les diminutions, un avoir sera émis. Pour les abonnements annuels, la diminution doit être justifiée.",
-          "answer8": "Si vous avez un abonnement mensuel, vous pouvez vous connecter directement à votre compte pour le faire. Pour les abonnements annuels, vous pouvez contacter directement notre équipe de ventes. Nous ferons le changement pour vous dans notre système de facturation.",
-          "answer9": "Un abonnement annuel signifie que vous allez payer 12 mois directement. À travers cet engagement vous bénéficierez d'une réduction de 20% par rapport au prix mensuel.",
-          "question1": "Quelle types de paiement acceptez vous?",
-          "question10": "Comment est-ce que j'annule mon abonnement ?",
-          "question11": "Ma production va durer X mois, est-ce que vous pouvez me proposer quelque chose ?",
-          "question2": "Est-ce que l'accès à l'API est inclus dans l'abonnement ?",
-          "question3": "Qu'est-ce qui est inclus dans la période d'essai ?",
-          "question4": "Qu'est-ce qu'une instance Kitsu ?",
-          "question5": "Est-ce que je peux avoir mon instance de Kitsu sur mes propres serveurs ?",
-          "question6": "Est-ce que l'espace disque fourni est suffisant pour mes besoins ?",
-          "question7": "Est-ce que je peux changer mon abonnement une fois que j'ai démarré ?",
-          "question8": "Comment est-ce que je change mon abonnement ?",
-          "question9": "Que signifie un abonnement annuel ?"
-        },
-        "contact": {
-          "explanation": "Nous pouvons vous proposer une formule adaptée à vos besoins",
-          "introduction": "Vous souhaitez un devis ?"
-        },
-        "explanation": {
-          "one": "Voici les abonnements pour Kitsu. Ce qui inclut le suivi des tâches, les feuilles de temps, les playlists et l'API pour studios."
-        },
-        "firsteps": {
-          "cta1": "Réservez une démo",
-          "cta2": "Rejoignez notre communauté Discord",
-          "cta3": "Essayez gratuitement",
-          "question1": "Plannifiez un rendez-vous avec notre équipe. Nous vous montrerons comment Kitsu peut se caler dans votre workflow et ce que vous pouvez réaliser avec.",
-          "question2": "Rejoignez notre communauté pour rencontrer les autres utilisateurs et discuter de pipelines et workflows.",
-          "question3": "Enregistrez-vous et accédez à votre installation de Kitsu pendant deux semaines gratuitement. Toutes les fonctionnalités sont incluses, vous pourrez tout tester.",
-          "subttile": "Démarrer avec Kitsu",
-          "ttile": "Premiers pas"
-        },
-        "install": {
-          "cta": "Installation"
-        },
-        "metadata": "Regardez comment nous pouvons vous aider à migrer sous Kitsu et découvrez nos abonnements d'hébergement (cloud ou on-premise).",
-        "monthly": "mensuel",
-        "opensource": {
-          "details": "Kitsu est libre et open source, ce qui signifie qu'il peut être utilisé et modifié par vos équipes librement.",
-          "install": "Instructions d'installation",
-          "title": "Libre et Open Source"
-        },
-        "price": {
-          "free": "Gratuit"
-        },
-        "ranch": {
-          "title": "Render Farm",
-          "explanation": "Nos abonnements viennent avec des crédits gratuits de la part de notre partenaire Ranch Computing! Contactez nous pour plus de détails."
-        },
-        "tagline": "Tarifs Cloud",
-        "sucesspack": {
-          "explanation": "Notre équipe vous aidera à definir et démarrer une implémentation sur-mesure de Kitsu dans votre studio.",
-          "subtitle": "Réussissez votre mise en place avec notre aide",
-          "title": "Packs Succès"
-        },
-        "support": {
-          "license": {
-            "ad": "Compatibilité Active Directory",
-            "details": "Nous pouvons déployer Kitsu sur vos serveurs. Nous gérons l'installation, les mises à jour, les sauvegardes et le monitoring. Nous offrons le même niveau de support que la version cloud.",
-            "directory": "User Directory",
-            "domain": "Requis: nom de domaine",
-            "ldap": "Synchronisez utilisateurs et mots de passe depuis votre annuaire LDAP",
-            "migation": {
-              "onpremise": "Récupérez vos productions depuis une instance Kitsu locale"
-            },
-            "migration": {
-              "cloud": "Récupérez vos productions depuis une instance cloud Kitsu"
-            },
-            "ports": "Requis: ports standards ouverts (80/443)",
-            "setup": "Installation",
-            "ssh": "Requis: accès SSH",
-            "subtitle": "Une offre complète sur vos serveurs",
-            "title": "Extras On-Premise",
-            "ubuntu": "Requis: Ubuntu 20.04"
-          },
-          "onpremise": {
-            "title": "Configurations additionnelles"
-          }
-        },
-        "value": {
-          "month": "/ mois",
-          "user": "/ utilisateur"
-        },
-        "yearly": "annuel",
-        "title_plans": {
-          "agency": "Agence",
-          "big": "Grand",
-          "bronze": "Bronze",
-          "enterprise": "Entreprise",
-          "freelancer": "Freelance",
-          "gold": "Or",
-          "partner": "Partenaire",
-          "production": "Production",
-          "quote": "Sur devis",
-          "silver": "Argent",
-          "studio": "Studio",
-          "team": "Équipe",
-          "tinyplus": "Minuscule +"
+        "onpremise": {
+          "title": "Configurations additionnelles"
         }
-      }
+      },
+      "value": {
+        "month": "/ mois",
+        "user": "/ utilisateur"
+      },
+      "yearly": "annuel",
+      "title_plans": {
+        "agency": "Agence",
+        "big": "Grand",
+        "bronze": "Bronze",
+        "enterprise": "Entreprise",
+        "freelancer": "Freelance",
+        "gold": "Or",
+        "partner": "Partenaire",
+        "production": "Production",
+        "quote": "Sur devis",
+        "silver": "Argent",
+        "studio": "Studio",
+        "team": "Équipe",
+        "tinyplus": "Minuscule +"
+      },
+      "heading": "Tarifs"
     },
     "software-integrations": {
       "title": "Integrations",
@@ -1029,7 +1114,6 @@
       "header": {
         "tagline": "Connectez tous vos outils",
         "subtitle": "Intégrations logiciels",
-        "metrics": "More than 200 000 assets have been managed with Kitsu!",
         "explanation": "Vos données circulent dans tout votre pipeline. C'est pourquoi nous proposons des intégrations pour faciliter la communication entre vos outils. Les artistes publient ainsi leurs livrables depuis leurs outils et les équipes peuvent envoyer des notifications dans vos applications de chats. Et enfin, vous pouvez requêter notre API directement depuis votre code."
       },
       "integrations": {
@@ -1045,22 +1129,20 @@
     "spreadsheets": {
       "title": "Tableurs",
       "slug": "spreadsheets",
-      "spreadsheets": {
-        "tagline": "Mettez en place votre workflow avec nos spreadsheets",
-        "explanationOne": "Nous savons que vous êtes habitués aux spreadsheets et que démarrer sur un nouvel outil n'est pas facile. Même si vous n'êtes pas prêts à utiliser Kitsu, nous voulons vous aider. Nous avons donc préparé pour vous des feuilles de production éprouvées sur le terrain. Vous pouvez vous en servir comme point de départ pour votre workflow ou les garder tout au long de votre production. Tout est gratuit et sous licence Creative Commons by-nc-sa 2.0. On vous laisse apprécier !",
-        "shortPlanningTitle": "Montez votre planning (Court métrage)",
-        "tvshowPlanningTitle": "Montez votre planning (Série)",
-        "breakdownTitle": "Gérez votre casting",
-        "retakeTitle": "Suivi des retakes"
-      }
+      "tagline": "Mettez en place votre workflow avec nos spreadsheets",
+      "explanationOne": "Nous savons que vous êtes habitués aux spreadsheets et que démarrer sur un nouvel outil n'est pas facile. Même si vous n'êtes pas prêts à utiliser Kitsu, nous voulons vous aider. Nous avons donc préparé pour vous des feuilles de production éprouvées sur le terrain. Vous pouvez vous en servir comme point de départ pour votre workflow ou les garder tout au long de votre production. Tout est gratuit et sous licence Creative Commons by-nc-sa 2.0. On vous laisse apprécier !",
+      "shortPlanningTitle": "Montez votre planning (Court métrage)",
+      "tvshowPlanningTitle": "Montez votre planning (Série)",
+      "breakdownTitle": "Gérez votre casting",
+      "retakeTitle": "Suivi des retakes"
     },
     "studios": {
       "title": "Studios et écoles créatives",
       "slug": "studios",
       "subtitle": "Kitsu est utilisé partout dans le monde",
       "productions": {
-        "title": "Productions",
-        "subtitle": "Suivies et validées avec Kitsu"
+        "title": "Productions réalisées avec Kitsu",
+        "subtitle": "Longs métrages, séries et courts métrages"
       }
     }
   },
@@ -1070,15 +1152,15 @@
       "slug": "casting-management",
       "image": "casting-management.png",
       "header": {
-        "tagline": "Sachez toujours quels plans sont prêts à être construits",
-        "subtitle": "Gestion du casting",
+        "tagline": "Gestion du casting",
+        "subtitle": "Sachez quels plans sont prêts à être construits",
         "explanation": "Rechercher des informations de casting dans des tableurs et des e-mails ralentit toute votre pipeline. Kitsu donne à chaque plan une décomposition structurée afin que vos constructeurs de scènes sachent toujours exactement ce qui est prêt, ce qui manque et ce qu'ils doivent faire ensuite.",
-        "metrics": "Plus de 200 000 assets ont été gérés avec Kitsu"
+        "quote": "normaal-3"
       },
       "features": [
         {
-          "title": "Listez votre breakdown",
-          "subtitle": "Arrêtez de deviner ce qui appartient à chaque plan",
+          "title": "Sachez ce qui appartient à chaque plan",
+          "subtitle": "Liste de breakdown",
           "content": "Créez des tableaux de décomposition montrant les assets de casting pour chaque plan, organisés par type. Ajoutez des métadonnées directement à chaque entrée pour que votre constructeur de scènes dispose de tout ce dont il a besoin avant même d'ouvrir un fichier.",
           "image": "kitsu-tables.png",
           "gradient": 1,
@@ -1086,16 +1168,16 @@
           "colored": true
         },
         {
-          "title": "Liez vos assets entre-eux",
-          "subtitle": "Fini le suivi manuel de ce qui va avec quoi",
+          "title": "Liaison des assets",
+          "subtitle": "Suivez automatiquement ce qui va avec quoi",
           "content": "Connectez les assets pour définir leurs relations : peuplez des décors, attachez des accessoires aux personnages ou modélisez toute dépendance adaptée à votre flux de travail.",
           "image": "kitsu-asset-links.png",
           "shadow": true,
           "reverted": true
         },
         {
-          "title": "Exportez votre breakdown",
-          "subtitle": "Vos outils de pipeline ne devraient pas avoir à vous attendre",
+          "title": "Export du casting",
+          "subtitle": "Rendez vos données portables",
           "content": "Exportez les données de casting en fichier .csv plat ou en vue colonnes en quelques secondes. Ou ignorez complètement l'étape manuelle et connectez votre constructeur de scènes directement à l'API.",
           "image": "kitsu-export.png",
           "shadow": true,
@@ -1103,16 +1185,16 @@
           "gradient": 2
         },
         {
-          "title": "Suivez la disponibilité des plans",
-          "subtitle": "Sachez ce qui est réellement prêt",
+          "title": "Indicateurs de disponibilité des plans",
+          "subtitle": "Sachez quand les assets sont disponibles",
           "content": "Obtenez des statistiques de disponibilité par plan basées sur la complétude du casting. Repérez les lacunes avant qu'elles ne deviennent un goulot d'étranglement, et transmettez à votre constructeur de scènes en toute confiance.",
           "image": "kitsu-readiness.png",
           "reverted": true,
           "shadow": true
         },
         {
-          "title": "Réutilisez les assets d'une production à l'autre",
-          "subtitle": "Le travail dupliqué érode votre bibliothèque d'assets",
+          "title": "Bibliothèque d'assets",
+          "subtitle": "Optimisez la création d'assets",
           "content": "Puisez dans une bibliothèque partagée pour éviter que les équipes recréent des assets qui existent déjà et ont été validés. Tout le monde fait référence à la même source de vérité.",
           "image": "kitsu-library.png",
           "colored": true,
@@ -1134,17 +1216,21 @@
       "slug": "elite-hosting",
       "image": "elite-hosting.png",
       "header": {
-        "tagline": "Les temps d'arrêt et la perte de données coûtent de l'argent aux studios. Nous faisons en sorte que ni l'un ni l'autre n'arrive.",
-        "subtitle": "Hébergement Elite",
-        "explanation": "L'équipe opérationnelle de CGWire gère votre installation Kitsu de bout en bout. La sécurité, la disponibilité, les performances et les mises à jour sont gérées par des spécialistes ayant des décennies d'expérience en infrastructure cloud. Votre équipe reste concentrée sur la production. Nous gérons tout le reste.",
-        "metrics": "elite-hosting header metrics"
+        "tagline": "Hébergement Elite",
+        "subtitle": "Votre système est toujours disponible",
+        "stats": [
+          { "value": "99,99 %", "label": "objectif de disponibilité" },
+          { "value": "Quotidiennes", "label": "sauvegardes" },
+          { "value": "30 min", "label": "réponse support en moyenne" }
+        ],
+        "explanation": "Notre cloud managé donne à chaque studio une instance Kitsu dédiée, hébergée chez OVH dans l'Union européenne (ou dans votre région) et opérée de bout en bout par CGWire. Sécurité, disponibilité, performances et mises à jour sont prises en charge pour vous, votre équipe reste concentrée sur la production. Besoin d'une installation sur site ou d'un cloud isolé ? C'est notre offre d'architecture sur mesure."
       },
       "features": [
         {
           "key": "security",
-          "title": "Sécurité de niveau entreprise, entièrement gérée",
-          "subtitle": "Arrêtez de vous inquiéter des violations et de la conformité",
-          "content": "Nous adhérons aux normes de sécurité les plus strictes, en utilisant uniquement des transmissions sécurisées pour accéder à nos installations à jour. Tous les secrets sont gérés via des coffres-forts sécurisés, et nos employés sont filtrés. Un document de sécurité est disponible sur demande.",
+          "title": "Arrêtez de vous inquiéter des violations et de la conformité",
+          "subtitle": "Sécurité de niveau entreprise",
+          "content": "Tous les accès à votre instance passent par des connexions chiffrées, les secrets vivent dans un coffre-fort dédié, et les installations sont maintenues à jour. Vous savez exactement qui opère votre infrastructure : une petite équipe identifiée, pas un service anonyme. Un document de sécurité est disponible sur demande.",
           "image": "kitsu-security.png",
           "gradient": 1,
           "shadow": true,
@@ -1152,34 +1238,34 @@
         },
         {
           "key": "availability",
-          "title": "99 % de disponibilité avec surveillance proactive",
-          "subtitle": "Les pannes imprévues tuent les délais",
-          "content": "Chaque instance est surveillée 24 h/24. Notre équipe reçoit des alertes avant que les problèmes ne s'aggravent et les résout avant qu'ils n'impactent votre pipeline de production.",
+          "title": "Évitez les pannes imprévues qui tuent les délais",
+          "subtitle": "Surveillance proactive",
+          "content": "Chaque instance est surveillée en continu par un monitoring automatisé qui alerte l'équipe dès qu'un indicateur dérive. La plupart des incidents sont résolus avant d'atteindre votre pipeline de production. Les instances sont sauvegardées quotidiennement, et une restauration complète prend en général quelques heures, selon la gravité de l'incident.",
           "image": "kitsu-availability.png",
           "shadow": true,
           "reverted": true
         },
         {
           "key": "performance",
-          "title": "Infrastructure isolée, optimisée pour votre localisation",
-          "subtitle": "Des outils lents érodent la productivité de l'équipe",
-          "content": "Votre instance s'exécute sur des ressources dédiées, isolées des autres studios. Les serveurs sont provisionnés près de votre équipe, et le traitement vidéo s'exécute sur une machine séparée pour que les grandes playlists ne ralentissent jamais votre flux de travail.",
+          "title": "Profitez de services rapides",
+          "subtitle": "Accès optimisé",
+          "content": "Votre instance s'exécute sur des ressources dédiées, isolées des autres studios, dans les datacenters OVH de l'Union européenne (ou dans votre région) : vos données de production restent sous juridiction européenne. Le traitement vidéo s'exécute sur une machine séparée pour que les grandes playlists ne ralentissent jamais votre flux de travail.",
           "image": "kitsu-performance.png",
           "colored": true,
           "gradient": 2,
           "shadow": false
         },
         {
-          "title": "Instance entièrement dédiée",
-          "subtitle": "Une infrastructure partagée signifie des performances imprévisibles",
+          "title": "Bénéficiez d'une infrastructure dédiée",
+          "subtitle": "Installation isolée",
           "content": "Votre Kitsu fonctionne sur sa propre infrastructure. Aucune ressource partagée, aucun voisin bruyant, aucun risque que la charge de travail d'un autre studio affecte la vôtre. Des performances constantes et une isolation stricte des données dès le premier jour.",
           "image": "kitsu-multiinstance.png",
           "reverted": true
         },
         {
-          "title": "Mises à jour gérées sans interruption",
-          "subtitle": "Utiliser des logiciels obsolètes est un risque de sécurité",
-          "content": "L'équipe de CGWire applique chaque mise à jour et correctif de sécurité en votre nom. Vous restez sur la dernière version sans planifier de fenêtres de maintenance ni détourner des ingénieurs du travail de production.",
+          "title": "Restez toujours à jour",
+          "subtitle": "Mises à jour sans interruption",
+          "content": "L'équipe de CGWire applique chaque mise à jour et correctif de sécurité à votre place, pour Kitsu et toute la pile logicielle. Vous restez sur la dernière version sans planifier de fenêtres de maintenance ni détourner des ingénieurs du travail de production.",
           "image": "kitsu-updates.png",
           "colored": true,
           "gradient": 3
@@ -1192,36 +1278,33 @@
       "image": "production-tracker.png",
       "shadow": true,
       "header": {
-        "tagline": "Livrez dans les délais et dans le budget",
-        "subtitle": "Suivi de production",
+        "tagline": "Suivi de production",
+        "subtitle": "Livrez dans les délais et dans le budget",
         "explanation": "La plupart des problèmes de production sont visibles avant de devenir critiques. Kitsu vous donne les outils de planification, de suivi du temps, de surveillance des quotas et de prévision budgétaire pour les détecter tôt. Obtenez une image claire de votre production à chaque niveau, et entrez dans chaque réunion avec les parties prenantes avec des données précises.",
-        "metrics": "Plus de 1 000 productions ont déjà été suivies avec Kitsu"
+        "quote": "woodblock"
       },
       "features": [
         {
-          "key": "report",
-          "title": "Arrêtez de deviner où en est votre production",
-          "subtitle": "Obtenez une vue à 360° de vos données",
+          "title": "Sachez où en est votre production",
+          "subtitle": "Vue à 360° de vos données",
           "content": "Obtenez des statistiques de progression précises sur tous vos projets, des résumés de haut niveau aux détails au niveau des tâches. Partagez des rapports avec les clients ou les producteurs directement depuis Kitsu grâce aux outils d'exportation intégrés.",
           "image": "kitsu-report.png",
-          "gradient": 1,
           "shadow": true,
-          "colored": true
+          "colored": true,
+          "gradient": 1
         },
         {
-          "key": "schedule",
           "title": "Planifiez votre travail",
-          "subtitle": "Les conflits de ressources surviennent quand la planification est vague",
+          "subtitle": "Détection des conflits",
           "content": "Définissez les durées des projets, fixez des jalons et voyez comment le travail est réparti dans votre équipe. Repérez les surcharges et les lacunes tôt pour pouvoir ajuster avant qu'elles ne ralentissent la production.",
-          "image": "kitsu-tables.png",
+          "image": "kitsu-schedule.png",
           "shadow": true,
           "reverted": true
         },
         {
-          "key": "quotas",
-          "title": "Définissez vos attentes",
-          "subtitle": "Les problèmes de productivité sont invisibles sans les bonnes données",
-          "content": "Fixez des objectifs de production quotidiens ou hebdomadaires pour vos artistes et suivez les progrès. Identifiez qui est bloqué et qui est en avance pour pouvoir agir, pas seulement rendre compte.",
+          "title": "Repérez qui a besoin d'aide avant de manquer le délai",
+          "subtitle": "Objectifs de production",
+          "content": "Fixez des objectifs de production quotidiens ou hebdomadaires pour que chacun partage le même plan. Quand quelqu'un commence à prendre du retard, vous le voyez tôt et pouvez lui apporter de l'aide ou rééquilibrer la charge, plutôt que de découvrir l'écart quand il est trop tard pour agir.",
           "image": "kitsu-quotas.png",
           "shadow": true,
           "colored": true,
@@ -1229,29 +1312,28 @@
         },
         {
           "title": "Voyez qui travaille sur quoi",
-          "subtitle": "La coordination devient plus complexe lorsque les équipes travaillent en silos",
+          "subtitle": "Planning de l'équipe",
           "content": "Consultez le planning complet de chaque artiste de votre département affecté à votre projet. Identifiez les disponibilités, les surcharges de travail et la répartition des tâches au sein de l’équipe. Prenez vos décisions de staffing en toute confiance et maintenez la production sur les rails, sans mauvaises surprises.",
           "image": "kitsu-team-schedule.png",
           "shadow": true,
-          "reverted": true,
-          "gradient": 2
+          "reverted": true
         },
         {
-          "title": "Suivez le temps passé",
-          "subtitle": "Les dépassements de budget commencent par des heures que personne ne suit",
-          "content": "Les artistes enregistrent le temps directement dans Kitsu. Vous obtenez une répartition claire par artiste, asset ou plan pour savoir toujours où vont réellement vos heures de production.",
+          "title": "Suivez le temps passé et les coûts",
+          "subtitle": "Feuilles de temps",
+          "content": "Les artistes enregistrent le temps directement dans Kitsu. Vous obtenez une répartition claire par artiste, asset ou plan pour savoir toujours où vont réellement vos heures de production, et vous pouvez anticiper les dépassements de coûts.",
           "image": "kitsu-timesheets.png",
           "shadow": true,
-          "colored": true
+          "colored": true,
+          "gradient": 3
         },
         {
           "title": "Anticipez les dépassements de budget",
-          "subtitle": "Le risque financier augmente quand vous l'apprenez trop tard",
+          "subtitle": "Prévisions",
           "content": "Comparez les dépenses actuelles à votre budget à tout moment de la production. Effectuez des scénarios de coûts avant de prendre des décisions pour pouvoir corriger le tir tant que vous avez encore des options.",
           "image": "kitsu-budget.png",
           "shadow": true,
-          "reverted": true,
-          "gradient": 3
+          "reverted": true
         }
       ],
       "customerStory": {
@@ -1269,32 +1351,32 @@
       "image": "review-engine.png",
       "shadow": true,
       "header": {
-        "tagline": "Livrez les travaux approuvés plus rapidement",
-        "subtitle": "Moteur de validation",
+        "tagline": "Moteur de validation",
+        "subtitle": "Livrez les travaux approuvés plus rapidement",
         "explanation": "Les cycles de feedback sont là où les projets s'enlisent. Kitsu centralise votre processus de révision pour que les équipes et les clients puissent donner des retours précis et contextuels sur chaque soumission, sans perdre la trace des versions, des décisions ou de l'historique. Moins d'allers-retours. Moins de notes manquées. Des validations plus rapides.",
-        "metrics": "Plus de 2 000 000 de vidéos ont déjà été examinées avec Kitsu !"
+        "quote": "tetsuo-1"
       },
       "features": [
         {
           "title": "Révisez des plans consécutifs",
-          "subtitle": "Arrêtez de réviser les plans un e-mail à la fois",
+          "subtitle": "Système de playlists",
           "content": "Créez des playlists de révision et parcourez tous les plans en une session continue. Ajoutez des commentaires et des annotations sans quitter le lecteur. Partagez les playlists directement avec les clients ou exécutez-les avec votre équipe en temps réel.",
           "image": "kitsu-playlists.png",
-          "gradient": 1,
           "shadow": true,
-          "colored": true
+          "colored": true,
+          "gradient": 1
         },
         {
-          "title": "Comparez n'importe quelle version",
-          "subtitle": "Détectez ce qui a changé entre les versions",
+          "subtitle": "Comparaison de previews",
+          "title": "Détectez ce qui a changé entre les versions",
           "content": "Placez deux versions côte à côte ou superposez-les en surimpression. Repérez les régressions, confirmez les corrections et validez les révisions sans chercher dans des fichiers séparés.",
           "image": "kitsu-compare.png",
           "shadow": true,
           "reverted": true
         },
         {
-          "title": "Faites vos validations en équipe.",
-          "subtitle": "Mettez fin au problème des retours désalignés",
+          "title": "Faites vos validations en équipe",
+          "subtitle": "Salle de review en ligne",
           "content": "Lancez des sessions de révision synchronisées pour que chaque participant regarde la même image au même moment. Plus de notes contradictoires de personnes qui ont révisé des coupes différentes.",
           "image": "kitsu-room.png",
           "shadow": true,
@@ -1302,26 +1384,28 @@
           "gradient": 2
         },
         {
-          "title": "Partagez instantanément des playlists de révision",
-          "subtitle": "Donnez accès à vos clients sans allers-retours inutiles",
+          "title": "Donnez accès à vos clients sans allers-retours inutiles",
+          "subtitle": "Liens de partage",
           "content": "Générez un lien partageable pour n’importe quelle playlist de révision et envoyez-le à vos clients, superviseurs ou parties prenantes externes. Tout le monde consulte la même séquence, tandis que les retours, versions et validations sont centralisés au même endroit.",
           "image": "kitsu-playlists-share.png",
           "shadow": true,
           "reverted": true
         },
         {
-          "title": "Annotez directement sur les images",
-          "subtitle": "Remplacez les notes vagues par des directions précises",
+          "title": "Donnez des directions précises",
+          "subtitle": "Annotation d'image",
           "content": "Dessinez, surlignez et écrivez directement sur n'importe quelle image. Les annotations sont épinglées à la version spécifique et visibles par toute l'équipe, afin que rien ne se perde dans la traduction.",
           "image": "kitsu-annotations.png",
-          "colored": true
+          "shadow": true,
+          "colored": true,
+          "gradient": 3
         },
         {
-          "title": "Historique complet des versions",
-          "subtitle": "Ne perdez jamais la trace de ce qui a été livré",
+          "title": "Gardez la trace de ce qui a été livré",
+          "subtitle": "Historique complet des versions",
           "content": "Chaque aperçu soumis est stocké et accessible. Revisitez n'importe quelle version antérieure pour suivre l'évolution d'un plan, résoudre des litiges et confirmer que les retours précédents ont été pris en compte.",
           "image": "kitsu-versions.png",
-          "gradient": 3,
+          "shadow": true,
           "reverted": true
         }
       ],
@@ -1339,15 +1423,23 @@
       "slug": "studio-database",
       "image": "studio-database.png",
       "header": {
-        "tagline": "Une source de vérité unique pour toute votre production",
-        "subtitle": "Base de données studio",
-        "explanation": "Les données de production dispersées dans des outils et des disques partagés nuisent à l'efficacité de la pipeline. Kitsu fournit une API HTTP centrale qui rend chaque asset, plan, tâche et assignation interrogeable depuis n'importe quel outil de votre studio. Votre pipeline ne parle qu'à un seul endroit, vos artistes restent concentrés sur le travail.",
-        "metrics": "Plus de 100 000 appels à l'API de Kitsu sont effectués chaque jour"
+        "tagline": "Base de données studio",
+        "subtitle": "Une source de vérité unique",
+        "stats": [
+          { "value": "80k", "label": "téléchargements" },
+          { "value": "500", "label": "instances actives" },
+          { "value": "10 ans", "label": "en production" }
+        ],
+        "docsCta": {
+          "label": "Lire la doc API",
+          "url": "https://dev.kitsu.cloud"
+        },
+        "explanation": "Les données de production dispersées dans des outils et des disques partagés nuisent à l'efficacité de la pipeline. Kitsu fournit une API HTTP centrale qui rend chaque asset, plan, tâche et assignation interrogeable depuis n'importe quel outil de votre studio. Votre pipeline ne parle qu'à un seul endroit, vos artistes restent concentrés sur le travail."
       },
       "features": [
         {
           "title": "Workflow automatisé",
-          "subtitle": "Arrêtez d'assembler votre pipeline manuellement",
+          "subtitle": "Une pipeline nourrie de vraies données",
           "content": "Quand les données de production se trouvent au même endroit, tout ce qui est en aval peut être automatisé. Synchronisez les données entre les outils, publiez des aperçus directement depuis votre DCC et déclenchez des scripts personnalisés sur n'importe quel événement. Ce qui nécessitait auparavant une coordination manuelle fonctionne tout seul.",
           "image": "kitsu-boost.png",
           "gradient": 1,
@@ -1355,33 +1447,33 @@
           "shadow": false
         },
         {
-          "title": "API HTTP",
-          "subtitle": "Des départements travaillant à partir de données différentes représente un risque de production",
-          "content": "Assets, plans, casting, assignations de tâches, emplacements de fichiers : chaque département a besoin de ces données, et elles doivent être les mêmes. L'API Kitsu donne à tout votre studio une source unique interrogeable pour les informations de production, accessible depuis n'importe quel outil, n'importe quelle machine, n'importe quel endroit.",
+          "subtitle": "API HTTP",
+          "title": "Gardez les départements synchronisés",
+          "content": "Assets, plans, casting, assignations de tâches, emplacements de fichiers : chaque département a besoin de ces données, et elles doivent être les mêmes. L'API Kitsu donne à tout votre studio une source unique interrogeable pour les informations de production, accessible depuis n'importe quel outil, n'importe quelle machine, n'importe quel endroit. Les assistants IA accèdent aux mêmes données via notre serveur MCP.",
           "image": "kitsu-api.png",
           "reverted": true,
           "shadow": false
         },
         {
-          "title": "SDK client Python",
-          "subtitle": "Écrire du code standard pour interroger vos propres données de production gaspille du temps de pipeline",
-          "content": "Le client Python Kitsu vous offre des fonctions intuitives pour récupérer les données de production sans reconstruire la logique de requête à chaque fois. Un client brut gère les requêtes complexes si nécessaire, et un cache intégré maintient des temps de réponse rapides. Installez-le directement depuis PyPI et commencez à travailler.",
+          "subtitle": "SDK client Python",
+          "title": "Gagnez du temps de développement avec une API propre",
+          "content": "Le client Python de Kitsu, gazu, vous offre des fonctions intuitives pour récupérer les données de production sans reconstruire la logique de requête à chaque fois. Un client brut gère les requêtes complexes si nécessaire, et un cache intégré maintient des temps de réponse rapides. Installez-le directement depuis PyPI et commencez à travailler.",
           "image": "kitsu-python.png",
           "shadow": true,
           "colored": true,
           "gradient": 2
         },
         {
-          "title": "Scripts pilotés par événements",
-          "subtitle": "Les étapes de pipeline répétitives nécessitant une intervention humaine deviennent des goulots d'étranglement",
+          "subtitle": "Scripts pilotés par événements",
+          "title": "Rendez votre pipeline réactive",
           "content": "Définissez ce qui se passe quand un statut change, un aperçu est publié ou une tâche est assignée. Vos scripts s'exécutent automatiquement. Les étapes de pipeline répétitives qui nécessitaient auparavant que quelqu'un remarque et agisse sont traitées au moment où l'événement se produit.",
           "image": "kitsu-events.png",
           "reverted": true,
           "shadow": true
         },
         {
-          "title": "Intégrations de messagerie",
-          "subtitle": "Les mises à jour de production enfouies dans un tracker que personne ne consulte créent des retards",
+          "subtitle": "Intégrations de messagerie",
+          "title": "Partagez vos mises à jour de production",
           "content": "Connectez Kitsu à Slack ou Discord et transmettez les mises à jour de tâches et les alertes de production là où votre équipe communique déjà. Les informations critiques atteignent les bonnes personnes immédiatement, sans que personne n'ait à les chercher.",
           "image": "kitsu-slack.png",
           "colored": true,
@@ -1394,17 +1486,21 @@
       "slug": "tailor-made-architecture",
       "image": "tailor-made-architecture.png",
       "header": {
-        "tagline": "Infrastructure d'entreprise, sans compromis",
-        "subtitle": "Architecture sur mesure",
-        "explanation": "Les grands studios ont des exigences que les déploiements cloud standard ne peuvent pas satisfaire : souveraineté des données, performance réseau, contrôle d'accès strict et isolation de production. CGWire déploie et gère Kitsu directement sur votre matériel, vous donnant la sécurité et le contrôle d'une infrastructure sur site avec les mêmes garanties de disponibilité, de surveillance et de mise à jour que notre cloud. Aucune charge DevOps interne. Aucun compromis sur votre pipeline.",
-        "metrics": "tailor-made-architecture header metrics"
+        "tagline": "Architecture sur mesure",
+        "subtitle": "Infrastructure d'entreprise, sans compromis",
+        "stats": [
+          { "value": "200 VMs · 70 TB", "label": "en production" },
+          { "value": "500 utilisateurs", "label": "sur les plus grosses instances" },
+          { "value": "99,99 %", "label": "objectif de disponibilité" }
+        ],
+        "explanation": "Les grands studios ont des exigences fortes : souveraineté des données, performance réseau, contrôle d'accès strict et isolation de production. CGWire déploie et gère Kitsu directement sur votre matériel ou sur un cloud isolé, avec la sécurité, la disponibilité, la surveillance et des mises à jour fréquentes, tout en vous laissant le contrôle."
       },
       "features": [
         {
           "key": "onpremise",
-          "title": "Installation sur site",
-          "subtitle": "Vos données restent sur vos serveurs, pas les nôtres.",
-          "content": "Les studios soumis à des exigences strictes de résidence des données ou disposant de pipelines sensibles à la latence ne peuvent pas se permettre de dépendre d'une infrastructure cloud externe. Nous déployons Kitsu directement sur votre matériel et le gérons selon les mêmes normes que notre cloud : surveillance continue, mises à jour régulières et disponibilité garantie. L'intégration Active Directory est incluse afin que vos politiques de contrôle d'accès existantes s'appliquent dès le premier jour.",
+          "title": "Gardez vos données sur vos serveurs, pas les nôtres",
+          "subtitle": "Installation sur site",
+          "content": "Les studios soumis à des exigences strictes de résidence des données ou disposant de pipelines sensibles à la latence ne peuvent pas se permettre de dépendre d'une infrastructure cloud externe. Nous déployons Kitsu directement sur votre matériel et le gérons selon les mêmes normes que notre cloud. Les intégrations Active Directory et SSO sont incluses.",
           "image": "kitsu-onpremise.png",
           "gradient": 1,
           "colored": true,
@@ -1412,17 +1508,17 @@
         },
         {
           "key": "multiinstance",
-          "title": "Configuration multi-instances",
-          "subtitle": "Arrêtez de laisser les productions se contaminer mutuellement.",
-          "content": "Exécuter plusieurs productions sur une seule instance crée de vrais risques : un changement de pipeline pour un projet peut en casser un autre, et la séparation des données devient difficile à appliquer. Avec des instances Kitsu isolées par production, chaque projet dispose de son propre environnement. Pipelines séparés, données séparées, accès séparés. Aucune interférence, aucun raccourci.",
+          "title": "Laissez vos productions travailler indépendamment",
+          "subtitle": "Configuration multi-instances",
+          "content": "Exécuter plusieurs productions sur une seule instance crée de vrais risques : un changement de pipeline pour un projet peut en casser un autre, et la séparation des données devient difficile à appliquer. Avec des instances Kitsu isolées par production, chaque projet dispose de son propre environnement.",
           "image": "kitsu-multiinstance.png",
           "reverted": true,
           "shadow": false
         },
         {
           "key": "extra",
-          "title": "Stack d'infrastructure complète",
-          "subtitle": "Un seul partenaire pour configurer et gérer l'ensemble de votre installation.",
+          "title": "Confiez toute votre installation à un seul partenaire",
+          "subtitle": "Stack d'infrastructure complète",
           "content": "Entre le stockage d'objets, le calcul vidéo, la surveillance et les services d'annuaire, les déploiements d'entreprise impliquent beaucoup d'éléments mobiles. CGWire configure la stack complète sur votre infrastructure privée pour que votre équipe n'ait pas à le faire. Tout est configuré pour fonctionner ensemble, et nous le maintenons en marche.",
           "image": "kitsu-extra.png",
           "colored": true,
@@ -1430,15 +1526,15 @@
           "shadow": false
         },
         {
-          "title": "Cluster vidéo local",
-          "subtitle": "La génération d'aperçus crée des goulots d'étranglement dans vos révisions.",
-          "content": "Quand votre équipe révise des séquences lourdes ou traite de grandes playlists, attendre des ressources cloud partagées ralentit tout le monde. Un cluster GPU dédié sur votre propre matériel gère le calcul vidéo à pleine vitesse, à la demande, sans concurrencer pour une capacité externe.",
+          "title": "Industrialisez la génération de vos aperçus",
+          "subtitle": "Cluster vidéo local",
+          "content": "Quand votre équipe révise des séquences lourdes ou traite de grandes playlists, attendre des ressources cloud partagées ralentit tout le monde. Un cluster dédié sur votre propre matériel gère le calcul vidéo à pleine vitesse, à la demande, sans concurrencer pour une capacité externe.",
           "image": "kitsu-video.png",
           "reverted": true
         },
         {
-          "title": "Stockage d'objets local",
-          "subtitle": "Contrôlez où se trouvent réellement vos fichiers de production.",
+          "title": "Bénéficiez d'un stockage élastique",
+          "subtitle": "Stockage d'objets local",
           "content": "Stocker des assets de production et des aperçus dans un cloud tiers signifie accepter leurs politiques d'accès, leurs règles de rétention et leurs modes de défaillance. Avec un stockage d'objets local configuré sur votre infrastructure, votre studio possède les données et définit l'accès. Contrôle total, aucune dépendance.",
           "image": "kitsu-onpremise.png",
           "colored": true,
@@ -1452,25 +1548,26 @@
       "image": "team-collaboration.png",
       "shadow": true,
       "header": {
-        "tagline": "Livrez plus vite avec moins d'échecs de coordination",
-        "subtitle": "Collaboration d'équipe",
-        "explanation": "La mauvaise communication entre artistes, superviseurs et réalisateurs est l'une des causes les plus fréquentes de reprises de travail et de délais manqués. Kitsu centralise les tâches, les aperçus et les retours dans un flux de travail unique pour que chaque partie prenante sache ce qui se passe, ce qui nécessite de l'attention et ce qui est approuvé. Des studios sur site unique aux équipes distribuées, tout le monde travaille à partir de la même source de vérité.",
-        "metrics": "Plus de 5 000 000 de commentaires ont déjà été postés sur Kitsu"
+        "tagline": "Collaboration d'équipe",
+        "subtitle": "Gardez toute l'équipe synchronisée",
+        "explanation": "La mauvaise communication entre artistes, superviseurs et réalisateurs est une cause fréquente de reprises de travail et de délais manqués. Kitsu centralise les tâches, les aperçus et les retours dans un flux de travail unique pour que chaque partie prenante sache ce qui se passe. Des studios sur site unique aux équipes distribuées, tout le monde travaille à partir de la même source de vérité.",
+        "quote": "remembers-6"
       },
       "features": [
         {
           "key": "tasks",
-          "title": "Tâches, commentaires et aperçus",
-          "subtitle": "Arrêtez de perdre les retours dans les e-mails et les fils de discussion",
+          "subtitle": "Tâches, commentaires et aperçus",
+          "title": "Faites circuler l'information",
           "content": "Assignez des tâches aux artistes et faites-leur publier leur travail directement dans Kitsu quand il est prêt pour révision. Les producteurs, superviseurs et réalisateurs itèrent sur la même plateforme, avec chaque commentaire et version suivis en contexte. Les notifications en temps réel signifient que personne n'attend des informations qu'il devrait déjà avoir.",
           "image": "kitsu-tasks.png",
           "shadow": true,
-          "colored": true
+          "colored": true,
+          "gradient": 1
         },
         {
           "key": "todos",
-          "title": "Tâches à faire",
-          "subtitle": "Les artistes qui ne connaissent pas leurs priorités bloquent la production",
+          "subtitle": "Listes de tâches",
+          "title": "Définissez les priorités des artistes",
           "content": "Chaque artiste voit exactement ce qui lui est assigné, dans quel ordre et à quelle étape. Ils peuvent mettre à jour leur progression sans courir après un superviseur pour obtenir des instructions. Moins d'allers-retours signifie plus de temps sur le travail qui compte.",
           "image": "kitsu-todos.png",
           "shadow": true,
@@ -1478,30 +1575,31 @@
         },
         {
           "key": "supervision",
-          "title": "Tâches quotidiennes de supervision",
-          "subtitle": "Les superviseurs ont besoin d’une vue d’ensemble claire sans naviguer entre plusieurs pages",
-          "content": "Les superviseurs peuvent accéder instantanément à une vue globale de la production à l’échelle du département grâce à la page des tâches quotidiennes de supervision. Depuis n’importe quelle page de Kitsu, il suffit de cliquer sur le nom d’un type de tâche pour afficher un aperçu de toutes les tâches associées dans votre département. Cela facilite le suivi de l’avancement, l’identification des goulots d’étranglement, la révision des priorités et le maintien du flux de production sans avoir à collecter manuellement les mises à jour auprès des artistes.",
+          "subtitle": "Tâches quotidiennes de supervision",
+          "title": "Donnez à vos superviseurs une vue d'ensemble claire",
+          "content": "Les superviseurs peuvent accéder instantanément à une vue globale de la production à l’échelle du département grâce à la page des tâches quotidiennes de supervision. Cela facilite le suivi de l’avancement et le maintien du flux de production sans avoir à collecter manuellement les mises à jour auprès des artistes.",
           "image": "kitsu-supervision.png",
           "shadow": true,
-          "colored": true
+          "colored": true,
+          "gradient": 2
         },
         {
           "key": "news",
-          "title": "Fil d'actualité",
-          "subtitle": "Les problèmes détectés tard coûtent plus cher à corriger",
+          "subtitle": "Fil d'actualité",
+          "title": "Détectez les problèmes tôt",
           "content": "Le fil d'actualité fait remonter chaque commentaire, changement de statut et nouvel aperçu à travers la production en temps réel. Les superviseurs et les producteurs repèrent les problèmes tôt, avant qu'ils ne s'aggravent. Rien ne passe à travers les mailles car quelqu'un a manqué un message.",
           "image": "kitsu-news.png",
           "shadow": true,
-          "reverted": true,
-          "gradient": true
+          "reverted": true
         },
         {
-          "title": "Notifications Slack et Discord",
-          "subtitle": "Les mises à jour pertinentes sont enfouies quand elles se trouvent dans le mauvais outil",
+          "subtitle": "Notifications Slack et Discord",
+          "title": "Faites ressortir les mises à jour pertinentes",
           "content": "Redirigez l'activité Kitsu vers les canaux que votre équipe surveille déjà. Les commentaires, changements de statut et nouveaux aperçus apparaissent directement dans Slack ou Discord pour que les bonnes personnes répondent sans avoir à consulter une plateforme séparée.",
           "image": "kitsu-slack.png",
+          "shadow": true,
           "colored": true,
-          "reverted": true
+          "gradient": 3
         }
       ],
       "customerStory": {
@@ -1519,17 +1617,25 @@
       "image": "top-notch-support.png",
       "shadow": true,
       "header": {
-        "tagline": "Un support qui maintient la production en mouvement",
-        "subtitle": "Support de premier plan",
-        "explanation": "Les problèmes de production n'attendent pas les heures de bureau. Obtenez des réponses en moins de 30 minutes via le chat intégré à l'application, auprès d'une équipe d'anciens chefs de production qui connaissent vos flux de travail de première main. Chaque conversation est sauvegardée et suivie, pour que rien ne passe à travers les mailles.",
-        "metrics": "top-notch-support header metrics"
+        "tagline": "Support de premier plan",
+        "subtitle": "Un support qui maintient la production en mouvement",
+        "stats": [
+          { "value": "30 min", "label": "réponse moyenne" },
+          { "value": "800", "label": "conversations par an" },
+          { "value": "2 100", "label": "membres Discord" }
+        ],
+        "docsCta": {
+          "label": "Consulter la documentation",
+          "url": "https://kitsu.cg-wire.com"
+        },
+        "explanation": "Quand la production est bloquée, chaque heure compte. Obtenez des réponses en 30 minutes en moyenne via le chat intégré à l'application, auprès d'une équipe d'anciens chefs de production qui connaissent vos flux de travail de première main. Chaque conversation est sauvegardée et suivie, pour que rien ne passe à travers les mailles."
       },
       "isVideo": true,
       "features": [
         {
           "key": "fast",
-          "title": "Temps de réponse rapide",
-          "subtitle": "Arrêtez d'attendre des jours pour une réponse",
+          "title": "Arrêtez d'attendre des jours pour une réponse",
+          "subtitle": "Temps de réponse rapide",
           "content": "Nous répondons en 30 minutes en moyenne. Que vous ayez besoin d'aide pour trouver un menu spécifique ou que vous souhaitiez repenser un flux de travail, vous obtenez une réponse claire rapidement pour que votre équipe puisse continuer à avancer.",
           "image": "kitsu-fast.png",
           "shadow": true,
@@ -1538,8 +1644,8 @@
         },
         {
           "key": "chat",
-          "title": "Support quand vous en avez besoin",
-          "subtitle": "Contactez-nous là où ça vous convient",
+          "title": "Contactez-nous là où ça vous convient",
+          "subtitle": "Support quand vous en avez besoin",
           "content": "Accédez au support directement dans Kitsu, sur Discord ou par Zoom. Quel que soit le problème, nous sommes disponibles via le canal qui convient à votre situation.",
           "image": "kitsu-chat.png",
           "shadow": true,
@@ -1547,8 +1653,8 @@
         },
         {
           "key": "experts",
-          "title": "Assisté par des experts",
-          "subtitle": "Parlez à des personnes qui ont fait votre travail",
+          "title": "Parlez à des personnes qui ont fait votre travail",
+          "subtitle": "Assistance experte",
           "content": "Notre équipe de support est composée de vétérans de la production qui ont géré de vraies pipelines. Ils comprennent la pression sous laquelle vous vous trouvez, parlent votre langue et vous aident à tirer le meilleur parti de Kitsu.",
           "image": "kitsu-experts.png",
           "shadow": true,
@@ -1557,14 +1663,14 @@
         },
         {
           "title": "Suivez vos demandes",
-          "subtitle": "Aucun problème n'est oublié ou ignoré",
+          "subtitle": "Aucun problème oublié",
           "content": "Chaque conversation de support est sauvegardée et peut être escaladée via un système de tickets intégré. Vous savez toujours où en sont les choses, du premier contact à la résolution.",
           "image": "illustration-handshake.png",
           "reverted": true
         },
         {
           "title": "Façonnez le produit avec nous",
-          "subtitle": "Les besoins de votre pipeline influencent la feuille de route",
+          "subtitle": "Influence sur la feuille de route",
           "content": "Quand Kitsu ne couvre pas un besoin spécifique, nous ne nous contentons pas d'enregistrer un ticket. Nous travaillons avec vous pour définir et construire la fonctionnalité. Vos exigences de production façonnent directement ce qui sera construit ensuite.",
           "image": "kitsu-roadmap.png",
           "shadow": true,
@@ -1581,7 +1687,8 @@
       "image": "vsftrack.png",
       "shadow": true,
       "title": "Une alternative open source à Ftrack",
-      "subtitle": "Suivi de production open source pour les studios d'animation et VFX, prêt dès le premier jour.",
+      "subtitle": "Suivi de production pour les studios d'animation et VFX, prêt dès le premier jour.",
+      "description": "L'alternative open source à Ftrack : un suivi de production pour les studios d'animation et VFX, prêt dès le premier jour.",
       "sections": [
         {
           "title": "Pour qui Kitsu est conçu",
@@ -1614,13 +1721,13 @@
             "Kitsu est open source (AGPL, dépôt sur github.com/cgwire/kitsu). Le code peut être lu, audité, forké et déployé par quiconque. Le changelog et la roadmap sont publics, les studios voient ce qui arrive, ce qui est en cours et ce qui se décide.",
             "Pour les équipes qui veulent une visibilité long terme sur les outils dont elles dépendent, c'est important : pas de pivot surprise, pas de surprise tarifaire, pas de décision produit prise à huis clos.",
             "CGWire est une entreprise indépendante, cinq personnes basées à Paris, sans investisseurs externes. Les choix que nous faisons sur Kitsu (open source, roadmap publique, tarifs) restent les nôtres.",
-            "Ftrack est un logiciel propriétaire, détenu par Backbone. La roadmap et le code restent à l'intérieur de l'éditeur."
+            "Ftrack est un logiciel propriétaire, détenu par Backlight depuis 2022. La roadmap et le code restent à l'intérieur de l'éditeur."
           ]
         },
         {
           "title": "Auto-hébergé, vraiment et gratuit",
           "content": [
-            "Environ 200 studios font tourner leur propre instance Kitsu aujourd'hui. Le déploiement se fait contre une base PostgreSQL standard, que les pipeline TDs et les équipes IT peuvent interroger et sauvegarder avec leurs outils habituels.",
+            "Environ 400 studios font tourner leur propre instance Kitsu aujourd'hui. Le déploiement se fait contre une base PostgreSQL standard, que les pipeline TDs et les équipes IT peuvent interroger et sauvegarder avec leurs outils habituels.",
             "Ftrack propose aussi une option on-premise sous forme de module payant, séparé de l'abonnement standard. Avec Kitsu, la voie auto-hébergée est gratuite, documentée, et au même niveau fonctionnel que la version cloud.",
             "Pour les studios soumis au RGPD, à des clauses de protection de la PI ou à des exigences de résidence des données (fréquentes sur les productions européennes ou japonaises), garder toute la stack à l'intérieur de votre propre infrastructure est un déploiement normal, pas une formule à part."
           ]
@@ -1657,7 +1764,7 @@
                 ],
                 [
                   "Auto-hébergement",
-                  "Gratuit, open source, ~200 installations actives",
+                  "Gratuit, open source, ~400 installations actives",
                   "Disponible, en module payant"
                 ],
                 [
@@ -1775,7 +1882,7 @@
           "title": "Hébergement et souveraineté des données",
           "content": [
             "Autodesk a arrêté son offre on-premise standard pour ShotGrid. Les déploiements auto-hébergés existent toujours, mais ils passent par un long processus d'approbation et impliquent un coût additionnel significatif. Le code reste propriétaire, donc le futur des fonctionnalités se décide à l'intérieur d'Autodesk.",
-            "Kitsu est open source. Le code peut être audité ligne par ligne, déployé sur vos serveurs et exploité de manière autonome. Environ 200 studios font tourner leur propre instance Kitsu aujourd'hui, en parallèle de notre offre hébergée.",
+            "Kitsu est open source. Le code peut être audité ligne par ligne, déployé sur vos serveurs et exploité de manière autonome. Environ 400 studios font tourner leur propre instance Kitsu aujourd'hui, en parallèle de notre offre hébergée.",
             "Pour les studios soumis au RGPD, à des clauses de protection de la PI ou à des exigences de résidence des données (fréquentes sur les productions européennes ou japonaises), garder toute la stack à l'intérieur de votre propre infrastructure est un déploiement normal, pas une formule à part.",
             "La version cloud reste disponible pour les studios qui préfèrent l'hébergement managé, avec le même périmètre de fonctionnalités que la version open source."
           ]
@@ -1808,7 +1915,7 @@
       "i18n": {
         "title": "2D, 3D ou VFX",
         "metaTitle": "Kitsu pour les longs métrages",
-        "metaDescription": "2D, 3D ou VFX"
+        "metaDescription": "Suivez un long métrage 2D, 3D ou VFX de la previz à la livraison. Kitsu montre l'avancement par séquence, les revues en playlist et tous vos prestataires."
       },
       "hero": {
         "subtitle": "2D, 3D ou VFX",
@@ -1892,7 +1999,6 @@
         "ankama",
         "autour-de-minuit",
         "les-fees-speciales",
-        "supamonks",
         "onyx",
         "miyu",
         "uniko",
@@ -1902,7 +2008,7 @@
         "traumhaus",
         "makuta",
         "alba-sotorra",
-        "iiw"
+        "dusk"
       ]
     },
     "schools": {
@@ -1910,7 +2016,7 @@
       "i18n": {
         "title": "Projets étudiants",
         "metaTitle": "Kitsu pour les écoles",
-        "metaDescription": "Projets étudiants"
+        "metaDescription": "Faites travailler vos étudiants sur un outil de suivi de production professionnel. Kitsu offre revues en playlist, commentaires et suivi des tâches."
       },
       "hero": {
         "subtitle": "Projets étudiants",
@@ -1983,8 +2089,7 @@
         "ina-campus",
         "make-animation-school",
         "nextgen-academy",
-        "parallel14",
-        "ritcs"
+        "parallel14"
       ]
     },
     "shorts": {
@@ -1992,7 +2097,7 @@
       "i18n": {
         "title": "Trailers, Pubs, Docus, Clips et Youtube",
         "metaTitle": "Kitsu pour vos courts métrages",
-        "metaDescription": "Trailers, Pubs, Docus, Clips et Youtube"
+        "metaDescription": "Trailers, pubs, docus, clips ou vidéos YouTube : Kitsu gère les plannings, les retours aux artistes et les livraisons client de plusieurs projets à la fois."
       },
       "hero": {
         "subtitle": "Trailers, Pubs, Docus, Clips et Youtube",
@@ -2065,7 +2170,6 @@
       "studios": [
         "blender",
         "lofi-studio",
-        "supamonks",
         "miyu",
         "polycat",
         "mikrofilm",
@@ -2076,11 +2180,8 @@
         "stim",
         "viridian",
         "dirty-looks",
-        "heckler",
-        "rabbitsfoot",
         "animaskin",
         "animaltank",
-        "floatingrock",
         "novanima",
         "squarefilms",
         "wizz",
@@ -2089,7 +2190,6 @@
         "outlookvfx",
         "tetsuo",
         "holybird",
-        "3dar",
         "atelier-vfx",
         "emberlight",
         "nfb",
@@ -2123,7 +2223,7 @@
       "i18n": {
         "title": "Séries en 2D, en 3D",
         "metaTitle": "Kitsu pour les Séries Télé",
-        "metaDescription": "Séries en 2D, en 3D"
+        "metaDescription": "Suivez vos séries 2D et 3D épisode par épisode. Kitsu donne l'avancement global, les revues d'épisode en une playlist et le décompte des retakes."
       },
       "hero": {
         "subtitle": "Séries en 2D, en 3D",
@@ -2225,8 +2325,117 @@
         "zodiak",
         "philmcgi",
         "el-reino-infantil",
-        "eone",
-        "redefine"
+        "eone"
+      ]
+    },
+    "vfx": {
+      "slug": "vfx",
+      "i18n": {
+        "title": "VFX",
+        "metaTitle": "Kitsu pour les VFX",
+        "metaDescription": "Kitsu aide les studios VFX à suivre devis, temps passé, plans et validations sur leurs projets de cinéma, de séries et de publicité."
+      },
+      "hero": {
+        "subtitle": "Cinéma, séries et publicité",
+        "title": "Kitsu pour les VFX"
+      },
+      "quote": {
+        "text": "Un outil de suivi de production ne fonctionne que si tout le monde l'utilise. Il doit donc être accessible aux graphistes, pas seulement aux superviseurs. Kitsu a passé ce test dès le premier jour.",
+        "author": "Pete Draper, Superviseur VFX chez Ryff",
+        "avatar": "petedraper.png"
+      },
+      "video": {
+        "youtubeId": "TnHby2cxJzs",
+        "partnerName": "Dusk",
+        "partnerUrl": "https://www.duskvfx.fr"
+      },
+      "panels": [
+        {
+          "id": "producer",
+          "avatar": "avatar-5.svg",
+          "title": "Pour les Producteurs VFX",
+          "descriptions": [
+            "Les producteurs VFX gèrent les devis, les livraisons clients et plusieurs projets en même temps. Kitsu leur donne une vue d'ensemble de chaque production, au même endroit.",
+            "Kitsu suit le temps passé sur chaque tâche et le compare à vos devis. À tout moment, vous voyez quels plans ou assets coûtent plus que prévu, et vous pouvez réagir avant que la marge ne fonde.",
+            "Avec les pages de statistiques, le producteur peut répondre à une question client sur l'avancement sans interrompre l'équipe. Les chiffres sont toujours à jour."
+          ]
+        },
+        {
+          "id": "productionmanager",
+          "avatar": "avatar-1.svg",
+          "title": "Pour les Chargés de Production",
+          "descriptions": [
+            "Les chargés de production doivent connaître à tout moment le statut de chaque plan, de chaque validation et de chaque retake.",
+            "Kitsu fournit des feuilles de temps efficaces : vous voyez les heures passées par chaque graphiste, par jour, par semaine ou par mois, sur toutes les productions.",
+            "Pour chaque plan ou asset, vous comparez le temps passé au devis et identifiez ce qui dépasse le budget.",
+            "Avec la page playlist, les dailies et les revues clients sont prêtes en quelques clics. Plus besoin de rassembler les fichiers à la main avant chaque session."
+          ]
+        },
+        {
+          "id": "supervisor",
+          "avatar": "avatar-2.svg",
+          "title": "Pour les Superviseurs VFX",
+          "descriptions": [
+            "Les superviseurs ont besoin d'accéder immédiatement à la dernière version de chaque plan, avec tout son historique.",
+            "Avec Kitsu, chaque version, commentaire et annotation est rattaché à la tâche. Les superviseurs savent toujours quoi valider et quels retakes sont en attente.",
+            "Les outils de revue incluent la lecture image par image, les annotations et la comparaison de versions. Les retours sont précis et arrivent à la bonne personne grâce aux assignations et aux mentions."
+          ]
+        },
+        {
+          "id": "pipeline",
+          "avatar": "avatar-4.svg",
+          "title": "Pour les Pipeline TDs",
+          "descriptions": [
+            "Les pipelines VFX reposent sur l'automatisation. Kitsu s'accompagne d'une API complète (Zou) et d'un client Python (Gazu) pour le connecter à vos outils.",
+            "Les Pipeline TDs peuvent créer des tâches, publier des versions et mettre à jour les statuts directement depuis Maya, Houdini, Nuke ou Blender. Les graphistes ne quittent jamais leur logiciel pour rendre compte de leur avancement.",
+            "Tout ce qui est visible dans l'interface est accessible via l'API, ce qui fait de Kitsu une base fiable pour l'automatisation du studio."
+          ]
+        },
+        {
+          "id": "artist",
+          "avatar": "avatar-3.svg",
+          "title": "Pour les Graphistes",
+          "descriptions": [
+            "Les graphistes ont besoin d'un accès rapide à leurs tâches et d'un moyen simple de publier de nouvelles versions de leur travail.",
+            "Quand un graphiste se connecte, il accède à sa liste de tâches. En un coup d'œil, il voit les échéances, les priorités, les statuts et l'historique complet des commentaires.",
+            "Publier une nouvelle version ou répondre à un retour ne prend qu'un clic depuis la liste de tâches. Grâce aux notifications (dans l'application, par email ou Slack), il sait quand quelque chose se passe."
+          ]
+        }
+      ],
+      "reasons": {
+        "title": "Pourquoi utiliser Kitsu pour vos productions VFX ?",
+        "items": [
+          "Comparez le temps passé sur chaque plan à vos devis",
+          "Menez vos dailies et vos revues clients depuis une seule playlist, image par image",
+          "Automatisez votre pipeline avec l'API Zou et le client Python Gazu"
+        ],
+        "cta": "Essayez gratuitement",
+        "ctaUrl": "https://account.cg-wire.com/signup"
+      },
+      "studios": [
+        "dusk",
+        "makuta",
+        "ltt",
+        "digikore",
+        "stim",
+        "hogarth",
+        "prpvfx",
+        "cousin-bizarre",
+        "the-marmalade",
+        "chocolate-tribe",
+        "monkeys",
+        "trend-vfx",
+        "riodepost",
+        "boson-post",
+        "miracle-vfx",
+        "imfx",
+        "atelier-vfx",
+        "imagovfx",
+        "outlookvfx",
+        "rockinvfx",
+        "viridian",
+        "warriorsvfx",
+        "vfxtechnologies"
       ]
     },
     "video-games": {
@@ -2234,7 +2443,7 @@
       "i18n": {
         "title": "Kitsu Pour les Jeux Vidéos",
         "metaTitle": "Kitsu Pour les Jeux Vidéos",
-        "metaDescription": "Assets créatifs, trailers et cinématiques"
+        "metaDescription": "Kitsu suit les assets créatifs, trailers et cinématiques des studios de jeux : bibliothèque d'assets versionnée, directives claires et revues au même endroit."
       },
       "hero": {
         "subtitle": "Assets créatifs, trailers et cinématiques",
@@ -2246,9 +2455,9 @@
         "avatar": "arielmckay.png"
       },
       "video": {
-        "youtubeId": "Fik4Rp6S1Bs?si=s8CYqpf5MsyX1eZ0",
-        "partnerName": "Supercell",
-        "partnerUrl": "http://www.supercell.com/"
+        "youtubeId": "A6fCGT7b4WM",
+        "partnerName": "MDHR",
+        "partnerUrl": "https://studiomdhr.com"
       },
       "panels": [
         {
@@ -2298,17 +2507,17 @@
     }
   },
   "studios": {
+    "komposit": {
+      "link": "https://www.komposit.be/",
+      "elementKey": "komposit",
+      "name": "Komposit",
+      "type": ["shorts"]
+    },
     "30studio": {
       "link": "https://www.3point0studio.com/",
       "elementKey": "30studio",
       "name": "3.0 Studio",
       "type": ["feature-films", "shorts"]
-    },
-    "3dar": {
-      "link": "https://www.3dar.com/",
-      "elementKey": "3dar",
-      "name": "3DAR",
-      "type": "shorts"
     },
     "abduct": {
       "link": "https://www.abduct.studio/",
@@ -2362,7 +2571,7 @@
       "link": "http://www.ateliervfx.com/",
       "elementKey": "atelier-vfx",
       "name": "Atelier VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "autour-de-minuit": {
       "link": "https://www.autourdeminuit.com/",
@@ -2423,7 +2632,7 @@
       "link": "https://cousinbizarre.com/",
       "elementKey": "cousin-bizarre",
       "name": "Cousin Bizarre",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "creative-seeds": {
       "link": "https://creativeseeds.fr/",
@@ -2438,10 +2647,10 @@
       "type": "shorts"
     },
     "ecv": {
-      "link": "https://www.ecv.fr/lecole/bordeaux/",
+      "link": "https://www.ecv.fr/en/",
       "elementKey": "ecv",
-      "name": "ECV",
-      "type": "schools"
+      "name": "ICA ECV",
+      "type": ["schools"]
     },
     "ellipse": {
       "link": "https://www.ellipseanimation.com/",
@@ -2485,12 +2694,6 @@
       "name": "ESRA",
       "type": "schools"
     },
-    "floatingrock": {
-      "link": "https://floating-rock.com/",
-      "elementKey": "floatingrock",
-      "name": "Floating Rock",
-      "type": "shorts"
-    },
     "folivari": {
       "link": "https://www.folivari.com",
       "elementKey": "folivari",
@@ -2516,12 +2719,6 @@
       "name": "Les Gobelins",
       "type": "schools"
     },
-    "heckler": {
-      "link": "https://heckler.tv/",
-      "elementKey": "heckler",
-      "name": "Heckler",
-      "type": "shorts"
-    },
     "holybird": {
       "link": "https://www.holybird.fr/",
       "elementKey": "holybird",
@@ -2540,17 +2737,191 @@
       "name": "IIM",
       "type": "schools"
     },
-    "iiw": {
-      "link": "https://www.iiwstudio.fr/",
-      "elementKey": "iiw",
-      "name": "IIW",
+    "trend-vfx": {
+      "link": "https://www.trendvfx.com/",
+      "elementKey": "trend-vfx",
+      "name": "Trend VFX",
+      "type": "vfx"
+    },
+    "prpvfx": {
+      "link": "https://www.prpvfx.com/",
+      "elementKey": "prpvfx",
+      "name": "PRPVFX",
+      "type": "vfx"
+    },
+    "imfx": {
+      "link": "https://www.im-fx.com/",
+      "elementKey": "imfx",
+      "name": "IMFX",
+      "type": "vfx"
+    },
+    "miracle-vfx": {
+      "link": "https://miraclevfx.com/",
+      "elementKey": "miracle-vfx",
+      "name": "Miracle Visual Effects",
+      "type": "vfx"
+    },
+    "ltt": {
+      "link": "https://www.ltt-vfx.com/",
+      "elementKey": "ltt",
+      "name": "Les Tontons Truqueurs",
+      "type": "vfx"
+    },
+    "digikore": {
+      "link": "https://digikore.com/",
+      "elementKey": "digikore",
+      "name": "Digikore Studios",
+      "type": "vfx"
+    },
+    "chocolate-tribe": {
+      "link": "https://www.chocolatetribe.co.za/",
+      "elementKey": "chocolate-tribe",
+      "name": "ChocolateTribe",
+      "type": "vfx"
+    },
+    "the-marmalade": {
+      "link": "https://www.themarmalade.com/",
+      "elementKey": "the-marmalade",
+      "name": "The Marmalade",
+      "type": "vfx"
+    },
+    "boson-post": {
+      "link": "https://www.bosonpost.com.br/",
+      "elementKey": "boson-post",
+      "name": "Bóson Post",
+      "type": "vfx"
+    },
+    "riodepost": {
+      "link": "https://www.riodepost.com/",
+      "elementKey": "riodepost",
+      "name": "RIOdePost",
+      "type": "vfx"
+    },
+    "hogarth": {
+      "link": "https://www.hogarth.com/",
+      "elementKey": "hogarth",
+      "name": "Hogarth",
+      "type": "vfx"
+    },
+    "jam-media": {
+      "link": "https://www.jammedia.com/",
+      "elementKey": "jam-media",
+      "name": "JAM Media",
+      "type": "tvshows"
+    },
+    "xilam": {
+      "link": "https://xilam.com/",
+      "elementKey": "xilam",
+      "name": "Xilam Animation",
+      "type": "tvshows"
+    },
+    "monsta": {
+      "link": "https://monsta.com/",
+      "elementKey": "monsta",
+      "name": "Monsta",
+      "type": "tvshows"
+    },
+    "studio-gale": {
+      "link": "https://www.studiogale.com/",
+      "elementKey": "studio-gale",
+      "name": "Studio Gale",
+      "type": "tvshows"
+    },
+    "flux-animation": {
+      "link": "https://fluxmedia.co.nz/",
+      "elementKey": "flux-animation",
+      "name": "Flux Animation Studio",
+      "type": "tvshows"
+    },
+    "studio-liddell": {
+      "link": "https://www.studioliddell.com/",
+      "elementKey": "studio-liddell",
+      "name": "Studio Liddell",
+      "type": "tvshows"
+    },
+    "caribara": {
+      "link": "https://www.caribara-animation.com/",
+      "elementKey": "caribara",
+      "name": "Caribara Animation",
+      "type": "tvshows"
+    },
+    "b-water": {
+      "link": "https://b-waterstudios.com/",
+      "elementKey": "b-water",
+      "name": "B-Water Animation Studios",
+      "type": "tvshows"
+    },
+    "dream-farm": {
+      "link": "https://dreamfarmstudios.com/",
+      "elementKey": "dream-farm",
+      "name": "Dream Farm Studios",
+      "type": "tvshows"
+    },
+    "xanthus": {
+      "link": "https://www.xanthus.com.tw/",
+      "elementKey": "xanthus",
+      "name": "Xanthus Animation Studio",
+      "type": "tvshows"
+    },
+    "visinema": {
+      "link": "https://visinema.co/",
+      "elementKey": "visinema",
+      "name": "Visinema Studios",
       "type": "feature-films"
+    },
+    "golden-wolf": {
+      "link": "https://www.goldenwolf.tv/",
+      "elementKey": "golden-wolf",
+      "name": "Golden Wolf",
+      "type": "shorts"
+    },
+    "zographic": {
+      "link": "https://zographic.com/",
+      "elementKey": "zographic",
+      "name": "Zographic Films",
+      "type": "shorts"
+    },
+    "coala-filmes": {
+      "link": "https://coalafilmes.com.br/",
+      "elementKey": "coala-filmes",
+      "name": "Coala Filmes",
+      "type": "shorts"
+    },
+    "punkrobot": {
+      "link": "https://punkrobot.cl/",
+      "elementKey": "punkrobot",
+      "name": "Punkrobot",
+      "type": "shorts"
+    },
+    "bloober": {
+      "link": "https://blooberteam.com/",
+      "elementKey": "bloober",
+      "name": "Bloober Team",
+      "type": "video-games"
+    },
+    "new3dge": {
+      "link": "https://www.new3dge.com/",
+      "elementKey": "new3dge",
+      "name": "New3dge",
+      "type": "schools"
+    },
+    "lisaa": {
+      "link": "https://www.lisaa.com/",
+      "elementKey": "lisaa",
+      "name": "LISAA",
+      "type": "schools"
+    },
+    "dusk": {
+      "link": "https://www.duskvfx.fr/",
+      "elementKey": "dusk",
+      "name": "Dusk",
+      "type": ["feature-films", "vfx"]
     },
     "imagovfx": {
       "link": "https://www.imagovfx.com/",
       "elementKey": "imagovfx",
       "name": "Imago VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "impossible-objects": {
       "link": "https://www.impossible-objects.co/",
@@ -2622,7 +2993,7 @@
       "link": "https://makutavfx.com/",
       "elementKey": "makuta",
       "name": "Makuta",
-      "type": "feature-films",
+      "type": ["feature-films", "vfx"],
       "case_study": "https://blog.cg-wire.com/customer-story-makuta-vfx-studio/"
     },
     "malilart": {
@@ -2690,7 +3061,7 @@
       "link": "https://www.monkeys.tv/",
       "elementKey": "monkeys",
       "name": "Monkeys",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "naive": {
       "link": "https://naive.se/",
@@ -2756,7 +3127,7 @@
       "link": "https://www.ovfx.com/",
       "elementKey": "outlookvfx",
       "name": "Outlook VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "parallel14": {
       "link": "https://parallel14.com/",
@@ -2800,29 +3171,11 @@
       "name": "Pyjama Studios",
       "type": "shorts"
     },
-    "rabbitsfoot": {
-      "link": "https://rabbitsfootstudios.se/",
-      "elementKey": "rabbitsfoot",
-      "name": "Rabbit's Foot",
-      "type": "shorts"
-    },
-    "redefine": {
-      "link": "https://redefine.co/fr/redefine-originals/",
-      "elementKey": "redefine",
-      "name": "Redefine Originals",
-      "type": "tvshows"
-    },
-    "ritcs": {
-      "link": "https://www.ritcs.be",
-      "elementKey": "ritcs",
-      "name": "RITCS School of Art",
-      "type": "schools"
-    },
     "rockinvfx": {
       "link": "https://rockinvfx.com/",
       "elementKey": "rockinvfx",
       "name": "Rockin VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "rubika": {
       "link": "https://www.rubika-edu.com/",
@@ -2858,19 +3211,13 @@
       "link": "https://www.stimstudio.com/en/",
       "elementKey": "stim",
       "name": "Stim Studio",
-      "type": "shorts"
+      "type": ["shorts", "feature-films", "vfx"]
     },
-    "supamonks": {
-      "link": "https://www.supamonks.com/",
-      "elementKey": "supamonks",
-      "name": "Supamonks",
-      "type": ["shorts", "feature-films"]
-    },
-    "supercell": {
-      "link": "https://supercell.com/",
-      "elementKey": "supercell",
-      "name": "Supercell",
-      "type": "video-games"
+    "sun-and-moon": {
+      "link": "https://sunandmoonstudios.co.uk/",
+      "elementKey": "sun-and-moon",
+      "name": "Sun & Moon Animation Studio",
+      "type": "tvshows"
     },
     "tant-mieux-prod": {
       "link": "https://www.tantmieuxprod.net/",
@@ -2918,13 +3265,13 @@
       "link": "https://www.viridianfx.co.uk/",
       "elementKey": "viridian",
       "name": "ViridianVFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "warriorsvfx": {
       "link": "https://www.warriorsvfx.com.br/",
       "elementKey": "warriorsvfx",
       "name": "Warriors VFX",
-      "type": "shorts"
+      "type": ["shorts", "vfx"]
     },
     "welab": {
       "link": "https://weloveabattle.com/",
@@ -2956,12 +3303,6 @@
       "name": "Ynov",
       "type": "schools"
     },
-    "yuga-labs": {
-      "link": "https://yuga.com/",
-      "elementKey": "yuga-labs",
-      "name": "Yuga Labs",
-      "type": "video-games"
-    },
     "zodiak": {
       "link": "https://www.banijay.com/company/zodiak-kids-family-studio-france/",
       "elementKey": "zodiak",
@@ -2969,387 +3310,328 @@
       "type": "tvshows"
     },
     "20-stm": {
-    "link": "https://20stm.com/",
-    "elementKey": "20-stm",
-    "name": "20 STM",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "adrenalin-group": {
-    "link": "https://adrenalin.com.sg/",
-    "elementKey": "adrenalin-group",
-    "name": "Adrenalin Group",
-    "type": [
-      "shorts"
-    ]
-  },
-  "aixcreative": {
-    "link": "https://dayda.studio/",
-    "elementKey": "aixcreative",
-    "name": "AIxCreative",
-    "type": [
-      "shorts"
-    ]
-  },
-  "big-company": {
-    "link": "https://www.bigcompany.fr/",
-    "elementKey": "big-company",
-    "name": "Big Company",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "brainypixel": {
-    "link": "https://www.brainypixel.com/",
-    "elementKey": "brainypixel",
-    "name": "Brainy Pixel Productions",
-    "type": [
-      "shorts"
-    ]
-  },
-  "camello": {
-    "link": "https://www.camelloaudiovisual.com/",
-    "elementKey": "camello",
-    "name": "Camello AV",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "chromatik": {
-    "link": "https://www.chromatik-studio.fr/",
-    "elementKey": "chromatik",
-    "name": "Chromatik",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  
-  "darjeeling": {
-    "link": "https://www.darjeelingprod.com/",
-    "elementKey": "darjeeling",
-    "name": "Darjeeling",
-    "type": [
-      "feature-films", "shorts", "tvshows", "video-games"
-    ]
-  },
-
-  "doghouse": {
-    "link": "https://doghousefilms.eu/en/",
-    "elementKey": "doghouse",
-    "name": "Doghouse Films",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "enanimation": {
-    "link": "https://www.enanimation.it/",
-    "elementKey": "enanimation",
-    "name": "Enanimation Srl",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "filmakersmonkeys": {
-    "link": "https://filmakersmonkeys.com/",
-    "elementKey": "filmakersmonkeys",
-    "name": "Filmakers Monkeys",
-    "type": [
-      "feature-films", "shorts"
-    ]
-  },
-  "folimage": {
-    "link": "https://www.folimage.fr/en/",
-    "elementKey": "folimage",
-    "name": "Folimage Studio",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "gaoshan": {
-    "link": "https://www.gaoshanpictures.com/",
-    "elementKey": "gaoshan",
-    "name": "Gao Shan Pictures",
-    "type": [
-      "feature-films"
-    ]
-  },
-  "ecv": {
-    "link": "https://www.ecv.fr/en/",
-    "elementKey": "ecv",
-    "name": "ICA ECV",
-    "type": [
-      "schools"
-    ]
-  },
-  "illogic-studios": {
-    "link": "https://www.illogicstudios.com/",
-    "elementKey": "illogic-studios",
-    "name": "Illogic Studios",
-    "type": [
-      "shorts"
-    ]
-  },
-  "isart": {
-    "link": "https://www.isart.com/",
-    "elementKey": "isart",
-    "name": "ISART digital",
-    "type": [
-      "schools"
-    ]
-  },
-  "jaibo": {
-    "link": "https://jaibofilms.com/",
-    "elementKey": "jaibo",
-    "name": "Jaibo Films",
-    "type": [
-      "feature-films", "shorts"
-    ]
-  },
-  "kiddigraph": {
-    "link": "https://www.k3dvfx.com/",
-    "elementKey": "kiddigraph",
-    "name": "KIDDIGRAPH STUDIO",
-    "type": [
-      "feature-films", "shorts"
-    ]
-  },
-  "lacabane": {
-    "link": "https://lacabaneproductions.com/",
-    "elementKey": "lacabane",
-    "name": "LA CABANE PRODUCTIONS",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "lachouette": {
-    "link": "https://www.chouetteco.com/",
-    "elementKey": "lachouette",
-    "name": "La Chouette Compagnie",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "lamola": {
-    "link": "https://lamola.studio/en/",
-    "elementKey": "lamola",
-    "name": "LaMola",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "lesmonstres": {
-    "link": "https://www.les-monstres.com/",
-    "elementKey": "lesmonstres",
-    "name": "les monstres",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  
-  "magicalworld": {
-    "link": "https://www.youtube.com/@Magicalworldproductions",
-    "elementKey": "magicalworld",
-    "name": "Magical World Productions",
-    "type": [
-      "shorts"
-    ]
-  },
-  "mago": {
-    "link": "https://magoproduction.com/",
-    "elementKey": "mago",
-    "name": "Mago Productions",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "maur": {
-    "link": "https://www.maurfilm.com/en/",
-    "elementKey": "maur",
-    "name": "MAUR film",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "msf": {
-    "link": "https://megaspacefighter.com/en/",
-    "elementKey": "msf",
-    "name": "MegaSpaceFighter",
-    "type": [
-      "shorts"
-    ]
-  },
-  "melies": {
-    "link": "https://ecolegeorgesmelies.fr/en/",
-    "elementKey": "melies",
-    "name": "Melies",
-    "type": [
-      "schools"
-    ]
-  },
-  "mrmiyagi": {
-    "link": "https://www.instagram.com/miyagifilms/",
-    "elementKey": "mrmiyagi",
-    "name": "Mr Miyagi Films",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "nalu": {
-    "link": "https://www.naluanimation.com",
-    "elementKey": "nalu",
-    "name": "Nalu Animation",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "ocidental": {
-    "link": "https://www.instagram.com/ocidental_filmes/",
-    "elementKey": "ocidental",
-    "name": "Ocidental Filmes",
-    "type": [
-      "feature-films", "shorts", "tvshows"      
-    ]
-  },
-  "offensive": {
-    "link": "https://offensivegroup.com/",
-    "elementKey": "offensive",
-    "name": "Offensive Marketing Group",
-    "type": [
-      "shorts"
-    ]
-  },
-  "phanta": {
-    "link": "https://phanta-animation.com/",
-    "elementKey": "phanta",
-    "name": "Phanta Animation",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "polvo": {
-    "link": "https://www.polvoprod.com/",
-    "elementKey": "polvo",
-    "name": "Polvo Prod",
-    "type": [
-      "shorts"
-    ]
-  },
-  "ejt": {
-    "link": "https://www.ejt-labo.com/",
-    "elementKey": "ejt",
-    "name": "Promenons-nous dans les bois / Studio EJT-labo",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "rouge": {
-    "link": "https://withrouge.com/",
-    "elementKey": "rouge",
-    "name": "ROUGE Collective",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "scrawl": {
-    "link": "https://scrawlanimation.com/",
-    "elementKey": "scrawl",
-    "name": "Scrawl Animation",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "skjaldborn": {
-    "link": "https://www.skjaldborn.com/",
-    "elementKey": "skjaldborn",
-    "name": "Skjaldborn",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "snowcloud": {
-    "link": "https://www.snowcloud.se/",
-    "elementKey": "snowcloud",
-    "name": "Snowcloud Films AB",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  
-  "spindlehorse": {
-    "link": "https://spindlehorse.com/",
-    "elementKey": "spindlehorse",
-    "name": "Spindlehorse",
-    "type": [
-      "tvshows"
-    ]
-  },
-  "squarefish": {
-    "link": "https://squarefish.eu/",
-    "elementKey": "squarefish",
-    "name": "Squarefish",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "stay": {
-    "link": "https://stay-studio.net/",
-    "elementKey": "stay",
-    "name": "Stay株式会社",
-    "type": [
-      ""
-    ]
-  },
-  "101": {
-    "link": "https://wearestudio101.com/",
-    "elementKey": "101",
-    "name": "Studio 101",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "unagi": {
-    "link": "https://studio-unagi.com/",
-    "elementKey": "unagi",
-    "name": "Studio Unagi",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "terminus": {
-    "link": "https://terminus-studio.com/",
-    "elementKey": "terminus",
-    "name": "Terminus",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "thinkots": {
-    "link": "https://www.thinkots.com/",
-    "elementKey": "thinkots",
-    "name": "ThinkOTS",
-    "type": [
-      "video-games"
-    ]
-  },
-  "vfxtechnologies": {
-    "link": "https://www.vfxtechnologies.com/",
-    "elementKey": "vfxtechnologies",
-    "name": "VFX Technologies",
-    "type": [
-      "feature-films", "shorts", "tvshows"
-    ]
-  },
-  "eraseuneavez": {
-    "link": "https://www.instagram.com/eraseunavezfilms2019/",
-    "elementKey": "eraseuneavez",
-    "name": "Érase una vez films",
-    "type": [
-      "feature-films", "shorts"
-    ]
-  }
+      "link": "https://20stm.com/",
+      "elementKey": "20-stm",
+      "name": "20 STM",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "adrenalin-group": {
+      "link": "https://adrenalin.com.sg/",
+      "elementKey": "adrenalin-group",
+      "name": "Adrenalin Group",
+      "type": ["shorts"]
+    },
+    "aixcreative": {
+      "link": "https://dayda.studio/",
+      "elementKey": "aixcreative",
+      "name": "AIxCreative",
+      "type": ["shorts"]
+    },
+    "big-company": {
+      "link": "https://www.bigcompany.fr/",
+      "elementKey": "big-company",
+      "name": "Big Company",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "brainypixel": {
+      "link": "https://www.brainypixel.com/",
+      "elementKey": "brainypixel",
+      "name": "Brainy Pixel Productions",
+      "type": ["shorts"]
+    },
+    "camello": {
+      "link": "https://www.camelloaudiovisual.com/",
+      "elementKey": "camello",
+      "name": "Camello AV",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "chromatik": {
+      "link": "https://www.chromatik-studio.fr/",
+      "elementKey": "chromatik",
+      "name": "Chromatik",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "darjeeling": {
+      "link": "https://www.darjeelingprod.com/",
+      "elementKey": "darjeeling",
+      "name": "Darjeeling",
+      "type": ["feature-films", "shorts", "tvshows", "video-games"]
+    },
+    "doghouse": {
+      "link": "https://doghousefilms.eu/en/",
+      "elementKey": "doghouse",
+      "name": "Doghouse Films",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "enanimation": {
+      "link": "https://www.enanimation.it/",
+      "elementKey": "enanimation",
+      "name": "Enanimation Srl",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "filmakersmonkeys": {
+      "link": "https://filmakersmonkeys.com/",
+      "elementKey": "filmakersmonkeys",
+      "name": "Filmakers Monkeys",
+      "type": ["feature-films", "shorts"]
+    },
+    "folimage": {
+      "link": "https://www.folimage.fr/en/",
+      "elementKey": "folimage",
+      "name": "Folimage Studio",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "gaoshan": {
+      "link": "https://www.gaoshanpictures.com/",
+      "elementKey": "gaoshan",
+      "name": "Gao Shan Pictures",
+      "type": ["feature-films"]
+    },
+    "isart": {
+      "link": "https://www.isart.com/",
+      "elementKey": "isart",
+      "name": "ISART digital",
+      "type": ["schools"]
+    },
+    "jaibo": {
+      "link": "https://jaibofilms.com/",
+      "elementKey": "jaibo",
+      "name": "Jaibo Films",
+      "type": ["feature-films", "shorts"]
+    },
+    "kiddigraph": {
+      "link": "https://www.k3dvfx.com/",
+      "elementKey": "kiddigraph",
+      "name": "KIDDIGRAPH STUDIO",
+      "type": ["feature-films", "shorts"]
+    },
+    "lacabane": {
+      "link": "https://lacabaneproductions.com/",
+      "elementKey": "lacabane",
+      "name": "LA CABANE PRODUCTIONS",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "lachouette": {
+      "link": "https://www.chouetteco.com/",
+      "elementKey": "lachouette",
+      "name": "La Chouette Compagnie",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "lamola": {
+      "link": "https://lamola.studio/en/",
+      "elementKey": "lamola",
+      "name": "LaMola",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "lesmonstres": {
+      "link": "https://www.les-monstres.com/",
+      "elementKey": "lesmonstres",
+      "name": "les monstres",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "magicalworld": {
+      "link": "https://www.youtube.com/@Magicalworldproductions",
+      "elementKey": "magicalworld",
+      "name": "Magical World Productions",
+      "type": ["shorts"]
+    },
+    "mago": {
+      "link": "https://magoproduction.com/",
+      "elementKey": "mago",
+      "name": "Mago Productions",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "maur": {
+      "link": "https://www.maurfilm.com/en/",
+      "elementKey": "maur",
+      "name": "MAUR film",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "msf": {
+      "link": "https://megaspacefighter.com/en/",
+      "elementKey": "msf",
+      "name": "MegaSpaceFighter",
+      "type": ["shorts"]
+    },
+    "mrmiyagi": {
+      "link": "https://www.instagram.com/miyagifilms/",
+      "elementKey": "mrmiyagi",
+      "name": "Mr Miyagi Films",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "nalu": {
+      "link": "https://www.naluanimation.com",
+      "elementKey": "nalu",
+      "name": "Nalu Animation",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "ocidental": {
+      "link": "https://www.instagram.com/ocidental_filmes/",
+      "elementKey": "ocidental",
+      "name": "Ocidental Filmes",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "offensive": {
+      "link": "https://offensivegroup.com/",
+      "elementKey": "offensive",
+      "name": "Offensive Marketing Group",
+      "type": ["shorts"]
+    },
+    "phanta": {
+      "link": "https://phanta-animation.com/",
+      "elementKey": "phanta",
+      "name": "Phanta Animation",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "polvo": {
+      "link": "https://www.polvoprod.com/",
+      "elementKey": "polvo",
+      "name": "Polvo Prod",
+      "type": ["shorts"]
+    },
+    "ejt": {
+      "link": "https://www.ejt-labo.com/",
+      "elementKey": "ejt",
+      "name": "Promenons-nous dans les bois / Studio EJT-labo",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "rouge": {
+      "link": "https://withrouge.com/",
+      "elementKey": "rouge",
+      "name": "ROUGE Collective",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "scrawl": {
+      "link": "https://scrawlanimation.com/",
+      "elementKey": "scrawl",
+      "name": "Scrawl Animation",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "skjaldborn": {
+      "link": "https://www.skjaldborn.com/",
+      "elementKey": "skjaldborn",
+      "name": "Skjaldborn",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "snowcloud": {
+      "link": "https://www.snowcloud.se/",
+      "elementKey": "snowcloud",
+      "name": "Snowcloud Films AB",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "spindlehorse": {
+      "link": "https://spindlehorse.com/",
+      "elementKey": "spindlehorse",
+      "name": "Spindlehorse",
+      "type": ["tvshows"]
+    },
+    "squarefish": {
+      "link": "https://squarefish.eu/",
+      "elementKey": "squarefish",
+      "name": "Squarefish",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "stay": {
+      "link": "https://stay-studio.net/",
+      "elementKey": "stay",
+      "name": "Stay株式会社",
+      "type": [""]
+    },
+    "unagi": {
+      "link": "https://studio-unagi.com/",
+      "elementKey": "unagi",
+      "name": "Studio Unagi",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "terminus": {
+      "link": "https://terminus-studio.com/",
+      "elementKey": "terminus",
+      "name": "Terminus",
+      "type": ["feature-films", "shorts", "tvshows"]
+    },
+    "thinkots": {
+      "link": "https://www.thinkots.com/",
+      "elementKey": "thinkots",
+      "name": "ThinkOTS",
+      "type": ["video-games"]
+    },
+    "vfxtechnologies": {
+      "link": "https://www.vfxtechnologies.com/",
+      "elementKey": "vfxtechnologies",
+      "name": "VFX Technologies",
+      "type": ["feature-films", "shorts", "tvshows", "vfx"]
+    },
+    "eraseuneavez": {
+      "link": "https://www.instagram.com/eraseunavezfilms2019/",
+      "elementKey": "eraseuneavez",
+      "name": "Érase una vez films",
+      "type": ["feature-films", "shorts"]
+    }
   },
   "testimonials": {
+    "wizz-1": {
+      "studio": "Wizz",
+      "interviewee": "Guilhem Compain",
+      "role": "Développeur principal",
+      "image": "/images/testimonials/guilhem.png",
+      "quote": "Kitsu nous donne la souveraineté sur nos données. Tout notre pipeline repose dessus."
+    },
+    "wizz-2": {
+      "studio": "Wizz",
+      "interviewee": "Guilhem Compain",
+      "role": "Développeur principal",
+      "image": "/images/testimonials/guilhem.png",
+      "quote": "Nul besoin d'utiliser toutes les fonctionnalités de Kitsu pour en tirer de la valeur."
+    },
+    "wizz-3": {
+      "studio": "Wizz",
+      "interviewee": "Guilhem Compain",
+      "role": "Développeur principal",
+      "image": "/images/testimonials/guilhem.png",
+      "quote": "Wizz utilise avant tout Kitsu comme couche de visualisation et de suivi, et cela suffit déjà à apporter un bénéfice important aux coordinateurs et aux réalisateurs."
+    },
+    "wizz-4": {
+      "studio": "Wizz",
+      "interviewee": "Guilhem Compain",
+      "role": "Développeur principal",
+      "image": "/images/testimonials/guilhem.png",
+      "quote": "La valeur de Kitsu s'accroît à mesure qu'il devient la source de données de référence pour les outils en aval."
+    },
+    "wizz-5": {
+      "studio": "Wizz",
+      "interviewee": "Guilhem Compain",
+      "role": "Développeur principal",
+      "image": "/images/testimonials/guilhem.png",
+      "quote": "Tout ce que vous enregistrez dans Kitsu peut servir à configurer, valider et automatiser le travail ailleurs dans le pipeline."
+    },
+    "normaal-1": {
+      "studio": "Normaal",
+      "interviewee": "Félix David",
+      "role": "Responsable Pipeline",
+      "image": "/images/testimonials/david.png",
+      "quote": "Pour le suivi de production, l'équipe a choisi Kitsu."
+    },
+    "normaal-2": {
+      "studio": "Normaal",
+      "interviewee": "Félix David",
+      "role": "Responsable Pipeline",
+      "image": "/images/testimonials/david.png",
+      "quote": "On ne peut pas anticiper tous les besoins que l'on va rencontrer. Utiliser un outil comme Kitsu, déjà éprouvé et développé, vous aide, car la plupart des cas d'usage auxquels vous serez confronté ont déjà été résolus."
+    },
+    "normaal-3": {
+      "studio": "Normaal",
+      "interviewee": "Félix David",
+      "role": "Responsable Pipeline",
+      "image": "/images/testimonials/david.png",
+      "quote": "Quand un plan est assigné à un artiste, le pipeline peut lire le breakdown pour déterminer quels personnages et décors apparaissent dans ce plan, puis pré-synchroniser tous les fichiers concernés vers le poste de l'artiste avant même qu'il n'ouvre la tâche."
+    },
+    "normaal-4": {
+      "studio": "Normaal",
+      "interviewee": "Félix David",
+      "role": "Responsable Pipeline",
+      "image": "/images/testimonials/david.png",
+      "quote": "Automatiser notre pipeline, c'était choisir des outils comme Kitsu qui avaient déjà absorbé des années de savoir communautaire, pour que l'équipe puisse se concentrer sur les problèmes réellement propres à la production."
+    },
     "woodblock": {
       "studio": "Woodblock",
       "interviewee": "Christian Zehetmeier",
@@ -3392,12 +3674,103 @@
       "image": "/images/photo-customer-story-miyu.png",
       "quote": "Quelques jours suffisent pour comprendre toutes les fonctionnalités nécessaires au lancement d'une production. Tout le monde dans le studio démarre rapidement, en particulier les artistes qui apprécient vraiment Kitsu. Nous n'avions pas remarqué cet enthousiasme avec les outils précédemment utilisés."
     },
+    "miyu-2": {
+      "studio": "MIYU Studio",
+      "interviewee": "Cléa Gonay",
+      "role": "Directrice Technique",
+      "image": "/images/testimonials/clea.png",
+      "quote": "La première et la plus importante des forces de Kitsu, c'est la simplicité."
+    },
+    "miyu-3": {
+      "studio": "MIYU Studio",
+      "interviewee": "Cléa Gonay",
+      "role": "Directrice Technique",
+      "image": "/images/testimonials/clea.png",
+      "quote": "Kitsu a fait le pari de rester accessible au départ et de n'ajouter de la complexité que lorsque les utilisateurs la demandent."
+    },
+    "miyu-4": {
+      "studio": "MIYU Studio",
+      "interviewee": "Cléa Gonay",
+      "role": "Directrice Technique",
+      "image": "/images/testimonials/clea.png",
+      "quote": "L'outil le plus puissant du monde n'a aucune valeur si l'équipe refuse de l'utiliser. Kitsu est conçu pour être adopté par les artistes."
+    },
+    "miyu-5": {
+      "studio": "MIYU Studio",
+      "interviewee": "Cléa Gonay",
+      "role": "Directrice Technique",
+      "image": "/images/testimonials/clea.png",
+      "quote": "Un outil qui nécessite un spécialiste pour le faire tourner et que tous les autres évitent n'est pas, dans les faits, un outil qui fonctionne."
+    },
+    "miyu-6": {
+      "studio": "MIYU Studio",
+      "interviewee": "Cléa Gonay",
+      "role": "Directrice Technique",
+      "image": "/images/testimonials/clea.png",
+      "quote": "L'architecture de Kitsu, construite autour des notions de plans et d'assets, est assez souple pour s'adapter à des workflows véritablement atypiques."
+    },
+    "miyu-7": {
+      "studio": "MIYU Studio",
+      "interviewee": "Cléa Gonay",
+      "role": "Directrice Technique",
+      "image": "/images/testimonials/clea.png",
+      "quote": "Kitsu offre à toutes les équipes une visibilité en temps réel sur l'avancement des autres."
+    },
+    "miyu-8": {
+      "studio": "MIYU Studio",
+      "interviewee": "Cléa Gonay",
+      "role": "Directrice Technique",
+      "image": "/images/testimonials/clea.png",
+      "quote": "En 30 minutes, le projet était entièrement restauré, car le journal d'événements de Kitsu capture toutes les modifications en temps réel."
+    },
     "fost": {
       "studio": "FOST Studio",
       "interviewee": "Céline Durieux",
       "role": "Directrice de Studio",
-      "image": "/images/photo-customer-story-fost.png",
+      "image": "/images/testimonials/celine.png",
       "quote": "Avec Kitsu, on pense d'abord au temps gagné, mais ce qui compte le plus pour moi, c'est la sérénité que l'on obtient en ayant tout en ordre. Ça libère de l'espace mental pour se concentrer sur d'autres aspects de la production."
+    },
+    "fost-2": {
+      "studio": "FOST Studio",
+      "interviewee": "Céline Durieux",
+      "role": "Directrice de Studio",
+      "image": "/images/testimonials/celine.png",
+      "quote": "Nous sommes passés à Kitsu en 2020. Spoiler : nous ne sommes jamais revenus en arrière."
+    },
+    "fost-3": {
+      "studio": "FOST Studio",
+      "interviewee": "Céline Durieux",
+      "role": "Directrice de Studio",
+      "image": "/images/testimonials/celine.png",
+      "quote": "Kitsu n'est pas seulement un outil de suivi de production, c'est aussi la couche de données centrale de tout le pipeline du studio."
+    },
+    "fost-4": {
+      "studio": "FOST Studio",
+      "interviewee": "Céline Durieux",
+      "role": "Directrice de Studio",
+      "image": "/images/testimonials/celine.png",
+      "quote": "Kitsu est la source unique de vérité dans laquelle chaque département et chaque outil peut lire et écrire."
+    },
+    "fost-5": {
+      "studio": "FOST Studio",
+      "interviewee": "Céline Durieux",
+      "role": "Directrice de Studio",
+      "image": "/images/testimonials/celine.png",
+      "quote": "L'API et la documentation de Kitsu ne sont pas un cauchemar à parcourir, ce qui est rare pour les outils du secteur."
+    },
+    "fost-6": {
+      "studio": "FOST Studio",
+      "interviewee": "Céline Durieux",
+      "role": "Directrice de Studio",
+      "image": "/images/testimonials/celine.png",
+      "quote": "Le résultat de l'adoption de Kitsu, c'est un studio passé de 60 à 150 personnes sur une seule production tout en gardant le cap."
+    },
+    "fost-7": {
+      "studio": "FOST Studio",
+      "interviewee": "Céline Durieux",
+      "role": "Directrice de Studio",
+      "image": "/images/testimonials/celine.png",
+      "quote": "Ce type de collaboration continue entre un studio et un éditeur de logiciel est rare dans les logiciels de production d'animation. Cela reflète à la fois la nature open source de Kitsu et le fait que le modèle économique de CGWire dépend de la réussite réelle des studios avec l'outil."
     },
     "adm": {
       "studio": "Autour de Minuit",
@@ -3410,22 +3783,134 @@
       "studio": "Makuta VFX",
       "interviewee": "Pete Draper",
       "role": "Responsable des Effets Visuels",
-      "image": "/images/photo-customer-story-makuta.png",
+      "image": "/images/testimonials/pete.png",
       "quote": "Kitsu a pratiquement tout unifié et encourage une communication plus rigoureuse, non seulement entre les artistes, mais aussi entre la production, la direction et les clients."
     },
     "ryff": {
       "studio": "Ryff",
       "interviewee": "Pete Draper",
       "role": "Superviseur des Effets Visuels",
-      "image": "/images/photo-customer-story-pete-draper.jpg",
+      "image": "/images/testimonials/pete.png",
       "quote": "Kitsu était simple et intuitif. Pas besoin d'un doctorat en informatique comme avec les alternatives."
     },
+    "ryff-2": {
+      "studio": "Ryff",
+      "interviewee": "Pete Draper",
+      "role": "Superviseur des Effets Visuels",
+      "image": "/images/testimonials/pete.png",
+      "quote": "Kitsu est simple et direct. Pas seulement pour les équipes de production, mais aussi pour les artistes. Nul besoin d'un diplôme en informatique pour l'utiliser."
+    },
+    "ryff-3": {
+      "studio": "Ryff",
+      "interviewee": "Pete Draper",
+      "role": "Superviseur des Effets Visuels",
+      "image": "/images/testimonials/pete.png",
+      "quote": "Un outil de suivi de production ne fonctionne que si tout le monde l'utilise, ce qui suppose qu'il soit accessible aux artistes, pas seulement aux superviseurs. Kitsu a réussi ce test dès le premier jour."
+    },
     "remembers": {
-      "studio": "Remembers",
+      "studio": "Remembers (Arco)",
       "interviewee": "Audrey Tondre",
       "role": "Directrice de Production",
-      "image": "/images/photo-customer-story-audrey-tondre.jpg",
+      "image": "/images/testimonials/audrey.png",
       "quote": "Je savais que si j'introduisais un nouvel outil, je devais répondre à un besoin qui n'avait pas encore été identifié par l'équipe en place. Le principal défi dès le départ était de ne pas les contraindre."
+    },
+    "remembers-2": {
+      "studio": "Remembers (Arco)",
+      "interviewee": "Audrey Tondre",
+      "role": "Directrice de Production",
+      "image": "/images/testimonials/audrey.png",
+      "quote": "Kitsu se prend en main très, très facilement. On peut cliquer partout, on voit les images du film, on voit tous les départements et séquences susceptibles de concerner le sien."
+    },
+    "remembers-3": {
+      "studio": "Remembers (Arco)",
+      "interviewee": "Audrey Tondre",
+      "role": "Directrice de Production",
+      "image": "/images/testimonials/audrey.png",
+      "quote": "Naviguer dans Kitsu est aussi agréable et motivant. Ce n'est pas « oh non, je dois publier ma dernière version »."
+    },
+    "remembers-4": {
+      "studio": "Remembers (Arco)",
+      "interviewee": "Audrey Tondre",
+      "role": "Directrice de Production",
+      "image": "/images/testimonials/audrey.png",
+      "quote": "On comprend bien qu'entre Kitsu et un tableur, nous avons déjà fait un pas énorme en tant que studio. Et il ne s'agit pas seulement de productivité, c'est aussi plus agréable."
+    },
+    "remembers-5": {
+      "studio": "Remembers (Arco)",
+      "interviewee": "Audrey Tondre",
+      "role": "Directrice de Production",
+      "image": "/images/testimonials/audrey.png",
+      "quote": "La démo d'essai m'a beaucoup rassurée. Nous cherchions évidemment quelque chose de très intuitif : comme je m'adressais à des personnes qui ne demandaient pas d'outils, il fallait qu'elles puissent le prendre en main et embarquer très naturellement."
+    },
+    "remembers-6": {
+      "studio": "Remembers (Arco)",
+      "interviewee": "Audrey Tondre",
+      "role": "Directrice de Production",
+      "image": "/images/testimonials/audrey.png",
+      "quote": "Kitsu rend la communication entre départements rapide et facile, même pour les petites retouches qui passent entre les mailles une fois le plan déjà validé."
+    },
+    "remembers-7": {
+      "studio": "Remembers (Arco)",
+      "interviewee": "Audrey Tondre",
+      "role": "Directrice de Production",
+      "image": "/images/testimonials/audrey.png",
+      "quote": "Toutes les données utiles au suivi de production existent déjà dans Kitsu."
+    },
+    "cube-1": {
+      "studio": "Cube Creative",
+      "interviewee": "Axel Tillement",
+      "role": "Superviseur CG",
+      "image": "/images/testimonials/axel.png",
+      "quote": "Kitsu est la mémoire collective du projet."
+    },
+    "cube-2": {
+      "studio": "Cube Creative",
+      "interviewee": "Axel Tillement",
+      "role": "Superviseur CG",
+      "image": "/images/testimonials/axel.png",
+      "quote": "Kitsu connaît le statut de chaque asset, de chaque plan, ainsi que l'état global de la production."
+    },
+    "cube-3": {
+      "studio": "Cube Creative",
+      "interviewee": "Axel Tillement",
+      "role": "Superviseur CG",
+      "image": "/images/testimonials/axel.png",
+      "quote": "Pour Cube, Kitsu est la source unique de vérité."
+    },
+    "cube-4": {
+      "studio": "Cube Creative",
+      "interviewee": "Axel Tillement",
+      "role": "Superviseur CG",
+      "image": "/images/testimonials/axel.png",
+      "quote": "Avec Kitsu, les artistes n'ont pas à deviner où se trouve quelque chose."
+    },
+    "cube-5": {
+      "studio": "Cube Creative",
+      "interviewee": "Axel Tillement",
+      "role": "Superviseur CG",
+      "image": "/images/testimonials/axel.png",
+      "quote": "Kitsu aide énormément sur l'infrastructure et l'extensibilité, grâce à son architecture flexible et à sa nature open source."
+    },
+    "tetsuo-1": {
+      "studio": "Tetsuo Animation",
+      "interviewee": "Chris Unterberg",
+      "role": "Fondateur et superviseur d'animation",
+      "image": "/images/testimonials/chris.png",
+      "quote": "On peut organiser une réunion avec plusieurs utilisateurs de Kitsu tous sur la même playlist, et ils peuvent tous dessiner sur la même image. Cela permet de parler de points très précis à un moment très précis."
+    },
+    "tetsuo-2": {
+      "studio": "Tetsuo Animation",
+      "interviewee": "Chris Unterberg",
+      "role": "Fondateur et superviseur d'animation",
+      "image": "/images/testimonials/chris.png",
+      "quote": "Dès lors que l'on amène tout le monde à donner un retour visuel, l'équipe s'approprie les plans et l'on construit un outil de communication, un langage que toute l'équipe partage."
+    },
+    "tetsuo-3": {
+      "studio": "Tetsuo Animation",
+      "interviewee": "Chris Unterberg",
+      "role": "Fondateur et superviseur d'animation",
+      "image": "/images/testimonials/chris.png",
+      "quote": "Invitez tout le monde à dessiner sur l'image. Invitez vos clients, invitez vos parties prenantes."
     }
   },
   "customer_stories": {

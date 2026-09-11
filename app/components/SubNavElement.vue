@@ -9,13 +9,16 @@
     "
     v-if="link === ''"
   >
-    <img class="flexrow-item tablet" :src="'/icons/' + elementKey + '.' + imageExt" />
+    <img
+      class="flexrow-item tablet"
+      :src="'/icons/' + elementKey + '.' + imageExt"
+    />
     <div class="flexrow-item flexcolumn text">
       <span class="flexrow-item subnav-title">
-        {{ $t('header title ' + elementKey) }}
+        {{ $t('header.title.' + elementKey) }}
       </span>
       <span class="flexrow-item subnav-text">
-        {{ $t('header text ' + elementKey) }}
+        {{ $t('header.text.' + elementKey) }}
       </span>
     </div>
   </nuxt-link>
@@ -25,14 +28,17 @@
     target="_blank"
     v-else
   >
-    <img class="flexrow-item tablet" :src="'/icons/' + elementKey + '.' + imageExt" />
+    <img
+      class="flexrow-item tablet"
+      :src="'/icons/' + elementKey + '.' + imageExt"
+    />
 
     <div class="flexrow-item flexcolumn text">
       <span class="flexrow-item subnav-title">
-        {{ $t('header title ' + elementKey) }}
+        {{ $t('header.title.' + elementKey) }}
       </span>
       <span class="flexrow-item subnav-text">
-        {{ $t('header text ' + elementKey) }}
+        {{ $t('header.text.' + elementKey) }}
       </span>
     </div>
   </a>

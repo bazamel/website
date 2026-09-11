@@ -2,10 +2,23 @@
   <div class="trial">
     <section class="section content trial-content">
       <h2 class="subtitle has-text-centered" :class="{ hidden: !cta }">
-        {{ $t('kitsu cta') }}
+        {{ $t('kitsu.cta') }}
       </h2>
       <p class="has-text-centered">
+        <NuxtLink
+          v-if="contact"
+          :class="{
+            button: true,
+            'is-large': true,
+            'is-big': isBig,
+            hidden: !cta
+          }"
+          :to="$localePath('contact')"
+        >
+          {{ $t('trial.talk') }}
+        </NuxtLink>
         <a
+          v-else
           :class="{
             button: true,
             'is-large': true,
@@ -14,7 +27,7 @@
           }"
           :href="`https://account.cg-wire.com/signup`"
         >
-          {{ $t('main plans cta') }}
+          {{ $t('main.plans.cta') }}
         </a>
       </p>
       <p class="has-text-centered" v-if="!cta">&nbsp;</p>
@@ -29,7 +42,10 @@ const props = defineProps({
   cta: {
     type: Boolean,
     default: true
-  }
+  },
+  // Managed-service pages pitch the human relationship: their closing CTA
+  // links to the contact page instead of the signup form.
+  contact: Boolean
 })
 </script>
 

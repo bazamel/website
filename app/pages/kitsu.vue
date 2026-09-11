@@ -2,24 +2,24 @@
   <div class="kitsu-page content">
     <div class="kitsu-header flexrow">
       <div class="main-title">
-        <span>{{ page.meta.kitsu.title }}</span>
-        
+        <span>{{ page.title }}</span>
+
         <div class="kitsu-explanation">
-          {{ page.meta.kitsu.description }}
+          {{ page.description }}
         </div>
 
         <p class="has-text-centered">
-        <a
-          :class="{
-            button: true,
-            'is-large': true,
-            'is-big': true
-          }"
-          :href="`https://account.cg-wire.com/signup`"
-        >
-          {{ $t('main plans cta') }}
-        </a>
-      </p>
+          <a
+            :class="{
+              button: true,
+              'is-large': true,
+              'is-big': true
+            }"
+            :href="`https://account.cg-wire.com/signup`"
+          >
+            {{ $t('main.plans.cta') }}
+          </a>
+        </p>
       </div>
     </div>
 
@@ -38,75 +38,84 @@
     <section>
       <template v-if="currentTab === '2D'">
         <TextBlock
-          :subtitle="page.meta.kitsu.modules.subtitle"
-          :title="page.meta.kitsu['2d'].title"
-          :content="page.meta.kitsu['2d'].content"
+          :subtitle="page.meta.modules.subtitle"
+          :title="page.meta['2d'].title"
+          :content="page.meta['2d'].content"
         />
       </template>
       <template v-if="currentTab === '3D'">
         <TextBlock
-          :subtitle="page.meta.kitsu.modules.subtitle"
-          :title="page.meta.kitsu['3d'].title"
-          :content="page.meta.kitsu['3d'].content"
+          :subtitle="page.meta.modules.subtitle"
+          :title="page.meta['3d'].title"
+          :content="page.meta['3d'].content"
         />
       </template>
       <template v-if="currentTab === 'VFX'">
         <TextBlock
-          :subtitle="page.meta.kitsu.modules.subtitle"
-          :title="page.meta.kitsu.vfx.title"
-          :content="page.meta.kitsu.vfx.content"
+          :subtitle="page.meta.modules.subtitle"
+          :title="page.meta.vfx.title"
+          :content="page.meta.vfx.content"
         />
       </template>
       <template v-if="currentTab === 'Games'">
         <TextBlock
-          :subtitle="page.meta.kitsu.modules.subtitle"
-          :title="page.meta.kitsu.games.title"
-          :content="page.meta.kitsu.games.content"
+          :subtitle="page.meta.modules.subtitle"
+          :title="page.meta.games.title"
+          :content="page.meta.games.content"
         />
       </template>
       <template v-if="currentTab === 'Schools'">
         <TextBlock
-          :subtitle="page.meta.kitsu.modules.subtitle"
-          :title="page.meta.kitsu.schools.title"
-          :content="page.meta.kitsu.schools.content"
+          :subtitle="page.meta.modules.subtitle"
+          :title="page.meta.schools.title"
+          :content="page.meta.schools.content"
         />
       </template>
 
-      <KitsuTwoD
-        v-if="currentTab === '2D'"
-        :supporters="page.meta.kitsu.supporters"
-        :features="page.meta.kitsu.features"
-      />
-      <KitsuThreeD
-        v-if="currentTab === '3D'"
-        :supporters="page.meta.kitsu.supporters"
-        :features="page.meta.kitsu.features"
-      />
-      <KitsuVFX
-        v-if="currentTab === 'VFX'"
-        :supporters="page.meta.kitsu.supporters"
-        :features="page.meta.kitsu.features"
-      />
-      <KitsuVideoGames
-        v-if="currentTab === 'Games'"
-        :supporters="page.meta.kitsu.supporters"
-        :features="page.meta.kitsu.features"
-      />
-      <KitsuSchools
-        v-if="currentTab === 'Schools'"
-        :supporters="page.meta.kitsu.supporters"
-        :features="page.meta.kitsu.features"
-      />
+      <!-- Every tab stays mounted (v-show, not v-if) so @nuxt/image prerenders
+           all of their images at build time. The v-show sits on a wrapper div
+           because KitsuVFX/VideoGames/Schools have multiple root nodes, and
+           v-show cannot apply display:none to a multi-root component. -->
+      <div v-show="currentTab === '2D'">
+        <KitsuTwoD
+          :supporters="page.meta.supporters"
+          :features="page.meta.features"
+        />
+      </div>
+      <div v-show="currentTab === '3D'">
+        <KitsuThreeD
+          :supporters="page.meta.supporters"
+          :features="page.meta.features"
+        />
+      </div>
+      <div v-show="currentTab === 'VFX'">
+        <KitsuVFX
+          :supporters="page.meta.supporters"
+          :features="page.meta.features"
+        />
+      </div>
+      <div v-show="currentTab === 'Games'">
+        <KitsuVideoGames
+          :supporters="page.meta.supporters"
+          :features="page.meta.features"
+        />
+      </div>
+      <div v-show="currentTab === 'Schools'">
+        <KitsuSchools
+          :supporters="page.meta.supporters"
+          :features="page.meta.features"
+        />
+      </div>
 
       <div data-aos="fade-up">
         <div class="section-subtitle has-text-centered">
-          {{ page.meta.kitsu.services.subtitle }}
+          {{ page.meta.services.subtitle }}
         </div>
         <h2 class="section-title has-text-centered">
-          {{ page.meta.kitsu.services.title }}
+          {{ page.meta.services.title }}
         </h2>
         <div class="section-explanation">
-          {{ page.meta.kitsu.services.description }}
+          {{ page.meta.services.description }}
         </div>
       </div>
 
@@ -145,9 +154,9 @@
 
       <div data-aos="fade-up" v-if="['2D', '3D', 'VFX'].includes(currentTab)">
         <TextBlock
-          :subtitle="page.meta.kitsu.stories.subtitle"
-          :title="page.meta.kitsu.stories.title"
-          :content="page.meta.kitsu.stories.description"
+          :subtitle="page.meta.stories.subtitle"
+          :title="page.meta.stories.title"
+          :content="page.meta.stories.description"
         />
       </div>
 
@@ -210,7 +219,6 @@
 
 <script setup>
 const router = useRouter()
-const route = useRoute()
 
 const { locale } = useI18n()
 const slug = ref('kitsu')
@@ -225,19 +233,25 @@ const { data: page } = await useAsyncData(
 
 useSEO({
   title: 'CGWire | ' + page.value.title,
-  description: page.value.meta.kitsu.description,
+  description: page.value.description,
   imagePath: 'teaser.png'
 })
 
-onMounted(() => {
-  const tab = route.query.tab
-
-  if (tab) {
-    currentTab.value = tab
-  }
-})
-
+const route = useRoute()
 const currentTab = ref('2D')
+
+// The tab lives in the URL (?tab=VFX). On the statically generated build the
+// query is empty during the initial page setup and only becomes available once
+// the client router settles, so watch it rather than reading it once.
+watch(
+  () => route.query.tab,
+  tab => {
+    if (typeof tab === 'string' && tab) {
+      currentTab.value = tab
+    }
+  },
+  { immediate: true }
+)
 const toggleTab = tab => {
   currentTab.value = tab
   router.push({ query: { tab } })
@@ -266,7 +280,7 @@ const toggleTab = tab => {
   padding-top 0
 
 .kitsu-header-wrapper
-  background-image url('~/assets/images/illustrations/kitsu-header.png')
+  background-image url('~/assets/images/illustrations/kitsu-header.webp')
   background-size 100%
   background-position: 0px 0px
   height 600px
@@ -324,11 +338,6 @@ const toggleTab = tab => {
 .modules
     display inline-flex
     margin-bottom 10px
-
-    &.2-modules
-        margin auto
-        text-align center
-        margin-bottom 10px
 
 .kitsu-header.flexrow
   padding: 2em

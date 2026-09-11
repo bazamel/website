@@ -10,6 +10,14 @@
             width="100"
           />
         </nuxt-link>
+        <a
+          href="https://discord.gg/kitsu-community"
+          target="_blank"
+          class="discord-mobile"
+          aria-label="Discord"
+        >
+          <img width="26" src="~/assets/images/discord.svg" alt="Discord" />
+        </a>
         <div
           @click="() => toggleNav()"
           class="burger navbar-burger"
@@ -74,7 +82,7 @@
         >
           <a class="navbar-link" @click="solutionMenuOn = !solutionMenuOn">
             <span class="navbar-item-title">
-              {{ $t('header title solutions') }}
+              {{ $t('header.title.solutions') }}
             </span>
           </a>
           <div
@@ -131,14 +139,20 @@
             'navbar-item': true,
             'has-dropdown': true,
             'is-hoverable': true,
-            active: isActivePage(['studios', 'shorts', 'tvshows', 'schools'])
+            active: isActivePage([
+              'studios',
+              'productions',
+              'shorts',
+              'tvshows',
+              'schools'
+            ])
           }"
           @mouseover="useCaseMenuOn = true"
           @mouseout="useCaseMenuOn = false"
         >
           <a class="navbar-link" @click="useCaseMenuOn = !useCaseMenuOn">
             <span class="navbar-item-title">
-              {{ $t('header title usecase') }}
+              {{ $t('header.title.usecase') }}
             </span>
           </a>
 
@@ -149,11 +163,13 @@
             }"
           >
             <SubNavElement element-key="studios" />
+            <SubNavElement element-key="productions" />
             <SubNavElement element-key="customer-stories" />
             <hr />
             <SubNavElement path-object="for-slug" element-key="tvshows" />
             <SubNavElement path-object="for-slug" element-key="feature-films" />
             <SubNavElement path-object="for-slug" element-key="shorts" />
+            <SubNavElement path-object="for-slug" element-key="vfx" />
             <SubNavElement path-object="for-slug" element-key="schools" />
             <SubNavElement path-object="for-slug" element-key="video-games" />
           </div>
@@ -171,7 +187,7 @@
         >
           <a class="navbar-link" @click="resourceMenuOn = !resourceMenuOn">
             <span class="navbar-item-title">
-              {{ $t('header title resources') }}
+              {{ $t('header.title.resources') }}
             </span>
           </a>
 
@@ -213,7 +229,7 @@
           :to="$localePath('pricing')"
         >
           <span class="navbar-item-title">
-            {{ $t('header title pricing') }}
+            {{ $t('header.title.pricing') }}
           </span>
         </nuxt-link>
 
@@ -224,13 +240,13 @@
             class="navbar-item top signin"
             :href="`https://account.cg-wire.com/signin?locale=${$i18n.locale}`"
           >
-            {{ $t('header sign in') }}
+            {{ $t('header.signIn') }}
           </a>
           <a
             class="navbar-item signup"
             :href="`https://account.cg-wire.com/signup?locale=${$i18n.locale}`"
           >
-            {{ $t('header sign up') }}
+            {{ $t('header.signUp') }}
           </a>
         </div>
       </div>
@@ -294,6 +310,12 @@ html body header .navigation .navbar-menu .navbar-item.is-hoverable:focus .navba
   img
     margin-top 0.5rem
 
+// Discord link kept visible in the mobile header bar (next to the burger),
+// since the desktop .discord link lives in the collapsed menu.
+.discord-mobile
+  display none
+  align-items center
+
 html header .navbar .navbar-item.top.discord:hover .navbar-item-title,
 body header .navbar .navbar-item.top.discord:hover .navbar-item-title,
 div.body header .navbar .navbar-item.discord.top:hover .navbar-item-title
@@ -317,4 +339,12 @@ div.body header .navbar .navbar-item.discord.top:hover .navbar-item-title
 @media(max-width: 1024px)
   .discord
     display none
+
+  .discord-mobile
+    display flex
+    margin-left auto
+    padding 0 0.75rem
+
+  .navbar-brand .navbar-burger
+    margin-left 0
 </style>

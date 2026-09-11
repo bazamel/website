@@ -2,7 +2,7 @@
 title: "How Easy Is It For Our Team To Use Kitsu?"
 slug: "is-kitsu-too-complicated-for-our-team"
 subtitle: ""
-summary: "Kitsu is a role-based production management tool designed to eliminate the onboarding complexity that plagues most studio software — artists log in to see only their task list, references, and feedback, while supervisors, producers, and clients each get a tailored view matched to their responsibilities, so no one has to navigate another role's complexity. With onboarding that takes minutes (an invite link, a task list, and a first upload), no training sessions or manuals required, and a clean UI built around a single question — \"what does this person need right now?\" — Kitsu proves that powerful production tools don't have to be complicated, and is trusted by 300+ studios across 50+ countries to prove it."
+summary: "Kitsu is a role-based production management tool designed to eliminate the onboarding complexity that plagues most studio software — artists log in to see only their task list, references, and feedback, while supervisors, producers, and clients each get a tailored view matched to their responsibilities, so no one has to navigate another role's complexity. With onboarding that takes minutes (an invite link, a task list, and a first upload), no training sessions or manuals required, and a clean UI built around a single question — \"what does this person need right now?\" — Kitsu proves that powerful production tools don't have to be complicated, and is trusted by 500+ studios across 50+ countries to prove it."
 image: "change-management-kitsu.png"
 ---
 
@@ -11,9 +11,6 @@ There's a common fear when introducing new production software: "My team will re
 Most production tools are built for producers, and then handed to artists who just want to draw, rig, animate, and render.
 
 Kitsu was designed differently: each role gets exactly what they need.
-
-::customer-story-content-block{slug="remembers"}
-::
 
 ## What an Artist Actually Sees
 
@@ -31,14 +28,14 @@ That's it.
 
 No training required. No manual to read. No settings to configure.
 
-::customer-story-content-block{slug="miyu"}
-::
-
 ## What a Producer Actually Sees
 
 Producers get the full picture: schedules, progress reports, budget forecasts, resource allocation, and a real-time view of every shot and asset moving through the pipeline.
 
 The complexity lives where it belongs, with the people paid to manage it.
+
+::customer-story-content-block{slug="miyu"}
+::
 
 ## Role-Based by Design
 
@@ -75,10 +72,7 @@ Every screen in Kitsu is designed around a single question: what does this perso
 
 There are no cluttered sidebars fighting for attention. No ten-step workflows to publish a preview. No buried menus where critical actions hide.
 
-::quote-content-block{slug="woodblock"}
-::
-
-## Trusted by 300+ Studios in 50+ Countries
+## Trusted by 500+ Studios in 50+ Countries
 
 ::minimalist-user-logos
 ::
@@ -90,3 +84,6 @@ Studios ranging from solo freelancers to large-scale feature film productions us
 The best way to see that Kitsu isn't complicated? Let your team try it.
 
 Start with a free cloud trial or deploy the open-source version. No commitment.
+
+::quote-content-block{slug="woodblock"}
+::

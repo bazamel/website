@@ -4,6 +4,11 @@ export const routes = {
     fr: '/a-propos',
     ja: '/企業情報'
   },
+  metrics: {
+    en: '/metrics',
+    fr: '/metrics',
+    ja: '/metrics'
+  },
   'customer-stories': {
     en: '/customer-stories',
     fr: '/temoignages-clients',
@@ -13,6 +18,11 @@ export const routes = {
     en: '/pricing',
     fr: '/tarifs',
     ja: '/料金体系'
+  },
+  productions: {
+    en: '/productions',
+    fr: '/productions',
+    ja: '/制作作品'
   },
   privacy: {
     en: '/privacy',
